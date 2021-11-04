@@ -1,30 +1,34 @@
 import Link from 'next/link'
 import Image from 'next/image'
+import { useRouter } from 'next/router';
 
 export default function Navigation(){
+	const router = useRouter();
 	return (
 		<>
 			<header className="container mt-3 mb-xl-5">
 				<nav className="navbar navbar-expand-lg navbar-light bg-transparent px-0">
-					<a className="navbar-brand" href="./">
-						<Image src="/img/logo.svg" alt="tulix logo" className="nav-brand" height={40}  width={111.2} priority/> 
-					</a>
+					<Link href="/" passHref>
+						<a className="navbar-brand">
+							<Image src="/img/logo.svg" alt="tulix logo" className="nav-brand" height={40}  width={111.2} priority/> 
+						</a>
+					</Link>
 					<button className="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarMain" aria-controls="navbarsMain" aria-expanded="false" aria-label="Toggle navigation">
 						{/* <svg height={50} className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokelinecap="round" strokelinejoin="round" strokewidth="{2}" d="M4 6h16M4 12h16m-7 6h7" /></svg> */}
 					</button>
 					<div className="collapse navbar-collapse" id="navbarMain">
 						<ul className="navbar-nav mx-auto main-nav">
 							<li className="nav-item">
-								<Link  href="/"><a className="nav-link">Home</a></Link>
+								<Link  href="/"><a className={`nav-link ${router.pathname == "/" ? "active" : ""}`}>Home</a></Link>
 							</li>
 							<li className="nav-item">
-								<Link  href="/about-us"><a className="nav-link">About Us</a></Link>
+								<Link  href="/about-us"><a className={`nav-link ${router.pathname == "/about-us" ? "active" : ""}`}>About Us</a></Link>
 							</li>
 							<li className="nav-item">
-								<Link  href="/blog"><a className="nav-link">Blog</a></Link>
+								<Link  href="/blog"><a className={`nav-link ${router.pathname == "/blog" ? "active" : ""}`}>Blog</a></Link>
 							</li>
 							<li className="nav-item ">
-								<Link  href="/faqs"><a className="nav-link">FAQs</a></Link>
+								<Link  href="/faqs"><a className={`nav-link ${router.pathname == "/faqs" ? "active" : ""}`}>FAQs</a></Link>
 							</li>
 							<li className="nav-item">
 								<a className="nav-link " href="mailto:hello@tulix.app">Contact Us</a>
