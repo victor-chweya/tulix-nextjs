@@ -3,9 +3,9 @@ import Script from 'next/script'
 export default function GetButtonWidget(){
 	return (
 		<>
-			<Script strategy="lazyOnload">
+			<Script id="GB" strategy="lazyOnload">
 				{
-					(function () {
+					`function getButton () {
 						var options = {
 								whatsapp: "+1(302)3140099", // WhatsApp number
 								telegram: "TulixApp", // Telegram bot username
@@ -19,7 +19,8 @@ export default function GetButtonWidget(){
 						var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
 						s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
 						var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
-					})()
+					}
+					getButton()`
 				}
 			</Script>
 		</>
