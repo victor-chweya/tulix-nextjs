@@ -1,7 +1,13 @@
-import '../styles/globals.css'
+import {useEffect} from "react";
+import '../styles/globals.scss'
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+export default function MyApp({ Component, pageProps }) {
+	useEffect(() => { //Fixing Next js "ReferenceError: document is not defined
+		import("bootstrap");
+		}, []);
+	
+  // Use the layout defined at the page level, if available
+  const getLayout = Component.getLayout || ((page) => page)
+
+  return getLayout(<Component {...pageProps} />)
 }
-
-export default MyApp

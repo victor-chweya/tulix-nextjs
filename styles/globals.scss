@@ -1,0 +1,197 @@
+@import "custom";
+// Import all of Bootstrap's CSS
+// @import "~bootstrap/scss/bootstrap";
+@import "bootstrap/scss/functions"; // Required
+@import "bootstrap/scss/variables"; // Required
+
+@import "bootstrap/scss/mixins"; // Required
+
+@import "bootstrap/scss/root"; // Required
+@import "bootstrap/scss/reboot"; // Required
+@import "bootstrap/scss/type";
+@import "bootstrap/scss/images";
+// @import "bootstrap/scss/code";
+@import "bootstrap/scss/grid";
+// @import "bootstrap/scss/tables";
+@import "bootstrap/scss/forms";
+@import "bootstrap/scss/buttons";
+@import "bootstrap/scss/transitions";
+@import "bootstrap/scss/dropdown";
+@import "bootstrap/scss/button-group";
+@import "bootstrap/scss/input-group"; // Requires forms
+@import "bootstrap/scss/custom-forms";
+@import "bootstrap/scss/nav";
+@import "bootstrap/scss/navbar"; // Requires nav
+@import "bootstrap/scss/card";
+// @import "bootstrap/scss/breadcrumb";
+// @import "bootstrap/scss/pagination";
+// @import "bootstrap/scss/badge";
+// @import "bootstrap/scss/jumbotron";
+// @import "bootstrap/scss/alert";
+// @import "bootstrap/scss/progress";
+// @import "bootstrap/scss/media";
+// @import "bootstrap/scss/list-group";
+@import "bootstrap/scss/close";
+// @import "bootstrap/scss/toasts";
+@import "bootstrap/scss/modal"; // Requires transitions
+// @import "bootstrap/scss/tooltip";
+// @import "bootstrap/scss/popover";
+// @import "bootstrap/scss/carousel";
+// @import "bootstrap/scss/spinners";
+@import "bootstrap/scss/utilities";
+// @import "bootstrap/scss/print";
+
+//
+// Custom styles
+//
+
+html {
+  scroll-behavior: smooth;
+}
+label {
+  color: #b9b9b9;
+  font-weight: bold;
+  font-size: 80%;
+}
+//button
+.btn {
+  font-size: 0.95rem;
+  padding: 0.65rem 1.25rem;
+}
+//nav
+.main-nav {
+  font-weight: bold;
+  .nav-item > .nav-link {
+    color: #00305d;
+  }
+  margin-bottom: 1rem;
+}
+.navbar-toggler {
+  padding-right: 0;
+}
+//Hero
+.hero {
+  padding-top: 4rem;
+}
+.hero-img {
+  padding-right: 0;
+}
+.hero-title {
+  font-size: 2.4rem;
+  line-height: 1.25;
+}
+.hero-2 {
+  padding-top: 10rem;
+  padding-bottom: 6rem;
+  background: linear-gradient(180deg, #fcfdff 60%, #385eff05);
+  position: relative;
+  overflow: hidden;
+}
+.hero-3 {
+  padding-top: 8rem;
+  padding-bottom: 6rem;
+  background: linear-gradient(0deg, #fcfdff 60%, #385eff05);
+  position: relative;
+  overflow: hidden;
+}
+.values {
+  background: #385eff05;
+  border: 0;
+}
+//features
+.features {
+  padding-top: 4rem;
+}
+.section-title {
+  font-size: 2.4rem;
+}
+//ABOUT US
+.about-us {
+  padding-top: 4rem;
+}
+.about-us__advisors {
+  background: #f9f9f9;
+  padding-bottom: 6rem;
+  margin-top: 6rem;
+  margin-bottom: 3rem;
+}
+.team {
+  filter: grayscale(100%);
+}
+.team-triangle {
+  position: absolute;
+  background: url("/img/team/team-fg.png") no-repeat top right;
+  height: 100%;
+  width: 100%;
+  z-index: 10000;
+  top: 0;
+  right: 0;
+}
+//cta
+.cta {
+  padding-top: 3rem;
+  padding-bottom: 6rem;
+}
+//forms
+.form-control {
+  background-color: #ecf0f5;
+  border: 0;
+  font-size: 1.2rem;
+}
+//FAQS ACCORDION
+.accordion {
+  .card {
+    overflow: hidden;
+    margin-bottom: 13px;
+    border: 0;
+
+    :not(:last-of-type) {
+      border-bottom-right-radius: 0.5rem;
+      border-bottom-left-radius: 0.5rem;
+    }
+    .card-header {
+      border-bottom: 0;
+      .btn:focus,
+      .btn.focus {
+        box-shadow: none;
+      }
+    }
+    .card-body {
+      padding: 2.25rem;
+    }
+  }
+}
+.accordion {
+  .card:not(:first-of-type) {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+  }
+}
+//FOOTER
+.footer {
+  margin-bottom: 2rem;
+}
+
+@include media-breakpoint-up(lg) {
+  .main-nav {
+    .nav-item > .nav-link {
+      padding-right: 1.5rem;
+      padding-left: 1.5rem;
+    }
+    margin-bottom: 0;
+  }
+  .hero-title {
+    font-size: 3rem;
+  }
+  .hero-img {
+    padding-right: 15px;
+  }
+  //features
+  .features {
+    padding-top: 4rem;
+  }
+  //about su
+  .about-us {
+    padding-top: 8rem;
+  }
+}

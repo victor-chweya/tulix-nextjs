@@ -1,0 +1,25 @@
+$container-max-widths: (
+  xl: 1280px,
+);
+$border-radius: 0.5rem;
+$border-radius-lg: 0.625rem;
+$border-radius-sm: 0.4rem;
+
+$theme-colors: (
+  "primary": #005cff,
+  "success": #8cc63f,
+);
+
+$body-bg: #fcfdff;
+$body-color: #212121;
+$navbar-light-color: #212121;
+$link-color: #005cff;
+$navbar-light-active-color: #8cc63f;
+$navbar-light-hover-color: $navbar-light-active-color;
+
+$font-family-sans-serif: "Poppins", sans-serif;
+$font-weight-bold: 700;
+$headings-font-weight: 700;
+$headings-color: #00305d;
+
+$btn-font-weight: 700;
