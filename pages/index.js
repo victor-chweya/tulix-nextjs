@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Layout from '../components/layout'
 import HeroImage from '../public/img/hero.png'
+import DashboardMockup from '../public/img/dashboard-mockup.png'
 
 export default function Home() {
   return (
@@ -34,7 +35,8 @@ export default function Home() {
 								src={HeroImage} 
 								alt="tulix" 
 								className="img-fluid pl-lg-5" 
-								priority placeholder="blur"
+								priority 
+								placeholder="blur"
 								height={455} 
 								width={463}
 								/>
@@ -51,6 +53,61 @@ export default function Home() {
 						</div>
 					</div>
 				</section>
+				<section className="features">
+					<div className="container">
+						<div className="row justify-content-center py-5">
+							<div className="col-lg-4 p-5">
+								<Image src={DashboardMockup} alt="tulix dashboard-mockup" className="img-fluid" placeholder="blur" height={567} width={283}  />
+							</div>
+							<div className="col-lg-6 col-xl-6 offset-xl-1 d-flex flex-column justify-content-center order-first order-lg-last">
+								{/* <h6 class="text-success">Features</h6> */}
+								<h2 className="section-title mb-4">Make payments like you’re local, using your Tulix Wallet</h2>
+								<p className="lead mb-4">Whether you’re home or abroad, load your Tulix KES wallet using your card or bank from wherever you are to make payments and allocations.</p>
+							</div>
+						</div>
+						<div className="row justify-content-center py-5">
+							<div className="col-lg-4 p-5 offset-xl-1 order-last">
+								<Image src="/img/beneficiary-mockup.png" alt="tulix beneficiary-mockup" className="img-fluid" height={567} width={283} />
+							</div>
+							<div className="col-lg-6 col-xl-6  d-flex flex-column justify-content-center ">
+								{/* <h6 class="text-success">Features</h6> */}
+								<h2 className="section-title mb-4">You and all your beneficiaries in one app</h2>
+								<p className="lead mb-4">For the first time ever, add beneficiaries and collaborate on expenses when allocating funds. Allocate them funds in advance for any of their needs.</p>
+							</div>
+						</div>
+						<div className="row justify-content-center py-5">
+							<div className="col-lg-4 p-5">
+								<Image src="/img/paybill-mockup.png" alt="tulix paybill-mockup" className="img-fluid" height={567} width={283} />
+							</div>
+							<div className="col-lg-6 col-xl-6 offset-xl-1 d-flex flex-column justify-content-center order-first order-lg-last">
+								{/* <h6 class="text-success">Features</h6> */}
+								<h2 className="section-title mb-4">Easily pay over 100,000 businesses across Kenya</h2>
+								<p className="lead mb-4">Make payments to over 100,000 businesses &amp; institutions instantly and directly using M-Pesa - the dominant payment method in Kenya.</p>
+							</div>
+						</div>
+						<div className="row justify-content-center py-5">
+							<div className="col-lg-4 p-5 offset-xl-1 order-last">
+								<Image src="/img/transaction-mockup.png" alt="tulix transaction-mockup" className="img-fluid" height={567} width={283} />
+							</div>
+							<div className="col-lg-6 col-xl-6  d-flex flex-column justify-content-center ">
+								{/* <h6 class="text-success">Features</h6> */}
+								<h2 className="section-title mb-4">Track your spending &amp; get updates on allocations</h2>
+								<p className="lead mb-4">Using our different spending categories, easily sort your payments by category to know where you &amp; your beneficiaries spend, helping you plan ahead &amp; budget.</p>
+							</div>
+						</div>
+						<div className="row justify-content-center py-5">
+							<div className="col-lg-4 p-5">
+								<Image src="/img/receipt-mockup.png" alt="tulix receipt-mockup" className="img-fluid" height={567} width={283} />
+							</div>
+							<div className="col-lg-6 col-xl-6 offset-xl-1 d-flex flex-column justify-content-center order-first order-lg-last">
+								{/* <h6 class="text-success">Features</h6> */}
+								<h2 className="section-title mb-4">No more surprises, no hidden fees</h2>
+								<p className="lead mb-4">Get a clear breakdown of all fees on every transaction and receive detailed confirmations in app and via email for all the transactions you make on the Tulix App.</p>
+							</div>
+						</div>
+					</div>
+				</section>
+
 			</div>
 
 		</Layout>

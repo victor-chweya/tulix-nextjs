@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import Navigation from './navigation'
-import Footer from './footer'
+import Navigation from './Navigation'
+import Footer from './Footer'
 import SubscribeModal from './subscribe-modal'
 import GoogleAnalytics from './google-analytics'
 

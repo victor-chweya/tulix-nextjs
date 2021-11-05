@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import ActiveLink from './ActiveLink'
 import Image from 'next/image'
 import { useRouter } from 'next/router';
 
@@ -20,16 +19,16 @@ export default function Navigation(){
 					<div className="collapse navbar-collapse" id="navbarMain">
 						<ul className="navbar-nav mx-auto main-nav">
 							<li className="nav-item">
-								<ActiveLink activeClassName="active" href="/"><a className="nav-link">Home</a></ActiveLink>
+								<Link  href="/"><a className={`nav-link ${router.pathname == "/" ? "active" : ""}`}>Home</a></Link>
 							</li>
 							<li className="nav-item">
-								<ActiveLink activeClassName="active" href="/about-us"><a className="nav-link">About Us</a></ActiveLink>
+								<Link  href="/about-us"><a className={`nav-link ${router.pathname == "/about-us" ? "active" : ""}`}>About Us</a></Link>
 							</li>
 							<li className="nav-item">
-								<ActiveLink activeClassName="active" href="/blog"><a className="nav-link">Blog</a></ActiveLink>
+								<Link  href="/blog"><a className={`nav-link ${router.pathname == "/blog" ? "active" : ""}`}>Blog</a></Link>
 							</li>
 							<li className="nav-item ">
-								<ActiveLink activeClassName="active" href="/faqs"><a className="nav-link">FAQs</a></ActiveLink>
+								<Link  href="/faqs"><a className={`nav-link ${router.pathname == "/faqs" ? "active" : ""}`}>FAQs</a></Link>
 							</li>
 							<li className="nav-item">
 								<a className="nav-link " href="mailto:hello@tulix.app">Contact Us</a>
