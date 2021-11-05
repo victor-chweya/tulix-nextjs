@@ -6,7 +6,7 @@ import GoogleAnalytics from './GoogleAnalytics'
 
 //In order to use a component that references document or window import this component using a dynamic import with srr: false
 import dynamic from 'next/dynamic'
-const GetButtonWidget = dynamic(() => import('./GetButtonWidget'), { ssr: false })
+const GetButtonWidgetDynamic = dynamic(() => import('./GetButtonWidget'), { ssr: false })
 
 
 
@@ -23,7 +23,7 @@ export default function Layout({ children }) {
 			<Footer />
 			<SubscribeModal />
 			<GoogleAnalytics />
-			<GetButtonWidget />
+			<GetButtonWidgetDynamic />
     </>
   )
 }
