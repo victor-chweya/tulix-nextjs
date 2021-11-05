@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Layout from '../components/layout'
+import Layout from '../components/Layout'
 import HeroImage from '../public/img/hero.png'
 import DashboardMockup from '../public/img/dashboard-mockup.png'
 
