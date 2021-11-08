@@ -31,7 +31,7 @@ export default function Blog({allPostsData}){
 						<div className="col-lg-8 mb-5">
 							<div className="row">
 							{allPostsData.map(({id, date, author, blogImage, excerpt, title}) =>(
-								<div className="col-lg-6">
+								<div className="col-lg-6" key={id}>
 									<div className="card card-post h-100 border-0" style={{background:"#fcfdff"}}>		
 										<Image
 											src={"https://res.cloudinary.com/avicdesign/image/upload/v1636373042/sample.jpg"}
