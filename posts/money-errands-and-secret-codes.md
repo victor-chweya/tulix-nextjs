@@ -6,6 +6,8 @@ blogImage: "https://res.cloudinary.com/avicdesign/image/upload/v1636373042/sampl
 excerpt: "It would typically start with me receiving a late-night phone call from my relatives living & working in the US. They’d call to inform me of the secret code I was to use to collect money that they’d sent via a service such as Western Union or Moneygram during their work break. The money was meant for several things they needed done back home and often involved tiresome processes."
 ---
 
+![Tux, the Linux mascot](https://res.cloudinary.com/avicdesign/image/upload/v1636373042/sample.jpg)
+
 It would typically start with me receiving a late-night phone call from my relatives living & working in the US. They’d call to inform me of the secret code I was to use to collect money that they’d sent via a service such as Western Union or Moneygram during their work break. The money was meant for several things they needed done back home and often involved tiresome processes. I’d immediately make plans and the next day would go something like this:
 
 ### Receiving The Cash

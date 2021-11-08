@@ -45,7 +45,7 @@ export default function Blog({allPostsData}){
 											<p className="card-text">{excerpt && excerpt.substring(0, 140) +"..."}</p>
 											<p className="text-muted mb-0">{author}</p>
 											<small><Date dateString={date} /></small>
-											<Link href={`/posts/${id}`} >
+											<Link href={`/blog/${id}`} >
 												<a className="stretched-link"></a>
 											</Link>
 										</div>
