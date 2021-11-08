@@ -3,6 +3,10 @@ import Image from 'next/image'
 import Layout from '../components/layout'
 import HeroImage from '../public/img/hero.png'
 import DashboardMockup from '../public/img/dashboard-mockup.png'
+import BeneficiaryMockup from '../public/img/beneficiary-mockup.png'
+import PaybillMockup from '../public/img/img/paybill-mockup.png'
+import TransactionMockup from '../public/img/img/transaction-mockup.png'
+import ReceiptMockup from '../public/img/img/receipt-mockup.png'
 
 export default function Home() {
   return (
@@ -67,7 +71,7 @@ export default function Home() {
 						</div>
 						<div className="row justify-content-center py-5">
 							<div className="col-lg-4 p-5 offset-xl-1 order-last">
-								<Image src="/img/beneficiary-mockup.png" alt="tulix beneficiary-mockup" className="img-fluid" placeholder="blur" height={567} width={283} />
+								<Image src={BeneficiaryMockup} alt="tulix beneficiary-mockup" className="img-fluid" placeholder="blur" height={567} width={283} />
 							</div>
 							<div className="col-lg-6 col-xl-6  d-flex flex-column justify-content-center ">
 								{/* <h6 class="text-success">Features</h6> */}
@@ -77,7 +81,7 @@ export default function Home() {
 						</div>
 						<div className="row justify-content-center py-5">
 							<div className="col-lg-4 p-5">
-								<Image src="/img/paybill-mockup.png" alt="tulix paybill-mockup" className="img-fluid" placeholder="blur" height={567} width={283} />
+								<Image src={PaybillMockup} alt="tulix paybill-mockup" className="img-fluid" placeholder="blur" height={567} width={283} />
 							</div>
 							<div className="col-lg-6 col-xl-6 offset-xl-1 d-flex flex-column justify-content-center order-first order-lg-last">
 								{/* <h6 class="text-success">Features</h6> */}
@@ -87,7 +91,7 @@ export default function Home() {
 						</div>
 						<div className="row justify-content-center py-5">
 							<div className="col-lg-4 p-5 offset-xl-1 order-last">
-								<Image src="/img/transaction-mockup.png" alt="tulix transaction-mockup" className="img-fluid" placeholder="blur" height={567} width={283} />
+								<Image src={TransactionMockup} alt="tulix transaction-mockup" className="img-fluid" placeholder="blur" height={567} width={283} />
 							</div>
 							<div className="col-lg-6 col-xl-6  d-flex flex-column justify-content-center ">
 								{/* <h6 class="text-success">Features</h6> */}
@@ -97,7 +101,7 @@ export default function Home() {
 						</div>
 						<div className="row justify-content-center py-5">
 							<div className="col-lg-4 p-5">
-								<Image src="/img/receipt-mockup.png" alt="tulix receipt-mockup" className="img-fluid" placeholder="blur" height={567} width={283} />
+								<Image src={ReceiptMockup} alt="tulix receipt-mockup" className="img-fluid" placeholder="blur" height={567} width={283} />
 							</div>
 							<div className="col-lg-6 col-xl-6 offset-xl-1 d-flex flex-column justify-content-center order-first order-lg-last">
 								{/* <h6 class="text-success">Features</h6> */}
