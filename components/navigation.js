@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import ActiveLink from './ActiveLink'
+import ActiveLink from './active-link'
 import Image from 'next/image'
 import { useRouter } from 'next/router';
 

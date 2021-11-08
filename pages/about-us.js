@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import Layout from '../components/Layout';
+import Layout from '../components/layout';
 import VisionImg from '../public/img/vision.png'
 import AlistairImg from '../public/img/team/alistair.png'
 import BrianImg from '../public/img/team/brian.png'
