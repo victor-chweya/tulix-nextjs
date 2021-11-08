@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Layout from '../components/layout';
 import Date from '../components/date'
 import { getSortedPostsData } from '../lib/posts'
+import Image from 'next/image'
 
 
 
@@ -20,22 +21,43 @@ export default function Blog({allPostsData}){
 			<Head>
         <title>Blog</title>        
       </Head>
-			<div className="container">
-				<h1>Blog</h1>
-				<ul>
-					{allPostsData.map(({id, date, author, title}) =>(
-						<li key={id}>
-						<Link href={`/posts/${id}`}>
-							<a>{title}</a>
-						</Link>
-              <br />
-              {author}
-              <br />
-              <Date dateString={date} />
-						</li>
-					))}
-				</ul>
-			</div>						
+			<section className="about-us">
+				<div className="container">
+					<div className="row justify-content-lg-center ">
+						<div className="col-lg-8 pb-5">
+							<h2 className="section-title ">Blog</h2>
+							<h6 className="text-success">Sharing stories about how simple and convenient it is for Africans abroad to pay businesses back home and to support their families from abroad using the Tulix App.</h6>
+						</div>
+						<div className="col-lg-8 mb-5">
+							<div className="row">
+							{allPostsData.map(({id, date, author, blogImage, excerpt, title}) =>(
+								<div className="col-lg-6">
+									<div className="card card-post h-100 border-0" style={{background:"#fcfdff"}}>		
+										<Image
+											src={"https://res.cloudinary.com/avicdesign/image/upload/v1636373042/sample.jpg"}
+											alt="flowers"
+											className="card-img-top"
+											width={864}
+											height={576}
+										/>
+										<div className="card-body px-0">
+											<h4 className="card-title">{title}</h4>
+											<p className="card-text">{excerpt && excerpt.substring(0, 140) +"..."}</p>
+											<p className="text-muted mb-0">{author}</p>
+											<small><Date dateString={date} /></small>
+											<Link href={`/posts/${id}`} >
+												<a className="stretched-link"></a>
+											</Link>
+										</div>
+									</div>
+								</div>
+							))}
+							</div>
+						</div>						
+					</div>
+				</div>
+			</section>
+						
 		</Layout>
 	)
 }
