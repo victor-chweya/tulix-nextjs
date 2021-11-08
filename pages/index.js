@@ -4,9 +4,9 @@ import Layout from '../components/layout'
 import HeroImage from '../public/img/hero.png'
 import DashboardMockup from '../public/img/dashboard-mockup.png'
 import BeneficiaryMockup from '../public/img/beneficiary-mockup.png'
-import PaybillMockup from '../public/img/img/paybill-mockup.png'
-import TransactionMockup from '../public/img/img/transaction-mockup.png'
-import ReceiptMockup from '../public/img/img/receipt-mockup.png'
+import PaybillMockup from '../public/img/paybill-mockup.png'
+import TransactionMockup from '../public/img/transaction-mockup.png'
+import ReceiptMockup from '../public/img/receipt-mockup.png'
 
 export default function Home() {
   return (
