@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Navigation from './Navigation'
 import Footer from './Footer'
 import SubscribeModal from './SubscribeModal'
-import GoogleAnalytics from './GoogleAnalytics'
+
 
 //In order to use a component that references document or window import this component using a dynamic import with srr: false
 import dynamic from 'next/dynamic'
@@ -22,7 +22,6 @@ export default function Layout({ children }) {
       <main>{children}</main>
 			<Footer />
 			<SubscribeModal />
-			<GoogleAnalytics />
 			<GetButtonWidgetDynamic />
     </>
   )

@@ -24,7 +24,7 @@ export default function Home() {
 									<div id="mc_embed_signup">
 										<form action="https://app.us2.list-manage.com/subscribe/post?u=1f7c48c812ea5de5f89ea5e77&id=4042104668" className="form-inline" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
 											<input type="email" defaultValue="" name="EMAIL" id="mce-EMAIL" className="form-control form-control-lg mr-sm-2 mb-2 col-sm-7" placeholder="Enter your Email" required />
-											<div style={{position: 'absolute', left: '-5000px'}} aria-hidden="true"><input type="text" name="b_1f7c48c812ea5de5f89ea5e77_4042104668" tabIndex={-1} defaultValue /></div>									 
+											<div style={{position: 'absolute', left: '-5000px'}} aria-hidden="true"><input type="text" name="b_1f7c48c812ea5de5f89ea5e77_4042104668" tabIndex={-1} defaultValue="" /></div>									 
 											<button id="mc-embedded-subscribe" className="btn btn-primary btn-lg mb-2 col" type="submit">Get Early Access!</button>
 										</form>
 									</div>
@@ -107,6 +107,74 @@ export default function Home() {
 						</div>
 					</div>
 				</section>
+				<section className="hero-3">
+					<div className="container">
+						<div className="row justify-content-center mb-5">
+							<div className="col-lg-8">
+								<h2 className=" hero-title text-center mb-4">Our Commitment To You</h2>
+								<p className="lead mb-4 text-center">We have built in necessary features and partnered with global partners to ensure that your information and transactions are secure.</p>
+							</div>
+						</div>
+						<div className="row">
+							<div className="col-lg-3 mb-4">
+								<div className="card values h-100">
+									<div className="card-body">
+										<Image src="/img/icons/identification.svg" alt="" className="img-fluid" width={50} height={45} />
+										<h5 className="mb-3 mt-4">We ensure transparency</h5>
+										<p>When it comes to making payments, we make every step clear with no hidden charges.</p>
+									</div>
+								</div>
+							</div>
+							<div className="col-lg-3 mb-4">
+								<div className="card values h-100">
+									<div className="card-body">
+										<Image src="/img/icons/calculator.svg" alt="" className="img-fluid" width={32} height={44} />
+										<h5 className="mb-3 mt-4">We don’t retain your payment information</h5>
+										<p>To protect you, we use trusted global partners to process payments and therefore don’t store any of your card or banking information on the app.</p>
+									</div>
+								</div>
+							</div>
+							<div className="col-lg-3 mb-4">
+								<div className="card values h-100">
+									<div className="card-body">
+										<Image src="/img/icons/cash.svg" alt="" className="img-fluid " width={50} height={40} />
+										<h5 className="mb-3 mt-4">We value your privacy</h5>
+										<p>We’ve put in place controls to ensure that all your personal information is kept safe &amp; secure at all times.
+										</p>
+									</div>
+								</div>						
+							</div>
+							<div className="col-lg-3 mb-4">
+								<div className="card values h-100">
+									<div className="card-body">
+										<Image src="/img/icons/check.svg" alt="" className="img-fluid" width={40} height={40}/>
+										<h5 className="mb-3 mt-4">World class technology</h5>
+										<p>We use the latest technology to keep your money safe and to fulfill all your transactions.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<div className="cta">
+					<div className="container">
+						<div className="row justify-content-center text-center">
+							<div className="col-lg-6">
+								<h2 className="section-title mb-5">Ready to dive in? <br />Become one of our first users</h2>
+								{/* <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#subscribeModal">Get Early Access</button>
+										<a href="https://forms.gle/C5ewxia2fmLKmiWp6" class="btn btn-outline-primary" target="_blank">Take Our Survey</a>  */}
+								<div id="mc_embed_signup">
+									<form action="https://app.us2.list-manage.com/subscribe/post?u=1f7c48c812ea5de5f89ea5e77&id=4042104668" className="form-inline" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+										<input type="email" defaultValue="" name="EMAIL" id="mce-EMAIL" className="form-control form-control-lg mr-sm-2 mb-2 col-sm-7" placeholder="Enter your Email" required />
+										<div style={{position: 'absolute', left: '-5000px'}} aria-hidden="true"><input type="text" name="b_1f7c48c812ea5de5f89ea5e77_4042104668" tabIndex={-1} defaultValue="" /></div>									 
+										<button id="mc-embedded-subscribe" className="btn btn-primary btn-lg mb-2 col" type="submit">Get Early Access!</button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 
 			</div>
 
