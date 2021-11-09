@@ -36,8 +36,7 @@ export default function Post({postData}) {
 })
 	return (
     <Layout>
-		 <Head>
-		 
+		 <Head>		 
 		 	<meta name="description" content={postData.excerpt} />
 			<meta property="og:title" content={postData.title} />
 			<meta property="og:description" content={postData.excerpt} />
@@ -48,7 +47,6 @@ export default function Post({postData}) {
 			<meta name="twitter:title" content={postData.title}/>
 			<meta name="twitter:description" content={postData.excerpt} />
 			<meta name="twitter:image" content={pageImage} />	
-
 		 </Head>
 			<section className="about-us">
 				<div className="container">
