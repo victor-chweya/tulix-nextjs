@@ -15,6 +15,11 @@ export default function Layout({ children }) {
     <>
       <Head>
 				<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+				<meta property="og:locale" content="en_GB" />
+				<meta name="twitter:site" content="@TulixApp" />
+				<meta name="twitter:creator" content="@TulixApp" />
+				<meta name="theme-color" content="#005CFF" />
+				<meta name="msapplication-TileColor" content="#005CFF" />
 				<link rel="icon" href="/favicon.ico" />								
       </Head>
 			

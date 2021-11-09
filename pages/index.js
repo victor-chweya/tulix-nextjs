@@ -9,11 +9,23 @@ import TransactionMockup from '../public/img/transaction-mockup.png'
 import ReceiptMockup from '../public/img/receipt-mockup.png'
 
 export default function Home() {
+	const pageTitle = "Tulix - Support your loved ones from wherever you are."
+	const pageDescription = "Tulix helps you make direct business payments and fund allocations to beneficiaries from anywhere, simple and convenient."
+	const pageImage ="https://res.cloudinary.com/avicdesign/image/upload/v1636459905/social-img_qpf63s.png"
   return (
     <Layout>
 			<Head>
-				<meta name="description" content="Tulix helps you make direct business payments and fund allocations to beneficiaries from anywhere, simple and convenient." />		
-				<title>Tulix - Support your loved ones from wherever you are.</title>
+				<meta name="description" content={pageDescription} />
+				<meta property="og:title" content={pageTitle} />
+				<meta property="og:description" content={pageDescription} />
+				<meta property="og:url" content="https://tulix.app" />
+				<meta property="og:image" content={pageImage} />
+				<meta property="og:type" content="website" />
+				<meta name="twitter:card" content="summary_large_image" />
+				<meta name="twitter:title" content={pageTitle}/>
+				<meta name="twitter:description" content={pageDescription} />
+				<meta name="twitter:image" content={pageImage} />	
+				<title>{pageTitle}</title>
 			</Head>
 			<div>
 				<section className="hero">

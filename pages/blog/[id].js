@@ -22,10 +22,32 @@ export async function getStaticPaths() {
 }
 
 export default function Post({postData}) {
+	const pageImage = buildImageUrl(`${postData.thumbnail}`, {
+		cloud: {cloudName: 'avicdesign',},
+		transformations: {
+		resize: {
+			type: 'scale',
+			width: 1200,
+			height: 630,
+			gravity: "auto:subject",
+		}													
+	}
+})
 	return (
     <Layout>
 		 <Head>
-		 <title>{postData.title}</title>
+		 
+		 	<meta name="description" content={postData.excerpt} />
+			<meta property="og:title" content={postData.title} />
+			<meta property="og:description" content={postData.excerpt} />
+			<meta property="og:url" content="https://tulix.app" />
+			<meta property="og:image" content={pageImage} />
+			<meta property="og:type" content="website" />
+			<meta name="twitter:card" content="summary_large_image" />
+			<meta name="twitter:title" content={postData.title}/>
+			<meta name="twitter:description" content={postData.excerpt} />
+			<meta name="twitter:image" content={pageImage} />	
+			<title>{pageTitle}</title>
 		 </Head>
 			<section className="about-us">
 				<div className="container">

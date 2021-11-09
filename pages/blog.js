@@ -18,11 +18,23 @@ export async function getStaticProps() {
 }
 
 export default function Blog({allPostsData}){
+	const pageTitle = "Blog - Support your loved ones from wherever you are."
+	const pageDescription = "Sharing stories about how simple and convenient it is for Africans abroad to pay businesses back home and to support their families from abroad using the Tulix App."
+	const pageImage ="https://res.cloudinary.com/avicdesign/image/upload/v1636459905/social-img_qpf63s.png"
 	return(
 		<Layout>
 			<Head>
-        <title>Blog</title>
-				<meta name="description" content="Sharing stories about how simple and convenient it is for Africans abroad to pay businesses back home and to support their families from abroad using the Tulix App." />        
+				<meta name="description" content={pageDescription} />
+				<meta property="og:title" content={pageTitle} />
+				<meta property="og:description" content={pageDescription} />
+				<meta property="og:url" content="https://tulix.app" />
+				<meta property="og:image" content={pageImage} />
+				<meta property="og:type" content="website" />
+				<meta name="twitter:card" content="summary_large_image" />
+				<meta name="twitter:title" content={pageTitle}/>
+				<meta name="twitter:description" content={pageDescription} />
+				<meta name="twitter:image" content={pageImage} />	
+				<title>{pageTitle}</title>         
       </Head>
 
 			<section className="about-us">
