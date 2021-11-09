@@ -21,7 +21,8 @@ export default function Blog({allPostsData}){
 	return(
 		<Layout>
 			<Head>
-        <title>Blog</title>        
+        <title>Blog</title>
+				<meta name="description" content="Sharing stories about how simple and convenient it is for Africans abroad to pay businesses back home and to support their families from abroad using the Tulix App." />        
       </Head>
 
 			<section className="about-us">
