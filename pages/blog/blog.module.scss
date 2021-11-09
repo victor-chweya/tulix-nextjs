@@ -15,4 +15,15 @@
     max-width: 100%;
     height: auto;
   }
+  blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 5px;
+    padding: 1em 30px;
+  }
+
+  blockquote p {
+    margin: 0.5rem 0;
+    font-style: italic;
+  }
 }

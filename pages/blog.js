@@ -4,6 +4,7 @@ import Layout from '../components/layout';
 import Date from '../components/date'
 import { getSortedPostsData } from '../lib/posts'
 import Image from 'next/image'
+import { buildImageUrl } from 'cloudinary-build-url'
 
 
 
@@ -15,12 +16,14 @@ export async function getStaticProps() {
     }
   }
 }
+
 export default function Blog({allPostsData}){
 	return(
 		<Layout>
 			<Head>
         <title>Blog</title>        
       </Head>
+
 			<section className="about-us">
 				<div className="container">
 					<div className="row justify-content-lg-center ">
@@ -30,15 +33,25 @@ export default function Blog({allPostsData}){
 						</div>
 						<div className="col-lg-8 mb-5">
 							<div className="row">
-							{allPostsData.map(({id, date, author, blogImage, excerpt, title}) =>(
-								<div className="col-lg-6" key={id}>
+							{allPostsData.map(({id, date, author, thumbnail, excerpt, title}) =>(
+								<div className="col-lg-6 mb-3" key={id}>
 									<div className="card card-post h-100 border-0" style={{background:"#fcfdff"}}>		
 										<Image
-											src={"https://res.cloudinary.com/avicdesign/image/upload/v1636373042/sample.jpg"}
-											alt="flowers"
+											src={buildImageUrl(`${thumbnail}`, {
+													cloud: {cloudName: 'avicdesign',},
+													transformations: {
+													resize: {
+														type: 'thumb',
+														width: 397,
+														aspectRatio: "1.5",
+														gravity: "auto:subject",
+													}													
+												}
+											})}
+											alt={thumbnail}
 											className="card-img-top"
-											width={864}
-											height={576}
+											width={397}
+											height={256}
 										/>
 										<div className="card-body px-0">
 											<h4 className="card-title">{title}</h4>
