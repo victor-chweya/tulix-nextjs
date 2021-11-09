@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Layout from '../../components/layout'
 import { getAllPostIds, getPostData } from '../../lib/posts'
 import Date from '../../components/date'
+import Styles from './blog.module.scss'
 
 export async function getStaticProps({ params }) {
   const postData = await getPostData(params.id)
@@ -28,7 +29,7 @@ export default function Post({postData}) {
 		 </Head>
 			<section className="about-us">
 				<div className="container">
-					<div className="row justify-content-lg-center ">
+					<div className="row justify-content-lg-center">
 						<div className="col-lg-7 pb-5">
 							<h6 className="text-success">Blog</h6>
 							<h2 className="section-title ">{postData.title}</h2>
@@ -36,7 +37,7 @@ export default function Post({postData}) {
 							<small><Date dateString={postData.date} /></small>
 						</div>
 						<div className="col-lg-7 mb-5">
-						<div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+						<div className={Styles.blog} dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
 						</div>						
 					</div>
 				</div>
