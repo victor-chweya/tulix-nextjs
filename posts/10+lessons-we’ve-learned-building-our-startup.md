@@ -2,11 +2,11 @@
 title: "10+ Lessons We’ve Learned Building Our Startup"
 date: "2021-04-06"
 author: "Alistair Gould"
-thumbnail: "blog/logan-weaver-unsplash_qkzvc6.jpg"
+thumbnail: "blog/logan-weaver-unsplash_rea4pv"
 excerpt: "It’s still early days in our journey as founders of Tulix App but we’ve been fortunate enough to have learned a couple of things thus far. If you’re interested in entrepreneurship and startups, we share some of the key lessons we have learned so far."
 ---
 
-![Photo by LOGAN WEAVER on Unsplash](https://res.cloudinary.com/avicdesign/image/upload/w_717,h_537,c_fill,g_faces/v1636453990/blog/logan-weaver-unsplash_qkzvc6.jpg)
+![Photo by LOGAN WEAVER on Unsplash](https://res.cloudinary.com/tulix/image/upload/w_717,h_537,c_fill,g_faces/v1636522854/blog/logan-weaver-unsplash_rea4pv.jpg)
 
 It’s still early days in our journey as founders of Tulix App but we’ve been fortunate enough to have learned a couple of things thus far. If you’re interested in entrepreneurship and startups, we share some of the key lessons we have learned so far.
 

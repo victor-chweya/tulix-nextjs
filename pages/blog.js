@@ -51,7 +51,7 @@ export default function Blog({allPostsData}){
 									<div className="card card-post h-100 border-0" style={{background:"#fcfdff"}}>		
 										<Image
 											src={buildImageUrl(`${thumbnail}`, {
-													cloud: {cloudName: 'avicdesign',},
+													cloud: {cloudName: 'tulix',},
 													transformations: {
 													resize: {
 														type: 'thumb',
