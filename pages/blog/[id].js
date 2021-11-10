@@ -24,7 +24,7 @@ export async function getStaticPaths() {
 
 export default function Post({postData}) {
 	const pageImage = buildImageUrl(`${postData.thumbnail}`, {
-		cloud: {cloudName: 'avicdesign',},
+		cloud: {cloudName: 'tulix',},
 		transformations: {
 		resize: {
 			type: 'scale',
