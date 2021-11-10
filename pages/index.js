@@ -136,7 +136,7 @@ export default function Home() {
 								<div className="card values h-100">
 									<div className="card-body">
 										<Image src="/img/icons/identification.svg" alt="" className="img-fluid" width={50} height={45} />
-										<h5 className="mb-3 mt-4">We ensure transparency</h5>
+										<h3 className="mb-3 mt-4 h5">We ensure transparency</h3>
 										<p>When it comes to making payments, we make every step clear with no hidden charges.</p>
 									</div>
 								</div>
@@ -145,7 +145,7 @@ export default function Home() {
 								<div className="card values h-100">
 									<div className="card-body">
 										<Image src="/img/icons/calculator.svg" alt="" className="img-fluid" width={32} height={44} />
-										<h5 className="mb-3 mt-4">We don’t retain your payment information</h5>
+										<h3 className="mb-3 mt-4 h5">We don’t retain your payment information</h3>
 										<p>To protect you, we use trusted global partners to process payments and therefore don’t store any of your card or banking information on the app.</p>
 									</div>
 								</div>
@@ -154,7 +154,7 @@ export default function Home() {
 								<div className="card values h-100">
 									<div className="card-body">
 										<Image src="/img/icons/cash.svg" alt="" className="img-fluid " width={50} height={40} />
-										<h5 className="mb-3 mt-4">We value your privacy</h5>
+										<h3 className="mb-3 mt-4 h5">We value your privacy</h3>
 										<p>We’ve put in place controls to ensure that all your personal information is kept safe &amp; secure at all times.
 										</p>
 									</div>
@@ -164,7 +164,7 @@ export default function Home() {
 								<div className="card values h-100">
 									<div className="card-body">
 										<Image src="/img/icons/check.svg" alt="" className="img-fluid" width={40} height={40}/>
-										<h5 className="mb-3 mt-4">World class technology</h5>
+										<h3 cclassName="mb-3 mt-4 h5">World class technology</h3>
 										<p>We use the latest technology to keep your money safe and to fulfill all your transactions.
 										</p>
 									</div>
