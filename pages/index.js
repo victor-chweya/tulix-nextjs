@@ -164,7 +164,7 @@ export default function Home() {
 								<div className="card values h-100">
 									<div className="card-body">
 										<Image src="/img/icons/check.svg" alt="" className="img-fluid" width={40} height={40}/>
-										<h3 cclassName="mb-3 mt-4 h5">World class technology</h3>
+										<h3 className="mb-3 mt-4 h5">World class technology</h3>
 										<p>We use the latest technology to keep your money safe and to fulfill all your transactions.
 										</p>
 									</div>
