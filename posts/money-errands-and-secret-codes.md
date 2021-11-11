@@ -25,7 +25,7 @@ Normally, the errands that needed to be done would vary and therefore would some
 And every time, it involved at least three or four errands to run. The most challenging were payments that were time-sensitive as I’d have to drop my own commitments to facilitate their needs. Therefore, I’d need to plan my week to accommodate all that needed to be fulfilled in anticipation of late evening calls to confirm that everything had been executed properly.
 In some cases, I’d also need to scan and send back confirmation receipts to the sender either for their records or onward transmission. Facilitating this feedback loop was and still is essential to keeping diaspora remittances flowing in as there’s always a need for a trusted individual who can fulfil the needs of people abroad. But a lot has changed in the present age of FinTech and digital money.
 
-![Photo by Askar Abayev from Pexels](https://res.cloudinary.com/tulix/image/upload/v1636522897/blog/pexels-askar-abayev_jlnhbc.jpg)
+![Photo by Askar Abayev from Pexels](https://res.cloudinary.com/tulix/image/upload/w_717,h_537,c_fill,g_faces/v1636522897/blog/pexels-askar-abayev_jlnhbc.jpg)
 
 ### What It’s Like Receiving Remittances Today
 
