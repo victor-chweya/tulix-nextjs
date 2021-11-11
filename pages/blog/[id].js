@@ -58,7 +58,13 @@ export default function Post({postData}) {
 							<small><Date dateString={postData.date} /></small>
 						</div>
 						<div className="col-lg-7 mb-5">
-						<div className={Styles.blog} dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+							<div className={Styles.blog} dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+							<style jsx global>{`
+								img{
+									max-width: 100%;
+    							height: auto;
+								}
+							`}</style>
 						</div>						
 					</div>
 				</div>

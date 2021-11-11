@@ -6,6 +6,6 @@ module.exports = {
 			'res.cloudinary.com'
 		],
 	},
-	// purgeCssEnabled: ({ dev, isServer }) => !dev && !isServer, // Only enable PurgeCSS for client-side production builds
+	purgeCssEnabled: ({ dev, isServer }) => !dev && !isServer, // Only enable PurgeCSS for client-side production builds
 	
 }
