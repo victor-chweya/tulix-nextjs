@@ -1,5 +1,9 @@
-User-agent: Googlebot
-Disallow: /nogooglebot/
-
+# *
 User-agent: *
 Allow: /
+
+# Host
+Host: https://tulix.app
+
+# Sitemaps
+Sitemap: https://tulix.app/sitemap.xml
