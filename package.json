@@ -4,12 +4,13 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-		"postbuild": "next-sitemap --config next-sitemap.config.js",
+    "postbuild": "next-sitemap --config next-sitemap.config.js",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^4.0.3",
+    "@mailchimp/mailchimp_marketing": "^3.0.72",
     "autoprefixer": "^10.4.0",
     "bootstrap": "^4.6.1",
     "cloudinary-build-url": "^0.2.1",
