@@ -36,7 +36,7 @@ export default function Home() {
 								<h1 className="hero-title mb-5">Pay any business in Kenya <span className="text-success">instantly</span> &amp; <span className="text-success">directly</span> from anywhere in the world</h1>
 								{/* <p class="lead mb-5">A simple and convenient way to allocate funds or make payments for all their needs.</p> */}
 								<div className="hero-cta ">
-									<Subscribe />
+									<Subscribe id="email-input-1"/>
 								</div>            
 							</div>
 							<div className="col-lg-5 offset-xl-1 hero-img">
@@ -173,13 +173,7 @@ export default function Home() {
 								<h2 className="section-title mb-5">Ready to dive in? <br />Become one of our first users</h2>
 								{/* <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#subscribeModal">Get Early Access</button>
 										<a href="https://forms.gle/C5ewxia2fmLKmiWp6" class="btn btn-outline-primary" target="_blank">Take Our Survey</a>  */}
-								<div id="mc_embed_signup">
-									<form action="https://app.us2.list-manage.com/subscribe/post?u=1f7c48c812ea5de5f89ea5e77&id=4042104668" className="form-inline" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
-										<input type="email" defaultValue="" name="EMAIL" id="mce-EMAIL" className="form-control form-control-lg mr-sm-2 mb-2 col-sm-7" placeholder="Enter your Email" required />
-										<div style={{position: 'absolute', left: '-5000px'}} aria-hidden="true"><input type="text" name="b_1f7c48c812ea5de5f89ea5e77_4042104668" tabIndex={-1} defaultValue="" /></div>									 
-										<button id="mc-embedded-subscribe" className="btn btn-primary btn-lg mb-2 col" type="submit">Get Early Access!</button>
-									</form>
-								</div>
+										<Subscribe id="email-input-2" />
 							</div>
 						</div>
 					</div>

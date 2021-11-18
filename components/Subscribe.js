@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 
-export default function Subscribe() {
+export default function Subscribe(prop) {
   // 1. Create a reference to the input so we can fetch/clear it's value.
   const inputEl = useRef(null);
   // 2. Hold a message in state to handle the response from our API.
@@ -27,7 +27,7 @@ export default function Subscribe() {
 
     if (error) {
       // 4. If there was an error, update the message in state.
-      setMessage(error);
+      setMessage(`${error} : There was an error adding you to the list. Shoot us an email at [info@tulix.app] and we'll add you.`);
 			setState('Error');
 
       return;
@@ -35,16 +35,16 @@ export default function Subscribe() {
 
     // 5. Clear the input value and show a success message.
     inputEl.current.value = '';
-    setMessage('Success! 🎉 You have been added to the early access list.');
+    setMessage('Success! 🎉 You\'re now on the list, thank you!.');
 		setState('Success');
   };
 
   return (
 		<>
-    <form onSubmit={subscribe} className="form-inline" id="form-1">
+    <form onSubmit={subscribe} className="form-inline" >
       
       <input
-        id="email-input"
+        id={prop.id}
         name="email"
         placeholder="Enter Email Address"
         ref={inputEl}
@@ -54,8 +54,8 @@ export default function Subscribe() {
       />
       <button type="submit" disabled={state === 'Loading'} className="btn btn-primary btn-lg mb-2 col">Get Early Access</button>
     </form>
-		{state === 'Error' && (
-			<div className="alert alert-danger inline-block" role="alert">
+		{/* {state === 'Error' && (
+			<div className="alert alert-danger alert-dismissible fade show" role="alert">
 				<strong>{message}:</strong> Something Went Wrong
 				<button type="button" className="close" data-dismiss="alert" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
@@ -63,18 +63,17 @@ export default function Subscribe() {
 			</div>
 		)}
         {state === 'Success' && (
-          <div className="alert alert-success inline-block" role="alert">
-						<strong>{message}:</strong> Something Went Wrong
+          <div className="alert alert-success alert-dismissible fade show" role="alert">
+						<strong>{message}</strong> 
 						<button type="button" className="close" data-dismiss="alert" aria-label="Close">
 							<span aria-hidden="true">&times;</span>
 						</button>
 					</div>
-        )}
+        )} */}
 		
-      {/* <div >
-        {message ? message : ''}
-	
-      </div> */}
+      <div className="m-1 text-muted">
+        <p className={`small ${state === 'Error' && ('text-danger')}  ${state === 'Success' && ('text-success')}`}>{message ? message : 'Limited availability. Register your interest now.'}</p>	
+      </div>
 			</>
   );
 }
