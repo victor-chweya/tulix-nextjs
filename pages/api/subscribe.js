@@ -4,6 +4,7 @@ mailchimp.setConfig({
   apiKey: process.env.MAILCHIMP_API_KEY,
   server: process.env.MAILCHIMP_API_SERVER // e.g. us1
 });
+const listId = process.env.MAILCHIMP_AUDIENCE_ID;
 
 export default async (req, res) => {
   const { email } = req.body;
@@ -13,13 +14,12 @@ export default async (req, res) => {
   }
 
   try {
-    await mailchimp.lists.addListMember(process.env.MAILCHIMP_AUDIENCE_ID, {
+    await mailchimp.lists.addListMember(listId, {
       email_address: email,
       status: 'subscribed'
     });
-
-    return res.status(201).json({ error: '' });
-  } catch (error) {
+		return res.status(201).json({ error: '' });
+  } catch (error) {		
     return res.status(500).json({ error: error.message || error.toString() });
   }
 };

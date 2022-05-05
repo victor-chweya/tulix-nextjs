@@ -26,7 +26,7 @@ export default function SubscribeModal(){
 
     if (error) {
       // 4. If there was an error, update the message in state.
-      setMessage(`${error} : There was an error adding you to the list. Shoot us an email at [info@tulix.app] and we'll add you.`);
+      setMessage(error);
 			setState('Error');
 
       return;

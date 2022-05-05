@@ -13,7 +13,7 @@ export default function Subscribe(prop) {
 		
 
     // 3. Send a request to our API with the user's email address.
-    const res = await fetch('/api/subscribe', {
+    const res = await fetch('/api/subscribe2', {
       body: JSON.stringify({
         email: inputEl.current.value
       }),
@@ -27,7 +27,7 @@ export default function Subscribe(prop) {
 
     if (error) {
       // 4. If there was an error, update the message in state.
-      setMessage(`${error} : There was an error adding you to the list. Shoot us an email at [info@tulix.app] and we'll add you.`);
+      setMessage(error);
 			setState('Error');
 
       return;
