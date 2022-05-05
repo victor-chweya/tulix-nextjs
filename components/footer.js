@@ -16,7 +16,7 @@ export default function Footer(){
 								</a>
 							</Link>
 							
-							<p className="small mb-3 mb-lg-0">©2021 Tulix Inc. All rights reserved. An <a href="https://www.antler.co/" target="_blank" rel="noopener noreferrer">Antler</a> portfolio company. 
+							<p className="small mb-3 mb-lg-0">©2022 Tulix Inc. All rights reserved. An <a href="https://www.antler.co/" target="_blank" rel="noopener noreferrer">Antler</a> portfolio company. 
 							<Link href="/privacy-policy"><a> Privacy Policy</a></Link>  | <Link href="/terms-and-conditions"><a>Terms &amp; Conditions</a></Link></p>
 						</div>
 						<div className="col-lg-4  d-flex flex-column justify-content-lg-center align-items-lg-end text-center ">
