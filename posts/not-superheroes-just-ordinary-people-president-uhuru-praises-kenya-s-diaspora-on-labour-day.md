@@ -15,8 +15,6 @@ That’s right, you are doing better than ever, dear Kenyan in the diaspora..
 
 When the world expected a drastic drop in money sent home during the pandemic, you superseded everyone’s expectations by sending on average KES 6.75 billion weekly in 2020 and increased this to KES 8.11 billion every week in 2021.
 
-When the world expected a drastic drop in money sent home during the pandemic, you superseded everyone’s expectations by sending on average KES 6.75 billion weekly in 2020 and increased this to KES 8.11 billion every week in 2021.
-
 In our darkest times, you kept the lights on. You kept Kenya going like you always do—remittances continue to be the biggest source of foreign exchange in Kenya.
 
 That hospital bill you contributed to, the money you sent towards a relative's school fees, that extra contribution towards a wedding or funeral you couldn’t attend, and all the other ways you continued to help your people back home…it has gone a long way.
