@@ -46,7 +46,8 @@ export default function Post({postData}) {
 			<meta name="twitter:card" content="summary_large_image" />
 			<meta name="twitter:title" content={postData.title}/>
 			<meta name="twitter:description" content={postData.excerpt} />
-			<meta name="twitter:image" content={pageImage} />	
+			<meta name="twitter:image" content={pageImage} />
+			<title>{postData.title}</title>  
 		 </Head>
 			<section className="about-us">
 				<div className="container">
