@@ -60,12 +60,12 @@ export default function Post({postData}) {
 						</div>
 						<div className="col-lg-7 mb-5">
 							<div className={Styles.blog} dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
-							<style jsx global>{`
+							{/* <style jsx global>{`
 							blockquote {							
 								padding: 0.5rem 0.5rem;
 								font-style: italic;
 							}						
-							`}</style>
+							`}</style> */}
 						</div>						
 					</div>
 				</div>
