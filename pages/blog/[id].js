@@ -61,10 +61,10 @@ export default function Post({postData}) {
 						<div className="col-lg-7 mb-5">
 							<div className={Styles.blog} dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
 							<style jsx global>{`
-								img{
-									max-width: 100%;
-    							height: auto;
-								}
+							blockquote {							
+								padding: 0.5rem 0.5rem;
+								font-style: italic;
+							}						
 							`}</style>
 						</div>						
 					</div>
