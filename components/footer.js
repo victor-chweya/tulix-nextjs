@@ -6,7 +6,7 @@ export default function Footer(){
 	return (
 		<>
 			<footer className="footer">
-				<div className="container">
+				<div className="container"> 
 					<hr />
 					<div className="row mt-5">
 						<div className="col-lg-9 d-flex flex-column flex-lg-row align-items-lg-center text-center">
