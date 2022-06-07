@@ -457,7 +457,7 @@ export default function Faqs(){
 										<div className="card-body">
 											<p>Payment through Tulix is intended to be seamless and instant, with Tulix forwarding funds immediately to user-specified merchants once
 												instructions are issued. This makes reversal of transactions difficult.</p>
-											<p>Please refer to our <a href="./terms-and-conditions.html">Terms and Conditions</a>  for more information on erroneous transactions.</p>
+											<p>Please refer to our <a href="/terms-and-conditions">Terms and Conditions</a>  for more information on erroneous transactions.</p>
 											<p>If you believe that you have made a payment in error, you may contact us within thirty (30) minutes after you initiated it at <a href="mailto:support@tulix.app">support@tulix.app</a> and	we will attempt to contact the merchant and recover the funds. However, we can’t guarantee the same as per our Terms and Conditions.</p> 										
 										</div>
 									</div>
