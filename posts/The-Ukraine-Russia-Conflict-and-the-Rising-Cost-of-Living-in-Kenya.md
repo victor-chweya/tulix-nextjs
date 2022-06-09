@@ -10,9 +10,9 @@ excerpt: "It started with very steep fuel prices that included early morning dri
 
 Get on Twitter any time of the day and you’re guaranteed a tweet on the rising cost of living in Kenya.
 
-![](https://res.cloudinary.com/tulix/image/upload/w_717,c_fill/v1654760357/blog/Rising-Cost-Of-Living-Tweet_ezlx1u.png)
+![think of the scariest movie you know. it's the exponential spike in cost of living in KE, isn't it?](https://res.cloudinary.com/tulix/image/upload/w_717,c_fill/v1654760357/blog/Rising-Cost-Of-Living-Tweet_ezlx1u.png)
 
-[Link to Tweet](https://twitter.com/TheMaxyNe/status/1534131902663254016)
+<!-- [Link to Tweet](https://twitter.com/TheMaxyNe/status/1534131902663254016) -->
 
 It definitely is.
 
