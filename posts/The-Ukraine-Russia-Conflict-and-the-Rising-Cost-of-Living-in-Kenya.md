@@ -32,7 +32,7 @@ The prices of indispensable staples like bread, milk, maize flour and cooking oi
 
 Kenyans are really going through it and it shows.
 
-###Remittances Save the Day
+### Remittances Save the Day
 
 Remittances tend to be the first form of financial support people turn to during a crisis and the pandemic demonstrated the power of solving mutual global problems in solidarity.
 
