@@ -7,7 +7,7 @@ import BeneficiaryMockup from '../public/img/beneficiary-mockup.png'
 import PaybillMockup from '../public/img/paybill-mockup.png'
 import TransactionMockup from '../public/img/transaction-mockup.png'
 import ReceiptMockup from '../public/img/receipt-mockup.png'
-import Subscribe from '../components/Subscribe'
+// import Subscribe from '../components/Subscribe'
 
 export default function Home() {
 	const pageTitle = "Tulix - Support your loved ones from wherever you are."
@@ -29,18 +29,40 @@ export default function Home() {
 				<title>{pageTitle}</title>
 			</Head>
 			<div>
-				<section className="hero">
-					<div className="container">
-						<div className="row">
-							<div className="col-lg-6  d-flex flex-column justify-content-center mb-5 mb-md-0">
-								<h1 className="hero-title mb-5">Pay any business in Kenya <span className="text-success">instantly</span> &amp; <span className="text-success">directly</span> from anywhere in the world</h1>
-								{/* <p class="lead mb-5">A simple and convenient way to allocate funds or make payments for all their needs.</p> */}
+				<section className="hero ">
+					<div className="container hero-bg">
+						<div className="row justify-content-between">
+							<div className="col-lg-5  d-flex flex-column justify-content-center mb-5 mb-md-0">
+								<h1 className="hero-title mt-4 mb-3 text-white">The smart way to  <span className="text-success">share</span> money</h1>
+								<p className="lead mb-5 text-white">Share, split, spend money with anyone in Kenya, from anywhere in the world.</p>
 								<div className="hero-cta ">
-									<Subscribe id="email-input-1"/>
+									{/* <Subscribe id="email-input-1"/> */}
+									<div className="row">
+										<div className="col-lg-12">
+											<p className='small text-light'>Available On</p>
+										</div>
+										<div className="col-lg-5 mb-2">
+											<a href="#" className="btn btn-outline-light btn-lg btn-block" role="button" >
+
+											<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="mr-2 bi bi-google-play" viewBox="0 0 16 16">
+												<path d="M14.222 9.374c1.037-.61 1.037-2.137 0-2.748L11.528 5.04 8.32 8l3.207 2.96 2.694-1.586Zm-3.595 2.116L7.583 8.68 1.03 14.73c.201 1.029 1.36 1.61 2.303 1.055l7.294-4.295ZM1 13.396V2.603L6.846 8 1 13.396ZM1.03 1.27l6.553 6.05 3.044-2.81L3.333.215C2.39-.341 1.231.24 1.03 1.27Z"/>
+											</svg>
+											
+											Google Play</a>
+										</div>
+										<div className="col-lg-5 mb-22">
+											<a href="#" className="btn btn-outline-light btn-lg btn-block" role="button" >
+											<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="mr-2 bi bi-apple" viewBox="0 0 16 16">
+												<path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z"/>
+												<path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z"/>
+											</svg>
+											App Store</a>
+										</div>
+								</div>
 								</div>            
 							</div>
-							<div className="col-lg-5 offset-xl-1 hero-img">
-								<Image 
+							<div className="col-lg-5 d-flex justify-content-center hero-img">
+								{/* <Image 
 								src={HeroImage} 
 								alt="tulix" 
 								className="img-fluid pl-lg-5" 
@@ -48,6 +70,14 @@ export default function Home() {
 								placeholder="blur"
 								height={455} 
 								width={463}
+								/> */}
+								<Image 
+								src={DashboardMockup} 
+								alt="tulix dashboard-mockup" 
+								className="img-fluid text-center" 
+								placeholder="blur" 
+								height={567} width={283}  
+
 								/>
 							</div> 
 						</div>       
@@ -57,7 +87,8 @@ export default function Home() {
 					<div className="container">
 						<div className="row justify-content-center">
 							<div className="col-lg-8">
-								<h2 className=" h1 text-center mb-4">Get more from the money you’re sending back home</h2>
+								<h2 className=" h1 text-center mb-4 text-light">Get more from the money you’re sending back home</h2>
+								
 							</div>
 						</div>
 					</div>
@@ -173,7 +204,7 @@ export default function Home() {
 								<h2 className="section-title mb-5">Ready to dive in? <br />Become one of our first users</h2>
 								{/* <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#subscribeModal">Get Early Access</button>
 										<a href="https://forms.gle/C5ewxia2fmLKmiWp6" class="btn btn-outline-primary" target="_blank">Take Our Survey</a>  */}
-										<Subscribe id="email-input-2" />
+										{/* <Subscribe id="email-input-2" /> */}
 							</div>
 						</div>
 					</div>

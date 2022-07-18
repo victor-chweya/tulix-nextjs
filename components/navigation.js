@@ -7,7 +7,7 @@ export default function Navigation(){
 	const router = useRouter();
 	return (
 		<>
-			<header className="container mt-3 mb-xl-5">
+			<header className="container mt-3 mb-xl-3">
 				<nav className="navbar navbar-expand-lg navbar-light bg-transparent px-0">
 					<Link href="/" passHref>
 						<a className="navbar-brand">
