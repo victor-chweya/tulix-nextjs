@@ -18,7 +18,7 @@ export default function Navigation(){
 						<svg height={50} className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="{2}" d="M4 6h16M4 12h16m-7 6h7" /></svg>
 					</button>
 					<div className="collapse navbar-collapse" id="navbarMain">
-						<ul className="navbar-nav mx-auto main-nav">
+						<ul className="navbar-nav ml-auto  main-nav">
 							<li className="nav-item">
 								<ActiveLink activeClassName="active" href="/"><a className="nav-link">Home</a></ActiveLink>
 							</li>
@@ -35,7 +35,7 @@ export default function Navigation(){
 								<a className="nav-link " href="mailto:hello@tulix.app">Contact Us</a>
 							</li>
 						</ul>
-						<button type="button" className="btn btn-outline-primary" data-toggle="modal" data-target="#subscribeModal">Get Early Access</button>
+						{/* <button type="button" className="btn btn-outline-primary" data-toggle="modal" data-target="#subscribeModal">Get Early Access</button> */}
 						{/* <a href="https://forms.gle/C5ewxia2fmLKmiWp6" class="btn btn-outline-primary" target="_blank">Take Our Survey</a> */}
 					</div>
 				</nav>

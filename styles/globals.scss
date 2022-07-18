@@ -87,22 +87,20 @@ label {
   line-height: 1.25; 
 }
 .hero-2 {
-  padding-top: 10rem;
+  padding-top: 7rem; 
   padding-bottom: 6rem;
-  background: linear-gradient(180deg, #fcfdff 60%, #385eff05);
-  position: relative;
+  // background: linear-gradient(180deg, #fcfdff 60%, #385eff05);
+  position: relative;  
   overflow: hidden;
 }
-.hero-3 {
-  padding-top: 8rem;
-  padding-bottom: 6rem;
-  background: linear-gradient(0deg, #fcfdff 60%, #385eff05);
-  position: relative;
-  overflow: hidden;
-}
+
 .values {
-  background: #385eff05;
+  background: #385eff05;  
   border: 0;
+}
+.home-faqs {
+	padding-top: 7rem; 
+  padding-bottom: 6rem;   
 }
 //features
 .features {
@@ -165,7 +163,7 @@ label {
     .card-body {
       padding: 2.25rem;
     }
-  }
+  } 
 }
 .accordion {
   .card:not(:first-of-type) {
