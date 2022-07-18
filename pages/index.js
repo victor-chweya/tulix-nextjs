@@ -134,12 +134,12 @@ export default function Home() {
 					</div>
 				</section>
 				<section className='container mb-5'>
-					<div className="row justify-content-center">
-					 <div className="col-lg-8">
+					<div className="row">
+					 <div className="col-lg-12">
 
-						<div className="row justify-content-center mb-5">
+						<div className="row mb-5">
 							<div className="col-lg-4">
-								<h2 className=" h1 text-center mb-4  ">Questions? </h2>								
+								<h2 className=" h1 mb-4  ">Questions? </h2>								
 							</div>
 						</div>
 						<div className="row">
@@ -227,8 +227,8 @@ export default function Home() {
 				</section>
 				<div className="cta bg-light ">
 					<div className="container py-5 ">
-						<div className="row ">
-							<div className="col-lg-6 d-flex justify-content-center">
+						<div className="row justify-content-center ">
+							<div className="col-lg-5 d-flex justify-content-center">
 							<Image 
 								src={DashboardMockup} 
 								alt="tulix dashboard-mockup" 
@@ -238,7 +238,7 @@ export default function Home() {
 
 								/>
 							</div>
-							<div className="col-lg-6 d-flex flex-column justify-content-center">
+							<div className="col-lg-5 d-flex flex-column justify-content-center">
 								<h2 className="mb-5">Get Started in 3 easy steps</h2>
 								<div className='mb-4'>
 									<h5>Download the Tulix App</h5>
