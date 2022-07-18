@@ -87,7 +87,7 @@ export default function Home() {
 				<section className="hero-2">
 					<div className="container">
 						<div className="row justify-content-center mb-5">
-							<div className="col-lg-4">
+							<div className="col-lg-6">
 								<h2 className=" h1 text-center mb-4 ">Why you will love using Tulix </h2>								
 							</div>
 						</div>
