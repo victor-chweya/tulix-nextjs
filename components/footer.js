@@ -7,7 +7,7 @@ export default function Footer(){
 		<>
 			<footer className="footer">
 				<div className="container"> 
-					<hr />
+					{/* <hr /> */}
 					<div className="row mt-5">
 						<div className="col-lg-9 d-flex flex-column flex-lg-row align-items-lg-center text-center">
 							<Link href="/" passHref>

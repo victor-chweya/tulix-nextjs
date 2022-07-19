@@ -76,6 +76,8 @@ label {
 }
 .hero-bg{
 	background: #005cff;
+	background-image: url('/img/background.svg');
+	background-size: cover;
 	padding:5rem 1rem ;
 }
 .hero-img {
@@ -133,8 +135,9 @@ label {
 }
 //cta
 .cta {
-  padding-top: 3rem;
-  padding-bottom: 6rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+	background: #385eff05;
 }
 //forms
 .form-control {
@@ -159,10 +162,11 @@ label {
       .btn:focus,
       .btn.focus { 
         box-shadow: none;
-      }
+      } 
     }
     .card-body {
       padding: 2.25rem;
+			padding-bottom: 0.5rem;
     }
   } 
 }
@@ -170,7 +174,7 @@ label {
   .card:not(:first-of-type) {
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
-  }
+  }  
 }
 //FOOTER
 .footer {
@@ -192,7 +196,7 @@ label {
     padding-right: 15px;
   }
 	.hero-bg{
-		background: #005cff;
+		// background: #005cff;
 		padding:4rem 5rem ;
 		border-radius: $border-radius-lg;
 	}
@@ -207,4 +211,24 @@ label {
 	fill: currentcolor;
 	width: 1em;
 	height: 1em;  
+}
+
+.steps {
+	div::before{
+		content: " ";
+    background: url('/img/arrow.svg');
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1.5rem;
+    width: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	}
+	div{
+		padding-left: 3rem;
+    position: relative;
+		margin-bottom: 2rem;
+	}
 }

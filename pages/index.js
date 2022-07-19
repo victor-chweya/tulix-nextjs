@@ -1,12 +1,13 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Layout from '../components/layout'
-import HeroImage from '../public/img/hero.png'
-import DashboardMockup from '../public/img/dashboard-mockup.png'
-import BeneficiaryMockup from '../public/img/beneficiary-mockup.png'
-import PaybillMockup from '../public/img/paybill-mockup.png'
-import TransactionMockup from '../public/img/transaction-mockup.png'
-import ReceiptMockup from '../public/img/receipt-mockup.png'
+import HeroImage from '../public/img/main-image.png'
+import CtaImage from '../public/img/cta.png'
+// import DashboardMockup from '../public/img/dashboard-mockup.png'
+// import BeneficiaryMockup from '../public/img/beneficiary-mockup.png'
+// import PaybillMockup from '../public/img/paybill-mockup.png'
+// import TransactionMockup from '../public/img/transaction-mockup.png'
+// import ReceiptMockup from '../public/img/receipt-mockup.png'
 // import Subscribe from '../components/Subscribe'
 
 export default function Home() {
@@ -72,11 +73,13 @@ export default function Home() {
 								width={463}
 								/> */}
 								<Image 
-								src={DashboardMockup} 
+								src={HeroImage} 
 								alt="tulix dashboard-mockup" 
 								className="img-fluid" 
 								placeholder="blur" 
-								height={567} width={283}  
+								// layout="intrinsic"
+								width={600}
+								height={600}
 
 								/>
 							</div> 
@@ -94,7 +97,7 @@ export default function Home() {
 						<div className="row">
 							<div className="col-lg-6 mb-4">
 								<div className="card values h-100">
-									<div className="card-body">
+									<div className="card-body p-5">
 										<Image src="/img/icons/identification.svg" alt="" className="img-fluid" width={50} height={45} />
 										<h3 className="mb-3 mt-4 h5">Pay local businesses conveniently & directly</h3>
 										<p>Load your Tulix wallet in Kenyan Shillings (KES) using your card and directly pay over 300,000 businesses in Kenya, just like you’re local. </p>
@@ -103,7 +106,7 @@ export default function Home() {
 							</div>
 							<div className="col-lg-6 mb-4">
 								<div className="card values h-100">
-									<div className="card-body ">
+									<div className="card-body p-5 ">
 										<Image src="/img/icons/calculator.svg" alt="" className="img-fluid" width={32} height={44} />
 										<h3 className="mb-3 mt-4 h5">Manage money together with your people</h3>
 										<p>For the first time ever, add friends and family as beneficiaries and create shared budget jars where you can allocate money for different needs.</p>
@@ -112,7 +115,7 @@ export default function Home() {
 							</div>
 							<div className="col-lg-6 mb-4">
 								<div className="card values h-100">
-									<div className="card-body">
+									<div className="card-body p-5">
 										<Image src="/img/icons/cash.svg" alt="" className="img-fluid " width={50} height={40} />
 										<h3 className="mb-3 mt-4 h5">Budgeting made easier</h3>
 										<p>Filter payments by category and receive a monthly summary of your transactions so you can budget better.
@@ -122,7 +125,7 @@ export default function Home() {
 							</div>
 							<div className="col-lg-6 mb-4">
 								<div className="card values h-100">
-									<div className="card-body">
+									<div className="card-body p-5">
 										<Image src="/img/icons/check.svg" alt="" className="img-fluid" width={40} height={40}/>
 										<h3 className="mb-3 mt-4 h5">We hate hidden fees too</h3>
 										<p>Get a breakdown of all transaction fees and receive instant payment confirmations in-app and via email.
@@ -146,73 +149,107 @@ export default function Home() {
 							<div className="col-lg-12 mb-5">
 							<div className="accordion" id="accordionFAQs">
 								<div className="card">
-									<div className="card-header" id="headingOne">
+									<div className="card-header bg-primary" id="headingOne">
 										<h2 className="mb-0">
-											<button className="btn btn-link btn-block btn-lg text-left font-weight-bold py-md-3 collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-												What is Tulix?
+											<button className="btn btn-primary btn-block border-0 btn-lg text-left font-weight-bold py-md-3 collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+											What is Tulix? (Is Tulix a money transfer app?)
 											</button>
 										</h2>
 									</div>									
 									<div id="collapseOne" className="collapse " aria-labelledby="headingOne" data-parent="#accordionFAQs">
 										<div className="card-body">
-											<p>Tulix is a person-to-business (P2B) payments mobile app, facilitating payments by individuals both locally and abroad for the purchase of goods and services offered by businesses located in Kenya.</p>
-											<p>Furthermore, Tulix will allow users to allocate funds to specific individuals (beneficiaries), and go as far as limiting fund usage to specific categories or merchants.</p>
+											<p>Tulix is a smart, new way for Kenyans anywhere to share money, budget and manage finances better.</p>
+											<p>The app enables users globally to instantly pay a business in Kenya from anywhere in the world using mobile money.</p>
+											<p>Users are able to share money on the app with their friends and family for specific needs such as school fees, rent and groceries, etc. without losing visibility over how and where money is used.</p>
 										</div>
 									</div>
 								</div>
-								<div className="card">
-									<div className="card-header" id="headingTwo">
+								<div className="card ">
+									<div className="card-header bg-primary" id="headingTwo">
 										<h2 className="mb-0">
-											<button className="btn btn-link btn-block text-left font-weight-bold py-md-3 collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-												Can I use Tulix if I’m in Kenya? (Is Tulix only for people in the diaspora)
+											<button className="btn btn-primary btn-block border-0 text-left font-weight-bold py-md-3 collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+											What can I use the Tulix app for?
 											</button>
 										</h2>
 									</div>
 									<div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordionFAQs">
 										<div className="card-body">
-											<p>Yes. Tulix is a Kenyan product for all Kenyans globally whether home or away.</p>
+											<p>Tulix enables you to pay for day-to-day things like airtime, groceries and bigger expenses like school fees and medical bills from anywhere in the world.</p>
+											<p>Create multiple jars as an easy way to help you budget and make sure there’s always money for the important stuff. Once those are out of the way it’s time to have fun.</p>
+											<p>Use Tulix to pay for dinner and drinks on a night out and even create a jar to plan for a vacation with your friends.
+											</p>
 										</div>
 									</div>
 								</div>
 								<div className="card">
-									<div className="card-header" id="headingThree">
+									<div className="card-header bg-primary" id="headingThree">
 										<h2 className="mb-0">
-											<button className="btn btn-link btn-block text-left font-weight-bold py-md-3 collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-												Do I need a Kenyan mobile phone line to use Tulix?
+											<button className="btn btn-primary btn-block border-0 text-left font-weight-bold py-md-3 collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+											What is a jar?
 											</button>
 										</h2>
 									</div>
 									<div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordionFAQs">
+										<div className="card-body">
+											<p>Think of a jar as a separate place where you set aside money for specific uses, whether for yourself or others. With jars, you can manage your money better and get so much more.</p>
+											<p>Ready to try jars? Download the app and check them out yourself.</p>
+										</div>
+									</div>
+								</div>
+								<div className="card">
+									<div className="card-header bg-primary" id="headingFour">
+										<h2 className="mb-0">
+											<button className="btn btn-primary btn-block border-0 text-left font-weight-bold py-md-3 collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+											Do I need a Kenyan mobile phone line to use Tulix?
+											</button>
+										</h2>
+									</div>
+									<div id="collapseFour" className="collapse" aria-labelledby="headingFour" data-parent="#accordionFAQs">
 										<div className="card-body">
 											<p>No. You can register on Tulix using any number that you're able to receive SMS messages on.</p>
 										</div>
 									</div>
 								</div>
 								<div className="card">
-									<div className="card-header" id="headingFour">
+									<div className="card-header bg-primary" id="headingFive">
 										<h2 className="mb-0">
-											<button className="btn btn-link btn-block text-left font-weight-bold py-md-3 collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-												What other countries can I make payments to using Tulix?
+											<button className="btn btn-primary btn-block border-0 text-left font-weight-bold py-md-3 collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+											Can I use Tulix to send money to an individual on Tulix?
 											</button>
 										</h2>
 									</div>
-									<div id="collapseFour" className="collapse" aria-labelledby="headingFour" data-parent="#accordionFAQs">
-										<div className="card-body">
-											<p>At the moment, you can only make payments using Tulix to businesses in Kenya. We will be expanding into new African markets soon. Send us an email to <a href="mailto:hello@tulix.app">hello@tulix.app</a> to suggest new markets that you're interested in.</p>
+									<div id="collapseFive" className="collapse bg-light" aria-labelledby="headingFive" data-parent="#accordionFAQs">
+										<div className="card-body bg-light">
+											<p>Tulix facilitates Person-to-Business payments. You can create and share jars with other users to make payments to businesses.</p>
 										</div>
 									</div>
 								</div>
 								<div className="card">
-									<div className="card-header" id="headingFive">
+									<div className="card-header bg-primary" id="headingSix">
 										<h2 className="mb-0">
-											<button className="btn btn-link btn-block text-left font-weight-bold py-md-3 collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-												Can I use Tulix to make a payment at a business that doesn’t support mobile money?
+											<button className="btn btn-primary btn-block border-0 text-left font-weight-bold py-md-3 collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+											Can I use Tulix if I’m in Kenya? (Is Tulix only for people in the diaspora)
 											</button>
 										</h2>
 									</div>
-									<div id="collapseFive" className="collapse" aria-labelledby="headingFive" data-parent="#accordionFAQs">
-										<div className="card-body">
-											<p>No. But we're working on adding new payment channels soon.</p>
+									<div id="collapseSix" className="collapse bg-light" aria-labelledby="headingSix" data-parent="#accordionFAQs">
+										<div className="card-body bg-light">
+											<p>Yes. Tulix is a Kenyan product for all Kenyans globally whether at home or abroad.</p>
+										</div>
+									</div>
+								</div>
+								<div className="card">
+									<div className="card-header bg-primary" id="headingSeven">
+										<h2 className="mb-0">
+											<button className="btn btn-primary btn-block border-0 text-left font-weight-bold py-md-3 collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+											How do I know my funds are safe on my Tulix wallet?
+
+											</button>
+										</h2>
+									</div>
+									<div id="collapseSeven" className="collapse bg-light" aria-labelledby="headingSeven" data-parent="#accordionFAQs">
+										<div className="card-body bg-light">
+											<p>We work with licensed institutions to credit and debit funds on your Tulix account. Together with these regulated 3rd parties, we've built in the necessary safeguards in place to guarantee the safety of your funds at all times</p>
 										</div>
 									</div>
 								</div>
@@ -225,32 +262,36 @@ export default function Home() {
 						
 					</div>
 				</section>
-				<div className="cta bg-light ">
+				<div className="cta">
 					<div className="container py-5 ">
 						<div className="row justify-content-center ">
-							<div className="col-lg-5 d-flex justify-content-center">
+							<div className="col-lg-5 d-flex justify-content-center mb-5 mb-md-0">
 							<Image 
-								src={DashboardMockup} 
+								src={CtaImage} 
 								alt="tulix dashboard-mockup" 
-								className="img-fluid text-center" 
+								className="img-fluid" 
 								placeholder="blur" 
-								height={567} width={283}  
+								width={321.28}
+								height={600}
 
 								/>
 							</div>
-							<div className="col-lg-5 d-flex flex-column justify-content-center">
+							<div className="col-lg-5 d-flex flex-column justify-content-center ">
 								<h2 className="mb-5">Get Started in 3 easy steps</h2>
-								<div className='mb-4'>
+								<div className="steps mt-3">
+
+								<div>
 									<h5>Download the Tulix App</h5>
 									<p>Get it from Google Play Store or Apple App Store.</p>
 								</div>
-								<div className='mb-4'>
+								<div>
 									<h5>Submit and Verify your personal information</h5>
-									<p>Enter your KYC details in the app to get verified</p>
+									<p>Enter your KYC details in the app to get verified.</p>
 								</div>
-								<div className='mb-4'>
+								<div>
 									<h5>Start transacting </h5>
-									<p>Load your wallet to make payments, share money and manage finances</p>
+									<p>Load your wallet to make payments, share money and manage finances.</p>
+								</div>
 								</div>
 								{/* <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#subscribeModal">Get Early Access</button>
 										<a href="https://forms.gle/C5ewxia2fmLKmiWp6" class="btn btn-outline-primary" target="_blank">Take Our Survey</a>  */}
