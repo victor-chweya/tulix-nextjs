@@ -3,6 +3,10 @@ import Image from 'next/image'
 import Layout from '../components/layout'
 import HeroImage from '../public/img/main-image.png'
 import CtaImage from '../public/img/cta.png'
+import Business from '../public/img/business.jpg'
+import Budgeting from '../public/img/budgeting.jpg'
+import Manage from '../public/img/manage.jpg'
+import HiddenFees from '../public/img/hidden-fees.jpg'
 // import DashboardMockup from '../public/img/dashboard-mockup.png'
 // import BeneficiaryMockup from '../public/img/beneficiary-mockup.png'
 // import PaybillMockup from '../public/img/paybill-mockup.png'
@@ -73,12 +77,12 @@ export default function Home() {
 								width={463}
 								/> */}
 								<Image 
-								src={HeroImage} 
+								src={CtaImage} 
 								alt="tulix dashboard-mockup" 
 								className="img-fluid" 
 								placeholder="blur" 
 								// layout="intrinsic"
-								width={600}
+								width={321.28}
 								height={600}
 
 								/>
@@ -96,27 +100,54 @@ export default function Home() {
 						</div>
 						<div className="row">
 							<div className="col-lg-6 mb-4">
-								<div className="card values h-100">
+								<div className="card values-dark h-100 ">
+								<Image 
+								src={Business} 
+								alt="tulix dashboard-mockup" 
+								className="card-img-top" 
+								placeholder="blur" 
+								layout="intrinsic"
+
+								/>
 									<div className="card-body p-5">
-										<Image src="/img/icons/identification.svg" alt="" className="img-fluid" width={50} height={45} />
+										{/* <Image src="/img/icons/identification.svg" alt="" className="img-fluid" width={50} height={45} /> */}
+										
 										<h3 className="mb-3 mt-4 h5">Pay local businesses conveniently & directly</h3>
 										<p>Load your Tulix wallet in Kenyan Shillings (KES) using your card and directly pay over 300,000 businesses in Kenya, just like you’re local. </p>
 									</div>
+								
 								</div>
 							</div>
 							<div className="col-lg-6 mb-4">
 								<div className="card values h-100">
+								<Image 
+								src={Manage} 
+								alt="tulix dashboard-mockup" 
+								className="card-img-top" 
+								placeholder="blur" 
+								layout="intrinsic"
+
+								/>
 									<div className="card-body p-5 ">
-										<Image src="/img/icons/calculator.svg" alt="" className="img-fluid" width={32} height={44} />
 										<h3 className="mb-3 mt-4 h5">Manage money together with your people</h3>
 										<p>For the first time ever, add friends and family as beneficiaries and create shared budget jars where you can allocate money for different needs.</p>
 									</div>
+							
 								</div>
 							</div>
 							<div className="col-lg-6 mb-4">
+							
 								<div className="card values h-100">
+								<Image 
+								src={Budgeting} 
+								alt="tulix dashboard-mockup" 
+								className="card-img-top" 
+								placeholder="blur" 
+								layout="intrinsic"
+
+								/>
 									<div className="card-body p-5">
-										<Image src="/img/icons/cash.svg" alt="" className="img-fluid " width={50} height={40} />
+										
 										<h3 className="mb-3 mt-4 h5">Budgeting made easier</h3>
 										<p>Filter payments by category and receive a monthly summary of your transactions so you can budget better.
 										</p>
@@ -124,9 +155,16 @@ export default function Home() {
 								</div>						
 							</div>
 							<div className="col-lg-6 mb-4">
-								<div className="card values h-100">
+								<div className="card values-dark h-100">
+								<Image 
+								src={HiddenFees} 
+								alt="tulix dashboard-mockup" 
+								className="card-img-top" 
+								placeholder="blur" 
+								layout="intrinsic"
+
+								/>
 									<div className="card-body p-5">
-										<Image src="/img/icons/check.svg" alt="" className="img-fluid" width={40} height={40}/>
 										<h3 className="mb-3 mt-4 h5">We hate hidden fees too</h3>
 										<p>Get a breakdown of all transaction fees and receive instant payment confirmations in-app and via email.
 										</p>
@@ -267,16 +305,16 @@ export default function Home() {
 						<div className="row justify-content-center ">
 							<div className="col-lg-5 d-flex justify-content-center mb-5 mb-md-0">
 							<Image 
-								src={CtaImage} 
+								src={HeroImage} 
 								alt="tulix dashboard-mockup" 
 								className="img-fluid" 
 								placeholder="blur" 
-								width={321.28}
+								width={600}
 								height={600}
 
 								/>
 							</div>
-							<div className="col-lg-5 d-flex flex-column justify-content-center ">
+							<div className="col-lg-5 offset-md-1 d-flex flex-column justify-content-center ">
 								<h2 className="mb-5">Get Started in 3 easy steps</h2>
 								<div className="steps mt-3">
 

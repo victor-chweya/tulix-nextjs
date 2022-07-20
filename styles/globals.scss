@@ -82,7 +82,7 @@ label {
 }
 .hero-img {
   padding-right: 0;
-	margin-bottom: -124px;
+	margin-bottom: -214px;
 }
 .hero-title {
   font-size: 2.4rem;
@@ -99,6 +99,14 @@ label {
 .values {
   background: #385eff05;  
   border: 0;
+}
+.values-dark {
+	background: #00305d;
+	color: #f9f9f9;
+	border:0;
+	h3 {
+		color: #f9f9f9;
+	}
 }
 .home-faqs {
 	padding-top: 7rem; 
@@ -144,6 +152,9 @@ label {
   background-color: #ecf0f5;
   border: 0;
   font-size: 1.2rem;
+}
+.card-header-dark{
+	background: #00305d;
 }
 //FAQS ACCORDION
 .accordion {
@@ -218,7 +229,7 @@ label {
 		content: " ";
     background: url('/img/arrow.svg');
     position: absolute;
-    top: 0;
+    top: 0; 
     left: 0;
     height: 1.5rem;
     width: 1.5rem;
@@ -231,4 +242,4 @@ label {
     position: relative;
 		margin-bottom: 2rem;
 	}
-}
+} 
