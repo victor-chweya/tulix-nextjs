@@ -111,7 +111,7 @@ export default function About(){
 								<Image src={BrianImg} alt="Brain Muiru" className="img-fluid team" placeholder="blur" height={348} width={331} />
 							</div>
 							<h6 className="mt-4">Brian Muriu</h6>
-							<a href="https://www.linkedin.com/in/brian-muriu/" role="link" aria-label="#" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin" /></a>
+							<a href="https://www.linkedin.com/in/brian-muriu/" role="link" aria-label="#" target="_blank" rel="noreferrer"><i className="fa fa-linkedin" /></a>
 							<p className="mt-2">Brian has worked in Startups in East Africa and the US for over 8 years leading teams in  Marketing, Technical &amp; Customer Service roles. His leadership experience and understanding of both markets making him a vital resource to the team.</p>
 						</div>
 						<div className="col-lg-4 px-lg-5 mb-4">
@@ -120,7 +120,7 @@ export default function About(){
 									<Image src={AlistairImg} alt="Alistair Gould" className="img-fluid team" placeholder="blur" height={348} width={331} />
 								</div>
 							<h6 className="mt-4">Alistair Gould</h6>
-							<a href="https://www.linkedin.com/in/gouldalistair/" role="link" aria-label="#" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin" /></a>
+							<a href="https://www.linkedin.com/in/gouldalistair/" role="link" aria-label="#" target="_blank" rel="noreferrer"><i className="fa fa-linkedin" /></a>
 							<p className="mt-2">With a 15 year background in investment banking in Kenya, Alistair brings to the team his knowledge of regulated financial markets as well as sales, leadership and operational experience.</p>
 						</div>
 					</div>
@@ -145,7 +145,7 @@ export default function About(){
 								<Image src="/img/team/melalite.png" alt="Melalite Ayenew" className="img-fluid team" width={226} height={237} />
 							</div>
 							<h6 className="mt-4">Melalite Ayenew</h6>
-							<a href="https://www.antler.co/" role="link" target="_blank" aria-label="#" className="font-weight-bold small">ANTLER EA </a>
+							<a href="https://www.antler.co/" role="link" target="_blank" rel="noreferrer" aria-label="#" className="font-weight-bold small">ANTLER EA </a>
 						</div>
 						<div className="col-6 col-lg mb-4">
 							<div className="position-relative">
@@ -153,15 +153,15 @@ export default function About(){
 								<Image src="/img/team/antonia.png" alt="Antonia Esser" className="img-fluid team" width={226} height={237}/>
 							</div>
 							<h6 className="mt-4">Antonia Esser</h6>
-							<a href="https://www.cenfri.org/" target="_blank" role="link" aria-label="#" className="font-weight-bold small">CENFRI </a>
+							<a href="https://www.cenfri.org/" target="_blank" rel="noreferrer" role="link" aria-label="#" className="font-weight-bold small">CENFRI </a>
 						</div>
 						<div className="col-6 col-lg mb-4">
 							<div className="position-relative">
 								<div className="team-triangle" />
-								<Image src="/img/team/simon.png" alt="Simon Engelbrecht" target="_blank" className="img-fluid team" width={226} height={237} />
+								<Image src="/img/team/simon.png" alt="Simon Engelbrecht" target="_blank" rel="noreferrer" className="img-fluid team" width={226} height={237} />
 							</div>
 							<h6 className="mt-4">Simon Engelbrecht</h6>
-							<a href="https://skarp.dk/#about" role="link" aria-label="#" target="_blank" className="font-weight-bold small">SKARP </a>
+							<a href="https://skarp.dk/#about" role="link" aria-label="#" target="_blank" rel="noreferrer" className="font-weight-bold small">SKARP </a>
 						</div>
 						<div className="col-6 col-lg mb-4">
 							<div className="position-relative">
@@ -177,7 +177,7 @@ export default function About(){
 								<Image src="/img/team/martin.png" alt="Martin Nielsen" className="img-fluid team " width={226} height={237} />
 							</div>
 							<h6 className="mt-4">Martin Nielsen</h6>
-							<a href="https://mdundo.com/" role="link" aria-label="#" target="_blank" className="font-weight-bold small">MDUNDO </a>
+							<a href="https://mdundo.com/" role="link" aria-label="#" target="_blank" rel="noreferrer" className="font-weight-bold small">MDUNDO </a>
 						</div>
 					</div>
 				</div>
