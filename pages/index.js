@@ -15,7 +15,7 @@ import HiddenFees from '../public/img/hidden-fees.jpg'
 // import Subscribe from '../components/Subscribe'
 
 export default function Home() {
-	const pageTitle = "Tulix - Support your loved ones from wherever you are."
+	const pageTitle = "Tulix - The Smart Way To Share Money";
 	const pageDescription = "Tulix helps you make direct business payments and fund allocations to beneficiaries from anywhere, simple and convenient."
 	const pageImage ="https://res.cloudinary.com/avicdesign/image/upload/v1636459905/social-img_qpf63s.png"
   return (
@@ -44,7 +44,7 @@ export default function Home() {
 									{/* <Subscribe id="email-input-1"/> */}
 									<div className="row">
 										<div className="col-lg-12">
-											<p className='small text-light'>Download Tulix On</p>
+											<p className='small text-light'>Available On</p>
 										</div>
 										<div className="col-lg-5 mb-2">
 											<a href="#" className="btn btn-outline-light btn-lg btn-block" role="button" >
@@ -95,7 +95,7 @@ export default function Home() {
 					<div className="container">
 						<div className="row justify-content-center mb-5">
 							<div className="col-lg-6">
-								<h2 className=" h1 text-center mb-4 ">Why you will love using Tulix </h2>								
+								<h2 className=" h1 text-center mb-4 ">Why you'll love using Tulix </h2>								
 							</div>
 						</div>
 						<div className="row">
@@ -252,7 +252,7 @@ export default function Home() {
 									<div className="card-header bg-primary" id="headingFive">
 										<h2 className="mb-0">
 											<button className="btn btn-primary btn-block border-0 text-left font-weight-bold py-md-3 collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-											Can I use Tulix to send money to an individual on Tulix?
+											Can I use Tulix to send money to an individual?
 											</button>
 										</h2>
 									</div>
@@ -315,16 +315,16 @@ export default function Home() {
 								/>
 							</div>
 							<div className="col-lg-5 offset-md-1 d-flex flex-column justify-content-center ">
-								<h2 className="mb-5">Get Started in 3 easy steps</h2>
+								<h2 className="mb-5">Get started in 3 easy steps</h2>
 								<div className="steps mt-3">
 
 								<div>
-									<h5>Download the Tulix App</h5>
+									<h5>Download Tulix</h5>
 									<p>Get it from Google Play Store or Apple App Store.</p>
 								</div>
 								<div>
-									<h5>Submit and Verify your personal information</h5>
-									<p>Enter your KYC details in the app to get verified.</p>
+									<h5>Submit and verify your personal information</h5>
+									<p>Enter your KYC details on the app to get verified.</p>
 								</div>
 								<div>
 									<h5>Start transacting </h5>
