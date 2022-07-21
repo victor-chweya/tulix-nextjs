@@ -101,6 +101,7 @@ export default function Home() {
 						<div className="row">
 							<div className="col-lg-6 mb-4">
 								<div className="card values-dark h-100 ">
+									<div className="card-body p-4">
 								<Image 
 								src={Business} 
 								alt="tulix dashboard-mockup" 
@@ -109,10 +110,9 @@ export default function Home() {
 								layout="intrinsic"
 
 								/>
-									<div className="card-body p-5">
 										{/* <Image src="/img/icons/identification.svg" alt="" className="img-fluid" width={50} height={45} /> */}
 										
-										<h3 className="mb-3 mt-4 h5">Pay local businesses conveniently & directly</h3>
+										<h3 className="mb-3 mt-4 ">Pay local businesses conveniently & directly</h3>
 										<p>Load your Tulix wallet in Kenyan Shillings (KES) using your card and directly pay over 300,000 businesses in Kenya, just like you’re local. </p>
 									</div>
 								
