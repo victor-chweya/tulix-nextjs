@@ -78,6 +78,8 @@ label {
 	background: #005cff;
 	background-image: url('/img/background.svg');
 	background-size: cover;
+  background-attachment: fixed;
+  background-position: center; 
 	padding:5rem 1rem ;
 }
 .hero-img {
@@ -95,9 +97,36 @@ label {
   position: relative;  
   overflow: hidden;
 }
+.hero-3{
+  background: #005cff;
+	background-image: url('/img/background.svg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  padding-top: 7rem; 
+  padding-bottom: 6rem;
+  margin-bottom: 10rem;
+  h2{
+    color: white;
+  }
+}
 
+.hero-about{
+  background-color: #8cc63f ;
+}
+.hero-about-section{
+  background: #005cff;
+	background-image: url('/img/about-bg.png'); 
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  padding-top: 7rem; 
+  padding-bottom: 6rem;
+  margin-bottom: 10rem;
+
+}
 .values {
-  background: #385eff05;  
+  background:rgb(41 91 255 / 10%);
   border: 0;
 }
 .values-dark {
@@ -108,9 +137,32 @@ label {
 		color: #f9f9f9;
 	}
 }
+.circle-icon{
+  background: #005cff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;  
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-top: -45px;  
+}
+.feature-img{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;  
+  margin-top: -60px;  
+}
 .home-faqs {
-	padding-top: 7rem; 
-  padding-bottom: 6rem;   
+	padding-top: 6rem; 
+  padding-bottom: 4rem;
+  background: #00305d;
+  h2,h6{
+    color: $primary;
+  }
+  a{
+    text-decoration: underline;
+  }
 }
 //features
 .features {
@@ -127,7 +179,7 @@ label {
   background: #f9f9f9;
   padding-bottom: 6rem;
   margin-top: 6rem;
-  margin-bottom: 3rem;
+ 
 }
 .team {
   filter: grayscale(100%);
@@ -141,6 +193,7 @@ label {
   top: 0;
   right: 0;
 }
+
 //cta
 .cta {
   padding-top: 5rem;

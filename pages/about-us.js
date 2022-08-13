@@ -1,205 +1,324 @@
-import Head from 'next/head';
-import Image from 'next/image';
-import Layout from '../components/layout';
+import Head from 'next/head'
+import Image from 'next/image'
+import Layout from '../components/layout'
+import HeroImage from '../public/img/main-image.png'
 import VisionImg from '../public/img/vision.png'
 import AlistairImg from '../public/img/team/alistair.png'
 import BrianImg from '../public/img/team/brian.png'
 
-export default function About(){
-	const pageTitle = "About Us - Support your loved ones from wherever you are."
-	const pageDescription = "Tulix helps you make direct business payments and fund allocations to beneficiaries from anywhere, simple and convenient."
-	const pageImage ="https://res.cloudinary.com/avicdesign/image/upload/v1636459905/social-img_qpf63s.png"
-	return(
-		<Layout>
-			<Head>
-				<meta name="description" content={pageDescription} />
-				<meta property="og:title" content={pageTitle} />
-				<meta property="og:description" content={pageDescription} />
-				<meta property="og:url" content="https://tulix.app" />
-				<meta property="og:image" content={pageImage} />
-				<meta property="og:type" content="website" />
-				<meta name="twitter:card" content="summary_large_image" />
-				<meta name="twitter:title" content={pageTitle}/>
-				<meta name="twitter:description" content={pageDescription} />
-				<meta name="twitter:image" content={pageImage} />	
-				<title>{pageTitle}</title>        
+export default function About() {
+  const pageTitle = 'About Us - Support your loved ones from wherever you are.'
+  const pageDescription =
+    'Tulix helps you make direct business payments and fund allocations to beneficiaries from anywhere, simple and convenient.'
+  const pageImage =
+    'https://res.cloudinary.com/avicdesign/image/upload/v1636459905/social-img_qpf63s.png'
+  return (
+    <Layout>
+      <Head>
+        <meta name="description" content={pageDescription} />
+        <meta property="og:title" content={pageTitle} />
+        <meta property="og:description" content={pageDescription} />
+        <meta property="og:url" content="https://tulix.app" />
+        <meta property="og:image" content={pageImage} />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={pageTitle} />
+        <meta name="twitter:description" content={pageDescription} />
+        <meta name="twitter:image" content={pageImage} />
+        <title>{pageTitle}</title>
       </Head>
-			<section className="about-us">
-				<div className="container">
-					<div className="row justify-content-lg-center text-lg-center">
-						<div className="col-lg-10">
-							<h6 className="text-success">How It Started</h6>
-							<h2 className="section-title mb-5">The Challenge</h2>
-							<p className="lead">Migrants all over the world experience a very common problem when they send money home to be used for specific purposes. In many cases, individual beneficiaries are entrusted to collect and distribute these funds, rendering them prone to misappropriation or misuse.</p>
-							<p className="lead">This effectively limits the impact of remittances on household incomes and communities, especially in Low and Middle Income Countries whose small GDP's rely heavily on inward remittances. 
-							</p>
-							<p className="lead">This has also limited the amount of money that the over 36 million Africans in the diaspora are willing to send back home effectively slowing down the development of our continent as diaspora inflows contribute significantly to economic development.</p>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section className="about-us">
-				<div className="container">
-					<div className="row justify-content-center">
-						<div className="col-lg-10">    
-							<div className="row">
-								<div className="col-lg-5">
-									<h6 className="text-success">How It's Going</h6>
-									<h2 className="section-title mb-5">Building In Africa For Africa</h2>
-								</div>
-								<div className="w-100" />
-								<div className="col-lg-6 pr-lg-5">
-									<p className="lead">We're building Tulix to enable Africa's migrants to allocate funds for specific needs to their beneficiaries. The app allows them to manage and limit where and how these funds are spent, thereby increasing accountability, delivering value and unlocking their maximum potential.</p>
-									<p className="lead">By ensuring remittances are spent on their intended needs, we're positively impacting households, communities and the African continent's GDP.</p>
-								</div>
-								<div className="col-lg-6 pl-lg-5">
-									<p className="lead text-success mb-4"><strong>We are aligned with the United Nation’s global Sustainable Development Goals (SDGs), specifically SDG goals 1, 8, 10 &amp; 17.</strong></p>
-									<div className="row">
-										<div className="col-3">
-											<Image src="/img/mdg-1.png" alt="no poverty" className="img-fluid rounded" height={130} width={130}/>
-										</div>
-										<div className="col-3">
-											<Image src="/img/mdg-8.png" alt="no poverty" className="img-fluid rounded" height={130} width={130} />
-										</div>
-										<div className="col-3">
-											<Image src="/img/mdg-10.png" alt="no poverty" className="img-fluid rounded" height={130} width={130} />
-										</div>
-										<div className="col-3">
-											<Image src="/img/mdg-17.png" alt="no poverty" className="img-fluid rounded" height={130} width={130} />
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section className="about-us">
-				<div className="container">
-					<div className="row justify-content-center">
-						<div className="col-lg-10">    
-							<div className="row justify-content-lg-center ">
-								<div className="col-lg-8 text-lg-center">
-									<h6 className="text-success">Our Vision Of The Future</h6>
-									<h2 className="section-title mb-5">Impacting The Lives Of Migrants &amp; Their Families</h2>
-								</div>
-								<div className="w-100" />
-								<div className="col-lg-6 pr-lg-5">
-									<Image src={VisionImg} alt="Impacting The Lives Of Migrants & Their Families" className="img-fluid" placeholder="blur" height={575} width={470} />
-								</div>
-								<div className="col-lg-6 pl-lg-5 d-flex flex-column justify-content-center">
-									<p className="lead">Through the use of innovative financial technology, we envision a future where migrants won't worry about being away from their home countries. Using Tulix will make them feel like they never left.</p>
-									<p className="lead text-success"> <strong>Our vision is to unlock the potential of remittances across Africa.</strong></p>                                
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section className="about-us">
-				<div className="container">
-					<div className="row justify-content-lg-center text-lg-center">
-						<div className="col-lg-10">
-							<h6 className="text-success">Team</h6>
-							<h2 className="section-title mb-5">The Founders</h2>
-						</div>
-					</div>
-					<div className="row justify-content-center">
-						<div className="col-lg-4 px-lg-5 mb-4">
-							<div className="position-relative">
-								<div className="team-triangle " />
-								<Image src={BrianImg} alt="Brain Muiru" className="img-fluid team" placeholder="blur" height={348} width={331} />
-							</div>
-							<h6 className="mt-4">Brian Muriu</h6>
-							<a href="https://www.linkedin.com/in/brian-muriu/" role="link" aria-label="#" target="_blank" rel="noreferrer"><i className="fa fa-linkedin" /></a>
-							<p className="mt-2">Brian has worked in Startups in East Africa and the US for over 8 years leading teams in  Marketing, Technical &amp; Customer Service roles. His leadership experience and understanding of both markets making him a vital resource to the team.</p>
-						</div>
-						<div className="col-lg-4 px-lg-5 mb-4">
-							<div className="position-relative">
-								<div className="team-triangle" />
-									<Image src={AlistairImg} alt="Alistair Gould" className="img-fluid team" placeholder="blur" height={348} width={331} />
-								</div>
-							<h6 className="mt-4">Alistair Gould</h6>
-							<a href="https://www.linkedin.com/in/gouldalistair/" role="link" aria-label="#" target="_blank" rel="noreferrer"><i className="fa fa-linkedin" /></a>
-							<p className="mt-2">With a 15 year background in investment banking in Kenya, Alistair brings to the team his knowledge of regulated financial markets as well as sales, leadership and operational experience.</p>
-						</div>
-					</div>
-					<div className="row justify-content-center text-center mt-5">
-						<div className="col-lg-8">
-							<h2 className="h6">As a team, we've all been recipients of remittances from our friends and family living abroad and this makes the problem personal to us. Our team has the experience &amp; expertise to take this opportunity from Zero to One.</h2>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section className="about-us about-us__advisors">
-				<div className="container">
-					<div className="row justify-content-lg-center text-lg-center">
-						<div className="col-lg-10">
-							<h2 className="section-title mb-5">Our Advisors</h2>
-						</div>
-					</div>
-					<div className="row justify-content-lg-center">
-						<div className="col-6 col-lg mb-4">
-							<div className="position-relative">
-								<div className="team-triangle" />
-								<Image src="/img/team/melalite.png" alt="Melalite Ayenew" className="img-fluid team" width={226} height={237} />
-							</div>
-							<h6 className="mt-4">Melalite Ayenew</h6>
-							<a href="https://www.antler.co/" role="link" target="_blank" rel="noreferrer" aria-label="#" className="font-weight-bold small">ANTLER EA </a>
-						</div>
-						<div className="col-6 col-lg mb-4">
-							<div className="position-relative">
-								<div className="team-triangle" />
-								<Image src="/img/team/antonia.png" alt="Antonia Esser" className="img-fluid team" width={226} height={237}/>
-							</div>
-							<h6 className="mt-4">Antonia Esser</h6>
-							<a href="https://www.cenfri.org/" target="_blank" rel="noreferrer" role="link" aria-label="#" className="font-weight-bold small">CENFRI </a>
-						</div>
-						<div className="col-6 col-lg mb-4">
-							<div className="position-relative">
-								<div className="team-triangle" />
-								<Image src="/img/team/simon.png" alt="Simon Engelbrecht" target="_blank" rel="noreferrer" className="img-fluid team" width={226} height={237} />
-							</div>
-							<h6 className="mt-4">Simon Engelbrecht</h6>
-							<a href="https://skarp.dk/#about" role="link" aria-label="#" target="_blank" rel="noreferrer" className="font-weight-bold small">SKARP </a>
-						</div>
-						<div className="col-6 col-lg mb-4">
-							<div className="position-relative">
-								<div className="team-triangle" />
-								<Image src="/img/team/patrick.png" alt="Patrick Nyaga" className="img-fluid team" width={226} height={237} />
-							</div>
-							<h6 className="mt-4">Patrick Nyaga</h6>
-							<a href="https://cic.co.ke/" role="link" aria-label="#" className="font-weight-bold small">CIC GROUP </a>
-						</div>
-						<div className="col-6 col-lg mb-4">
-							<div className="position-relative">
-								<div className="team-triangle" />
-								<Image src="/img/team/martin.png" alt="Martin Nielsen" className="img-fluid team " width={226} height={237} />
-							</div>
-							<h6 className="mt-4">Martin Nielsen</h6>
-							<a href="https://mdundo.com/" role="link" aria-label="#" target="_blank" rel="noreferrer" className="font-weight-bold small">MDUNDO </a>
-						</div>
-					</div>
-				</div>
-			</section>
-			<div className="cta">
-				<div className="container">
-					<div className="row justify-content-center text-center">
-						<div className="col-lg-6">
-							<h2 className="section-title mb-5">Ready to dive in? <br />Become one of our first users</h2>
-							{/* <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#subscribeModal">Get Early Access</button>
-									<a href="https://forms.gle/C5ewxia2fmLKmiWp6" class="btn btn-outline-primary" target="_blank">Take Our Survey</a>  */}
-							<div id="mc_embed_signup">
-								<form action="https://app.us2.list-manage.com/subscribe/post?u=1f7c48c812ea5de5f89ea5e77&id=4042104668" className="form-inline" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
-									<input type="email" defaultValue="" name="EMAIL" id="mce-EMAIL" className="form-control form-control-lg mr-sm-2 mb-2 col-sm-7" placeholder="Enter your Email" required />
-									<div style={{position: 'absolute', left: '-5000px'}} aria-hidden="true"><input type="text" name="b_1f7c48c812ea5de5f89ea5e77_4042104668" tabIndex={-1} defaultValue="" /></div>									 
-									<button id="mc-embedded-subscribe" className="btn btn-primary btn-lg mb-2 col" type="submit">Get Early Access!</button>
-								</form>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>		
-		</Layout>
-	)
+      <section className="hero mb-5">
+        <div className="container hero-bg hero-about">
+          <div className="row justify-content-center">
+            <div className="col-lg-10  d-flex flex-column text-center my-5 mb-md-0">
+              <h1 className="hero-title mt-4 mb-3 ">
+                It’s easy to move money, but money relationships are very
+                complex.
+              </h1>
+              <p className="lead mb-5 text-white">
+                Tulix is a new, smart way for Kenyans anywhere to share money,
+                budget and manage finances together with the people that matter
+                to them without losing visibility over how and where money is
+                used.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="about-us">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-10">
+              <div className="row">
+                <div className="col-lg-6">
+                  {/* <h6 className="text-success">How It's Going</h6> */}
+                  <h2 className="section-title mb-5">
+                    Built in Kenya for the World
+                  </h2>
+                </div>
+
+                <div className="col-lg-6 pr-lg-5">
+                  <p className="font-weight-bold">
+                    74% of Africans worldwide are willing to share more money
+                    with their friends and family if they could have more
+                    convenient ways to make payments and manage finances with
+                    the people that matter to them.
+                  </p>
+                  <p className="small">
+                    Tulix was built to empower Africans everywhere by enabling
+                    them to share money and collaborate on payments for specific
+                    needs. Our app allows users to build healthier money
+                    relationships with their people.
+                  </p>
+                  <p className="small">
+                    People share money every day for different reasons: from
+                    supporting their families at home to purchasing food and
+                    household goods to medical and education expenses. Our
+                    innovative solution allows them to manage all these
+                    different spending needs together from just one digital
+                    wallet. With Tulix, they can share money and make payments
+                    to local businesses instantly from anywhere in the world
+                    using mobile money.
+                  </p>
+                </div>
+                <div className="container hero-about-section rounded my-5"></div>
+                <div className="col-lg-6 pr-lg-5">
+                  <p className="small">
+                    While several operators offer fast and affordable payments,
+                    none provide transparency or the ability to collaborate with
+                    beneficiaries on the usage of the money. Tulix provides this
+                    value by allowing users to see, co-determine with their
+                    people, or determine directly how funds will be spent,
+                    thereby increasing accountability and transparency to unlock
+                    the full potential of local and international remittances.
+                  </p>
+                </div>
+                <div className="col-lg-6 pr-lg-5">
+                  <p className="small">
+                    Tulix offers value to both senders and receivers on a single
+                    platform. We allow users to create “jars” for collaborative
+                    budgeting, increased visibility, and better management of
+                    funds. These jars can also be used for goal-based savings,
+                    which help to improve the financial health of households
+                    that use our solution.
+                  </p>
+                </div>
+              </div>
+              <hr className="mt-5" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="about-us">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-10">
+              <div className="row mb-4">
+                <div className="col-lg-8">
+                  {/* <h6 className="text-success">Our Vision Of The Future</h6> */}
+                  <h2 className="section-title mb-5">Our Team</h2>
+                </div>
+                <div className="w-100" />
+
+                <div className="col-lg-12 d-flex flex-column justify-content-center">
+                  <p>
+                    Our team is led by passionate, experienced founders
+                    supported by talented professionals creating exceptional
+                    products and delivering exceptional value. Together, we are
+                    aligned toward creating innovative and inclusive solutions
+                    that will fundamentally improve our continent and the world.
+                  </p>
+                  <p>
+                    We are ambitious. We encourage innovation. We believe in
+                    continuous learning and iteration. We want to build a
+                    company that will outlast us.If this sounds like you, come
+                    and build with us.
+                  </p>
+                </div>
+              </div>
+              <div className="row ">
+                <div className="col-lg-8">
+                  {/* <h6 className="text-success">Our Vision Of The Future</h6> */}
+                  <h2 className="mb-5">Our Culture</h2>
+                </div>
+                <div className="w-100" />
+                <div className="col-lg-3 mb-4">
+                  <div className="card values h-100">
+                    <div className="card-body">
+                      <h3 className="mb-3 mt-4 h6">Empathy at the Front</h3>
+                      <p className="small">
+                        When you talk we actually listen. We cultivate
+                        psychological safety so that team members feel safe
+                        enough to speak freely about anything impacting their
+                        performance — in or out of the office.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-3 mb-4">
+                  <div className="card values h-100">
+                    <div className="card-body">
+                      <h3 className="mb-3 mt-4 h6">
+                        Teamwork Makes The Dream Work
+                      </h3>
+                      <p className="small">
+                        We are all equals. When everyone understands and
+                        respects each other’s roles it leads to better cohesion
+                        which translates into the broader experience we strive
+                        to create for our customers.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-3 mb-4">
+                  <div className="card values h-100">
+                    <div className="card-body">
+                      <h3 className="mb-3 mt-4 h6">
+                        Collaboration for Continuous Innovation
+                      </h3>
+                      <p className="small">
+                        There is no bad idea, there are just ideas. Whether
+                        you’re a team member or a customer we always want to
+                        hear from you so we can learn and build Tulix together.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-3 mb-4">
+                  <div className="card values h-100">
+                    <div className="card-body">
+                      <h3 className="mb-3 mt-4 h6">No “Code Switching”</h3>
+                      <p className="small">
+                        As Tulix we encourage you to show up fully as yourself.
+                        You get to decide what professionalism looks like for
+                        you without sacrificing your personality, your interests
+                        and your values.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="about-us about-us__advisors">
+        <div className="container">
+          <div className="row justify-content-lg-center text-lg-center mb-5">
+            <div className="col-lg-10">
+              <h2 className="section-title my-5">Our Investors </h2>
+              <p className="small">
+                So far, we're backed by global institutions as well as
+                individual angel investors to help us achieve our vision.
+                Together, we are aligned toward creating innovative and
+                inclusive solutions that will fundamentally improve our
+                continent and the world.
+              </p>
+            </div>
+          </div>
+          <div className="row justify-content-between">
+            <div className="col-lg-3 mb-4 d-flex align-items-center">
+              <Image
+                src="/img/team/antlerlogo.png"
+                alt="Antler"
+                className="img-fluid"
+                width={563.11}
+                height={145}
+              />
+            </div>
+            <div className="col-lg-3 mb-4 d-flex align-items-center px-4">
+              <Image
+                src="/img/team/catalystfund.png"
+                alt="Catalyst Fund"
+                className="img-fluid"
+                width={1025.25}
+                height={145}
+              />
+            </div>
+            <div className="col-lg-3 mb-4 align-items-center px-4">
+              <Image
+                src="/img/team/simple.png"
+                alt="Simple Capital"
+                target="_blank"
+                rel="noreferrer"
+                className="img-fluid"
+                width={350}
+                height={145}
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <div className="cta">
+        <div className="container py-5 ">
+          <div className="row justify-content-center ">
+            <div className="col-lg-5 d-flex justify-content-center mb-5 mb-md-0">
+              <Image
+                src={HeroImage}
+                alt="tulix dashboard-mockup"
+                className="img-fluid"
+                placeholder="blur"
+                width={600}
+                height={600}
+              />
+            </div>
+            <div className="col-lg-5 offset-md-1 d-flex flex-column justify-content-center ">
+              <h2 className="mb-5">
+                Join The <span className="text-success">#TulixTribe </span>Today
+              </h2>
+              <p className="lead mb-5">
+                We’re already making it possible for Kenyans all over the world
+                to stay connected through Tulix.
+              </p>
+              <div className="row">
+                <div className="col-lg-12">
+                  <p className="small">Download Tulix On</p>
+                </div>
+                <div className="col-lg-5 mb-2">
+                  <a
+                    href="#"
+                    className="btn btn-outline-primary btn-lg btn-block"
+                    role="button"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      className="mr-2 bi bi-google-play"
+                      viewBox="0 0 16 16"
+                    >
+                      <path d="M14.222 9.374c1.037-.61 1.037-2.137 0-2.748L11.528 5.04 8.32 8l3.207 2.96 2.694-1.586Zm-3.595 2.116L7.583 8.68 1.03 14.73c.201 1.029 1.36 1.61 2.303 1.055l7.294-4.295ZM1 13.396V2.603L6.846 8 1 13.396ZM1.03 1.27l6.553 6.05 3.044-2.81L3.333.215C2.39-.341 1.231.24 1.03 1.27Z" />
+                    </svg>
+                    Google Play
+                  </a>
+                </div>
+                <div className="col-lg-5 mb-22">
+                  <a
+                    href="#"
+                    className="btn btn-outline-primary btn-lg btn-block"
+                    role="button"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      className="mr-2 bi bi-apple"
+                      viewBox="0 0 16 16"
+                    >
+                      <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z" />
+                      <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z" />
+                    </svg>
+                    App Store
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </Layout>
+  )
 }

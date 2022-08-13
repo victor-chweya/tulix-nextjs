@@ -15,7 +15,7 @@
     "cloudinary-build-url": "^0.2.1",
     "date-fns": "^2.25.0",
     "gray-matter": "^4.0.3",
-    "next": "12.0.2",
+    "next": "^12.2.4",
     "node-fetch": "^2.6.1",
     "postcss-flexbugs-fixes": "^5.0.2",
     "react": "17.0.2",
@@ -23,13 +23,13 @@
     "remark": "^13.0.0",
     "remark-html": "^13.0.2",
     "sass": "^1.43.4",
-    "sharp": "^0.29.2"
+    "sharp": "^0.30.7"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.7",
     "eslint": "7.32.0",
     "eslint-config-next": "12.0.2",
-    "next-purgecss": "^4.0.0",
+    "next-purgecss": "^3.1.2",
     "next-sitemap": "^1.6.203",
     "postcss-preset-env": "^7.7.2"
   }
