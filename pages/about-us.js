@@ -81,7 +81,7 @@ export default function About() {
                     using mobile money.
                   </p>
                 </div>
-                <div className="container hero-about-section rounded my-5"></div>
+                <div className="container hero-bg hero-about-2 my-5"></div>
                 <div className="col-lg-6 pr-lg-5">
                   <p className="small">
                     While several operators offer fast and affordable payments,
@@ -218,7 +218,7 @@ export default function About() {
             </div>
           </div>
           <div className="row justify-content-between">
-            <div className="col-lg-3 mb-4 d-flex align-items-center">
+            <div className="col-lg-3 mb-5 d-flex align-items-center">
               <Image
                 src="/img/team/antlerlogo.png"
                 alt="Antler"
@@ -227,7 +227,7 @@ export default function About() {
                 height={145}
               />
             </div>
-            <div className="col-lg-3 mb-4 d-flex align-items-center px-4">
+            <div className="col-lg-3 mb-5 d-flex align-items-center px-4">
               <Image
                 src="/img/team/catalystfund.png"
                 alt="Catalyst Fund"
@@ -236,7 +236,7 @@ export default function About() {
                 height={145}
               />
             </div>
-            <div className="col-lg-3 mb-4 align-items-center px-4">
+            <div className="col-lg-3 mb-5 align-items-center px-4">
               <Image
                 src="/img/team/simple.png"
                 alt="Simple Capital"

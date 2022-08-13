@@ -124,12 +124,7 @@ export default function Home() {
             <div className="row justify-content-center mb-5 pb-5">
               <div className="col-lg-8 text-center">
                 <h2 className=" h1 mb-4 ">Why you'll love using Tulix </h2>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                  deserunt consectetur ipsa, animi perspiciatis, nihil officiis
-                  dolor nisi accusamus esse officia eligendi atque ex iusto
-                  tenetur ad consequuntur dicta ut.
-                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
               </div>
             </div>
             <div className="row justify-content-center align-items-center">
