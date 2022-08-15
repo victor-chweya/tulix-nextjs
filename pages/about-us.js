@@ -217,34 +217,31 @@ export default function About() {
               </p>
             </div>
           </div>
-          <div className="row justify-content-between">
-            <div className="col-lg-3 mb-5 d-flex align-items-center">
+          <div className="row justify-content-center justify-content-lg-between">
+            <div className="col-lg-3 mb-5 d-flex align-items-center justify-content-center">
               <Image
                 src="/img/team/antlerlogo.png"
                 alt="Antler"
-                className="img-fluid"
-                width={563.11}
-                height={145}
+                width={200}
+                height={51.5}
               />
             </div>
-            <div className="col-lg-3 mb-5 d-flex align-items-center px-4">
+            <div className="col-lg-3 mb-5 d-flex align-items-center justify-content-center px-4">
               <Image
                 src="/img/team/catalystfund.png"
                 alt="Catalyst Fund"
-                className="img-fluid"
-                width={1025.25}
-                height={145}
+                width={364.41}
+                height={51.5}
               />
             </div>
-            <div className="col-lg-3 mb-5 align-items-center px-4">
+            <div className="col-lg-3 mb-5 d-flex align-items-center justify-content-center  px-4">
               <Image
                 src="/img/team/simple.png"
                 alt="Simple Capital"
                 target="_blank"
                 rel="noreferrer"
-                className="img-fluid"
-                width={350}
-                height={145}
+                width={193.1}
+                height={80}
               />
             </div>
           </div>
