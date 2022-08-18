@@ -5,8 +5,8 @@ import HeroImage from '../public/img/main-image.png'
 import CtaImage from '../public/img/cta.png'
 import Business from '../public/img/business.jpg'
 import Budgeting from '../public/img/budgeting.jpg'
-import Manage from '../public/img/manage.jpg'
-import HiddenFees from '../public/img/hidden-fees.jpg'
+import SharePool from '../public/img/share-pool.png'
+import HeatlhtyMoney from '../public/img/healthy-money.png'
 // import DashboardMockup from '../public/img/dashboard-mockup.png'
 // import BeneficiaryMockup from '../public/img/beneficiary-mockup.png'
 // import PaybillMockup from '../public/img/paybill-mockup.png'
@@ -17,9 +17,9 @@ import HiddenFees from '../public/img/hidden-fees.jpg'
 export default function Home() {
   const pageTitle = 'Tulix - The Smart Way To Share Money'
   const pageDescription =
-    'Tulix helps you make direct business payments and fund allocations to beneficiaries from anywhere, simple and convenient.'
+    'Share, split, spend money with anyone in Kenya, from anywhere in the world.'
   const pageImage =
-    'https://res.cloudinary.com/avicdesign/image/upload/v1636459905/social-img_qpf63s.png'
+    'https://res.cloudinary.com/tulix/image/upload/v1660840952/blog/Media-Link-Preview-Image_ihuwfk.png'
   return (
     <Layout>
       <Head>
@@ -55,9 +55,10 @@ export default function Home() {
                     </div>
                     <div className="col-lg-5 mb-2">
                       <a
-                        href="#"
+                        href="https://play.google.com/store/apps/details?id=com.solutions.tulix"
                         className="btn btn-outline-light btn-lg btn-block"
                         role="button"
+                        target="_blank"
                       >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -74,9 +75,10 @@ export default function Home() {
                     </div>
                     <div className="col-lg-5 mb-22">
                       <a
-                        href="#"
+                        href="https://apps.apple.com/ke/app/tulix/id1587163986"
                         className="btn btn-outline-light btn-lg btn-block"
                         role="button"
+                        target="_blank"
                       >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -124,7 +126,10 @@ export default function Home() {
             <div className="row justify-content-center mb-5 pb-5">
               <div className="col-lg-8 text-center">
                 <h2 className=" h1 mb-4 ">Why you'll love using Tulix </h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>
+                  Because we've built it with you, your people and your money in
+                  mind.
+                </p>
               </div>
             </div>
             <div className="row justify-content-center align-items-center">
@@ -176,7 +181,7 @@ export default function Home() {
                     </div> */}
                     <div className="feature-img">
                       <Image
-                        src={Manage}
+                        src={SharePool}
                         alt="tulix dashboard-mockup"
                         className="card-img-top"
                         placeholder="blur"
@@ -221,7 +226,7 @@ export default function Home() {
                   <div className="card-body p-4">
                     <div className="feature-img">
                       <Image
-                        src={HiddenFees}
+                        src={HeatlhtyMoney}
                         alt="tulix dashboard-mockup"
                         className="card-img-top"
                         placeholder="blur"
@@ -263,7 +268,7 @@ export default function Home() {
                     <h2 className=" h1 mb-4">Frequently asked questions</h2>
                     <p>
                       If you have anything else you want to ask,{' '}
-                      <a href="mailto:info@tulix.app">reach out to us.</a>
+                      <a href="mailto:support@tulix.app">reach out to us.</a>
                     </p>
                   </div>
                 </div>
@@ -371,7 +376,7 @@ export default function Home() {
                               aria-expanded="true"
                               aria-controls="collapseOne"
                             >
-                              What is Tulix? (Is Tulix a money transfer app?)
+                              What is Tulix?
                             </button>
                           </h2>
                         </div>
@@ -546,7 +551,7 @@ export default function Home() {
                           </div>
                         </div>
                       </div>
-                      <div className="card">
+                      {/* <div className="card">
                         <div className="card-header bg-primary" id="headingSix">
                           <h2 className="mb-0">
                             <button
@@ -575,7 +580,7 @@ export default function Home() {
                             </p>
                           </div>
                         </div>
-                      </div>
+                      </div> */}
                       <div className="card">
                         <div
                           className="card-header bg-primary"
@@ -661,9 +666,10 @@ export default function Home() {
                   </div>
                   <div className="col-lg-5 mb-2">
                     <a
-                      href="#"
+                      href="https://play.google.com/store/apps/details?id=com.solutions.tulix"
                       className="btn btn-outline-primary btn-lg btn-block"
                       role="button"
+                      target="_blank"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -680,9 +686,10 @@ export default function Home() {
                   </div>
                   <div className="col-lg-5 mb-22">
                     <a
-                      href="#"
+                      href="https://apps.apple.com/ke/app/tulix/id1587163986"
                       className="btn btn-outline-primary btn-lg btn-block"
                       role="button"
+                      target="_blank"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"

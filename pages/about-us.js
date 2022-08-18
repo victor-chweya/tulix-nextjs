@@ -9,9 +9,9 @@ import BrianImg from '../public/img/team/brian.png'
 export default function About() {
   const pageTitle = 'About Us - Support your loved ones from wherever you are.'
   const pageDescription =
-    'Tulix helps you make direct business payments and fund allocations to beneficiaries from anywhere, simple and convenient.'
+    'Share, split, spend money with anyone in Kenya, from anywhere in the world.'
   const pageImage =
-    'https://res.cloudinary.com/avicdesign/image/upload/v1636459905/social-img_qpf63s.png'
+    'https://res.cloudinary.com/tulix/image/upload/v1660840952/blog/Media-Link-Preview-Image_ihuwfk.png'
   return (
     <Layout>
       <Head>
@@ -64,13 +64,13 @@ export default function About() {
                     convenient ways to make payments and manage finances with
                     the people that matter to them.
                   </p>
-                  <p className="small">
+                  <p>
                     Tulix was built to empower Africans everywhere by enabling
                     them to share money and collaborate on payments for specific
                     needs. Our app allows users to build healthier money
                     relationships with their people.
                   </p>
-                  <p className="small">
+                  <p>
                     People share money every day for different reasons: from
                     supporting their families at home to purchasing food and
                     household goods to medical and education expenses. Our
@@ -81,9 +81,9 @@ export default function About() {
                     using mobile money.
                   </p>
                 </div>
-                <div className="container hero-bg hero-about-2 my-5"></div>
+                <div className="container hero-about-section rounded my-5"></div>
                 <div className="col-lg-6 pr-lg-5">
-                  <p className="small">
+                  <p>
                     While several operators offer fast and affordable payments,
                     none provide transparency or the ability to collaborate with
                     beneficiaries on the usage of the money. Tulix provides this
@@ -94,7 +94,7 @@ export default function About() {
                   </p>
                 </div>
                 <div className="col-lg-6 pr-lg-5">
-                  <p className="small">
+                  <p>
                     Tulix offers value to both senders and receivers on a single
                     platform. We allow users to create “jars” for collaborative
                     budgeting, increased visibility, and better management of
@@ -131,7 +131,7 @@ export default function About() {
                   <p>
                     We are ambitious. We encourage innovation. We believe in
                     continuous learning and iteration. We want to build a
-                    company that will outlast us.If this sounds like you, come
+                    company that will outlast us. If this sounds like you, come
                     and build with us.
                   </p>
                 </div>
@@ -146,7 +146,7 @@ export default function About() {
                   <div className="card values h-100">
                     <div className="card-body">
                       <h3 className="mb-3 mt-4 h6">Empathy at the Front</h3>
-                      <p className="small">
+                      <p>
                         When you talk we actually listen. We cultivate
                         psychological safety so that team members feel safe
                         enough to speak freely about anything impacting their
@@ -161,7 +161,7 @@ export default function About() {
                       <h3 className="mb-3 mt-4 h6">
                         Teamwork Makes The Dream Work
                       </h3>
-                      <p className="small">
+                      <p>
                         We are all equals. When everyone understands and
                         respects each other’s roles it leads to better cohesion
                         which translates into the broader experience we strive
@@ -176,7 +176,7 @@ export default function About() {
                       <h3 className="mb-3 mt-4 h6">
                         Collaboration for Continuous Innovation
                       </h3>
-                      <p className="small">
+                      <p>
                         There is no bad idea, there are just ideas. Whether
                         you’re a team member or a customer we always want to
                         hear from you so we can learn and build Tulix together.
@@ -188,8 +188,8 @@ export default function About() {
                   <div className="card values h-100">
                     <div className="card-body">
                       <h3 className="mb-3 mt-4 h6">No “Code Switching”</h3>
-                      <p className="small">
-                        As Tulix we encourage you to show up fully as yourself.
+                      <p>
+                        At Tulix we encourage you to show up fully as yourself.
                         You get to decide what professionalism looks like for
                         you without sacrificing your personality, your interests
                         and your values.
@@ -208,7 +208,7 @@ export default function About() {
           <div className="row justify-content-lg-center text-lg-center mb-5">
             <div className="col-lg-10">
               <h2 className="section-title my-5">Our Investors </h2>
-              <p className="small">
+              <p>
                 So far, we're backed by global institutions as well as
                 individual angel investors to help us achieve our vision.
                 Together, we are aligned toward creating innovative and
@@ -217,31 +217,34 @@ export default function About() {
               </p>
             </div>
           </div>
-          <div className="row justify-content-center justify-content-lg-between">
-            <div className="col-lg-3 mb-5 d-flex align-items-center justify-content-center">
+          <div className="row justify-content-between">
+            <div className="col-lg-3 mb-4 d-flex align-items-center">
               <Image
                 src="/img/team/antlerlogo.png"
                 alt="Antler"
-                width={200}
-                height={51.5}
+                className="img-fluid"
+                width={563.11}
+                height={145}
               />
             </div>
-            <div className="col-lg-3 mb-5 d-flex align-items-center justify-content-center px-4">
+            <div className="col-lg-3 mb-4 d-flex align-items-center px-4">
               <Image
                 src="/img/team/catalystfund.png"
                 alt="Catalyst Fund"
-                width={364.41}
-                height={51.5}
+                className="img-fluid"
+                width={1025.25}
+                height={145}
               />
             </div>
-            <div className="col-lg-3 mb-5 d-flex align-items-center justify-content-center  px-4">
+            <div className="col-lg-3 mb-4 align-items-center px-4">
               <Image
                 src="/img/team/simple.png"
                 alt="Simple Capital"
                 target="_blank"
                 rel="noreferrer"
-                width={193.1}
-                height={80}
+                className="img-fluid"
+                width={350}
+                height={145}
               />
             </div>
           </div>
