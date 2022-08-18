@@ -59,6 +59,8 @@ export default function Home() {
                         className="btn btn-outline-light btn-lg btn-block"
                         role="button"
                         target="_blank"
+                        rel="noreferrer"
+                        s
                       >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -79,6 +81,7 @@ export default function Home() {
                         className="btn btn-outline-light btn-lg btn-block"
                         role="button"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -670,6 +673,7 @@ export default function Home() {
                       className="btn btn-outline-primary btn-lg btn-block"
                       role="button"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -690,6 +694,7 @@ export default function Home() {
                       className="btn btn-outline-primary btn-lg btn-block"
                       role="button"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"

@@ -277,9 +277,11 @@ export default function About() {
                 </div>
                 <div className="col-lg-5 mb-2">
                   <a
-                    href="#"
+                    href="https://play.google.com/store/apps/details?id=com.solutions.tulix"
                     className="btn btn-outline-primary btn-lg btn-block"
+                    target="_blank"
                     role="button"
+                    rel="noreferrer"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -296,9 +298,11 @@ export default function About() {
                 </div>
                 <div className="col-lg-5 mb-22">
                   <a
-                    href="#"
+                    href="https://apps.apple.com/ke/app/tulix/id1587163986"
                     className="btn btn-outline-primary btn-lg btn-block"
                     role="button"
+                    rel="noreferrer"
+                    targe="_blank"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
