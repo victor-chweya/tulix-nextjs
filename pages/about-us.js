@@ -2,9 +2,6 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Layout from '../components/layout'
 import HeroImage from '../public/img/main-image.png'
-import VisionImg from '../public/img/vision.png'
-import AlistairImg from '../public/img/team/alistair.png'
-import BrianImg from '../public/img/team/brian.png'
 
 export default function About() {
   const pageTitle = 'About Us - Support your loved ones from wherever you are.'
