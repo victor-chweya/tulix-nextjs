@@ -1,14 +1,14 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import Layout from '../components/layout'
-import HeroImage from '../public/img/main-image.png'
+import Head from "next/head";
+import Image from "next/image";
+import Layout from "../components/layout";
+import HeroImage from "../public/img/main-image.png";
 
 export default function About() {
-  const pageTitle = 'About Us - Support your loved ones from wherever you are.'
+  const pageTitle = "About Us - Support your loved ones from wherever you are.";
   const pageDescription =
-    'Share, split, spend money with anyone in Kenya, from anywhere in the world.'
+    "Share, split, spend money with anyone in Kenya, from anywhere in the world.";
   const pageImage =
-    'https://res.cloudinary.com/tulix/image/upload/v1660840952/blog/Media-Link-Preview-Image_ihuwfk.png'
+    "https://res.cloudinary.com/tulix/image/upload/v1660840952/blog/Media-Link-Preview-Image_ihuwfk.png";
   return (
     <Layout>
       <Head>
@@ -248,7 +248,7 @@ export default function About() {
         </div>
       </section>
       <div className="cta">
-        <div className="container py-5 ">
+        <div className="container">
           <div className="row justify-content-center ">
             <div className="col-lg-5 d-flex justify-content-center mb-5 mb-md-0">
               <Image
@@ -321,5 +321,5 @@ export default function About() {
         </div>
       </div>
     </Layout>
-  )
+  );
 }
