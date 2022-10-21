@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Layout from "../components/layout";
 import HeroImage from "../public/img/main-image.png";
-import CtaImage from "../public/img/cta.png";
+import CtaImage from "../public/img/hero-home.png";
 import Business from "../public/img/business.jpg";
 import Budgeting from "../public/img/budgeting.jpg";
 import SharePool from "../public/img/share-pool.png";
@@ -37,10 +37,10 @@ export default function Home() {
       </Head>
       <div>
         <section className="hero ">
-          <div className="container hero-bg bg-success">
+          <div className="container hero-bg bg-primary">
             <div className="row justify-content-between">
               <div className="col-lg-5  d-flex flex-column justify-content-center mb-5 mb-md-0">
-                <h1 className="hero-title mt-4 mb-3 text-white">
+                <h1 className="hero-title mt-4 mb-3 text-light">
                   The smart way to share money
                 </h1>
                 <p className="lead mb-5 text-white">
@@ -99,7 +99,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-5 d-flex justify-content-center hero-img">
+              <div className="col-lg-6 d-flex justify-content-center hero-img">
                 {/* <Image 
 								src={HeroImage} 
 								alt="tulix" 
@@ -114,9 +114,9 @@ export default function Home() {
                   alt="tulix dashboard-mockup"
                   className="img-fluid"
                   placeholder="blur"
-                  // layout="intrinsic"
-                  width={321.28}
-                  height={600}
+                  // layout="responsive"
+                  width={895.98}
+                  height={854.99}
                 />
               </div>
             </div>
@@ -134,118 +134,84 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className="row justify-content-center align-items-center">
-              {/* <div className="col-lg-6 mb-5 text-center mb-md-0">
+            <div className="row justify-content-center align-items-center mb-5 pb-5">
+              <div className="col-lg-4 ">
                 <Image
-                  src={CtaImage}
+                  src={Budgeting}
                   alt="tulix dashboard-mockup"
-                  className="img-fluid"
+                  className="img-fluid rounded"
                   placeholder="blur"
                   layout="intrinsic"
                 />
-              </div> */}
-              <div className="col-lg-6 mb-5 pb-4">
-                <div className="card values mb-4 h-100">
-                  <div className="card-body p-4">
-                    <div className="feature-img">
-                      <Image
-                        src={Budgeting}
-                        alt="tulix dashboard-mockup"
-                        className="card-img-top"
-                        placeholder="blur"
-                        layout="intrinsic"
-                      />
-                    </div>
+              </div>
+              <div className="col-lg-5 offset-lg-1">
+                <h3>Budgeting has never been easier</h3>
 
-                    <h3 className="mb-3 mt-4 h5 ">
-                      Budgeting has never been easier
-                    </h3>
+                <p className="small mb-0">
+                  Simplify everyday payments using Tulix Jars. Need to split
+                  your money for groceries, medical bills, school fees or just
+                  an outing or celebration? We’ve got you covered.
+                </p>
+              </div>
+            </div>
+            <div className="row justify-content-center align-items-center pb-5">
+              <div className="col-lg-5 ">
+                <h3>Share and pool money with your people</h3>
 
-                    <p className="small mb-0">
-                      Simplify everyday payments using Tulix Jars. Need to split
-                      your money for groceries, medical bills, school fees or
-                      just an outing or celebration? We’ve got you covered.
-                    </p>
-                  </div>
-                </div>
+                <p className="small mb-0">
+                  For the first time ever, add friends and family to your shared
+                  jars where you can contribute and manage money together for
+                  shared payments.
+                </p>
               </div>
-              <div className="col-lg-6 mb-5 pb-4">
-                <div className="card values mb-4 h-100">
-                  <div className="card-body p-4">
-                    {/* <div className="circle-icon">
-                      <img
-                        src="/img/icons/identification.svg"
-                        alt=""
-                        height={45}
-                        width={50}
-                        className="feature-icon"
-                      />
-                    </div> */}
-                    <div className="feature-img">
-                      <Image
-                        src={SharePool}
-                        alt="tulix dashboard-mockup"
-                        className="card-img-top"
-                        placeholder="blur"
-                        layout="intrinsic"
-                      />
-                    </div>
-                    <h3 className="mb-3 mt-4 h5">
-                      Share and pool money with your people
-                    </h3>
-                    <p className="small mb-0">
-                      For the first time ever, add friends and family to your
-                      shared jars where you can contribute and manage money
-                      together for shared payments.
-                    </p>
-                    &nbsp;
-                  </div>
-                </div>
+              <div className="col-lg-4 offset-lg-1">
+                <Image
+                  src={Business}
+                  alt="tulix dashboard-mockup"
+                  className="img-fluid rounded"
+                  placeholder="blur"
+                  layout="intrinsic"
+                />
               </div>
-              <div className="col-lg-6 mb-5">
-                <div className="card values mb-4 h-100">
-                  <div className="card-body p-4">
-                    <div className="feature-img">
-                      <Image
-                        src={Business}
-                        alt="tulix dashboard-mockup"
-                        className="card-img-top"
-                        placeholder="blur"
-                        layout="intrinsic"
-                      />
-                    </div>
-                    <h3 className="mb-3 mt-4 h5">Take control of your money</h3>
-                    <p className="small mb-0">
-                      Struggling to keep up with all your expenses? Easily sort
-                      your payments by category and receive an insightful
-                      summary of your transactions so you can spend better.
-                    </p>
-                  </div>
-                </div>
+            </div>
+            <div className="row justify-content-center align-items-center mb-5 pb-5">
+              <div className="col-lg-4 ">
+                <Image
+                  src={HeatlhtyMoney}
+                  alt="tulix dashboard-mockup"
+                  className="img-fluid rounded"
+                  placeholder="blur"
+                  layout="intrinsic"
+                />
               </div>
-              <div className="col-lg-6 mb-5">
-                <div className="card values mb-4 h-100">
-                  <div className="card-body p-4">
-                    <div className="feature-img">
-                      <Image
-                        src={HeatlhtyMoney}
-                        alt="tulix dashboard-mockup"
-                        className="card-img-top"
-                        placeholder="blur"
-                        layout="intrinsic"
-                      />
-                    </div>
-                    <h3 className="mb-3 mt-4 h5">
-                      Build healthier money relationships
-                    </h3>
-                    <p className="small mb-0">
-                      Whether it's a one-off or recurring expense, Tulix makes
-                      managing financial relationships a breeze…because money
-                      doesn’t always have to be awkward.
-                    </p>
-                    &nbsp;
-                  </div>
-                </div>
+              <div className="col-lg-5 offset-lg-1">
+                <h3>Take control of your money</h3>
+
+                <p className="small mb-0">
+                  Struggling to keep up with all your expenses? Easily sort your
+                  payments by category and receive an insightful summary of your
+                  transactions so you can spend better.
+                </p>
+              </div>
+            </div>
+            <div className="row justify-content-center align-items-center mb-5 pb-5">
+              <div className="col-lg-5 ">
+                <h3>Build healthier money relationships</h3>
+
+                <p className="small mb-0">
+                  Whether it's a one-off or recurring expense, Tulix makes
+                  managing financial relationships a breeze…because money
+                  doesn’t always have to be awkward.
+                </p>
+              </div>
+              <div className="col-lg-4 offset-lg-1">
+                <Image
+                  src={SharePool}
+                  alt="tulix dashboard-mockup"
+                  className="img-fluid rounded"
+                  placeholder="blur"
+                  layout="intrinsic"
+                />
               </div>
             </div>
           </div>

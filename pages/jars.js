@@ -30,12 +30,10 @@ export default function Jars() {
         <title>{pageTitle}</title>
       </Head>
       <section className="hero mb-5 ">
-        <div className="container hero-bg bg-primary">
+        <div className="container hero-bg bg-success">
           <div className="row justify-content-between">
             <div className="col-lg-5  d-flex flex-column justify-content-center mb-5 mb-md-0">
-              <h1 className="hero-title mt-4 mb-3 text-white">
-                Introducing Jars
-              </h1>
+              <h1 className="hero-title mt-4 mb-3">Introducing Jars</h1>
               <p className="lead mb-5 text-white">
                 Don’t you just hate having money for vastly different things in
                 one place? Think of a Jar as a separate place to set aside money
