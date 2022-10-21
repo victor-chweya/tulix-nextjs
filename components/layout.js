@@ -1,7 +1,7 @@
-import Head from 'next/head'
-import Navigation from './navigation'
-import Footer from './footer'
-import SubscribeModal from './subscribe-modal'
+import Head from "next/head";
+import Navigation from "./navigation";
+import Footer from "./footer";
+// import SubscribeModal from './subscribe-modal'
 
 //In order to use a component that references document or window import this component using a dynamic import with srr: false
 // import dynamic from 'next/dynamic'
@@ -26,5 +26,5 @@ export default function Layout({ children }) {
       {/* <SubscribeModal /> */}
       {/* <GetButtonWidgetDynamic /> */}
     </>
-  )
+  );
 }

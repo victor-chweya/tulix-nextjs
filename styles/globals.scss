@@ -1,6 +1,7 @@
 @import "custom";
 // Import all of Bootstrap's CSS
 // @import "~bootstrap/scss/bootstrap";
+@import "bootstrap-icons/font/bootstrap-icons"; // bootstrap icons
 @import "bootstrap/scss/functions"; // Required
 @import "bootstrap/scss/variables"; // Required
 
@@ -296,3 +297,27 @@ label {
 		margin-bottom: 2rem;
 	}
 }   
+
+.counter {
+  p{
+  margin-left:20px; 
+  padding:0 30px;
+  counter-increment: section;
+  position: relative;
+  counter-increment: section;}
+  p::before{ 
+  content: counter(section);
+  right: 100%; 
+  margin-right: -20px;
+  position: absolute;
+  
+  border-radius: 50%;
+  padding: 10px;
+  height: 40px;
+  width: 40px;
+  background-color: $primary;
+  text-align:center;
+  line-height: 1.5;
+  color: white;
+  }
+}

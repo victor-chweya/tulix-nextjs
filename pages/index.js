@@ -1,12 +1,12 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import Layout from '../components/layout'
-import HeroImage from '../public/img/main-image.png'
-import CtaImage from '../public/img/cta.png'
-import Business from '../public/img/business.jpg'
-import Budgeting from '../public/img/budgeting.jpg'
-import SharePool from '../public/img/share-pool.png'
-import HeatlhtyMoney from '../public/img/healthy-money.png'
+import Head from "next/head";
+import Image from "next/image";
+import Layout from "../components/layout";
+import HeroImage from "../public/img/main-image.png";
+import CtaImage from "../public/img/cta.png";
+import Business from "../public/img/business.jpg";
+import Budgeting from "../public/img/budgeting.jpg";
+import SharePool from "../public/img/share-pool.png";
+import HeatlhtyMoney from "../public/img/healthy-money.png";
 // import DashboardMockup from '../public/img/dashboard-mockup.png'
 // import BeneficiaryMockup from '../public/img/beneficiary-mockup.png'
 // import PaybillMockup from '../public/img/paybill-mockup.png'
@@ -15,11 +15,11 @@ import HeatlhtyMoney from '../public/img/healthy-money.png'
 // import Subscribe from '../components/Subscribe'
 
 export default function Home() {
-  const pageTitle = 'Tulix - The Smart Way To Share Money'
+  const pageTitle = "Tulix - The Smart Way To Share Money";
   const pageDescription =
-    'Share, split, spend money with anyone in Kenya, from anywhere in the world.'
+    "Share, split, spend money with anyone in Kenya, from anywhere in the world.";
   const pageImage =
-    'https://res.cloudinary.com/tulix/image/upload/v1660840952/blog/Media-Link-Preview-Image_ihuwfk.png'
+    "https://res.cloudinary.com/tulix/image/upload/v1660840952/blog/Media-Link-Preview-Image_ihuwfk.png";
   return (
     <Layout>
       <Head>
@@ -37,7 +37,7 @@ export default function Home() {
       </Head>
       <div>
         <section className="hero ">
-          <div className="container hero-bg">
+          <div className="container hero-bg bg-success">
             <div className="row justify-content-between">
               <div className="col-lg-5  d-flex flex-column justify-content-center mb-5 mb-md-0">
                 <h1 className="hero-title mt-4 mb-3 text-white">
@@ -60,7 +60,6 @@ export default function Home() {
                         role="button"
                         target="_blank"
                         rel="noreferrer"
-                        s
                       >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -75,7 +74,7 @@ export default function Home() {
                         Google Play
                       </a>
                     </div>
-                    <div className="col-lg-5 mb-22">
+                    <div className="col-lg-5 mb-2">
                       <a
                         href="https://apps.apple.com/ke/app/tulix/id1587163986"
                         className="btn btn-outline-light btn-lg btn-block"
@@ -158,10 +157,10 @@ export default function Home() {
                       />
                     </div>
 
-                    <h3 className="mb-3 mt-4 h5">
+                    <h3 className="mb-3 mt-4 h5 ">
                       Budgeting has never been easier
                     </h3>
-                    <div className="card-text"></div>
+
                     <p className="small mb-0">
                       Simplify everyday payments using Tulix Jars. Need to split
                       your money for groceries, medical bills, school fees or
@@ -256,7 +255,7 @@ export default function Home() {
             <div className="row justify-content-center py-5">
               <div className="col-lg-8 text-center">
                 <h2 className="h1">
-                  All of this in one app… and we’re just getting started{' '}
+                  All of this in one app… and we’re just getting started{" "}
                 </h2>
               </div>
             </div>
@@ -270,7 +269,7 @@ export default function Home() {
                   <div className="col-lg-6">
                     <h2 className=" h1 mb-4">Frequently asked questions</h2>
                     <p>
-                      If you have anything else you want to ask,{' '}
+                      If you have anything else you want to ask,{" "}
                       <a href="mailto:support@tulix.app">reach out to us.</a>
                     </p>
                   </div>
@@ -629,7 +628,7 @@ export default function Home() {
         </section>
 
         <div className="cta">
-          <div className="container py-5 ">
+          <div className="container ">
             <div className="row justify-content-center ">
               <div className="col-lg-5 d-flex justify-content-center mb-5 mb-md-0">
                 <Image
@@ -717,5 +716,5 @@ export default function Home() {
         </div>
       </div>
     </Layout>
-  )
+  );
 }
