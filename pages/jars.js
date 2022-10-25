@@ -475,7 +475,7 @@ export default function Jars() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 px-5 text-center">
+            <div className="col-lg-3 px-3 text-center">
               <Image
                 src={DailyImage}
                 alt="tulix dashboard-mockup"
