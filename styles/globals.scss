@@ -1,6 +1,6 @@
 @import "custom";
 // Import all of Bootstrap's CSS
-// @import "~bootstrap/scss/bootstrap";
+// @import "~bootstrap/scss/bootstrap"; 
 @import "bootstrap-icons/font/bootstrap-icons"; // bootstrap icons
 @import "bootstrap/scss/functions"; // Required
 @import "bootstrap/scss/variables"; // Required
@@ -97,7 +97,7 @@ label {
   // background: linear-gradient(180deg, #fcfdff 60%, #385eff05);
   position: relative;  
   overflow: hidden;
-}
+} 
 .hero-3{
   background: #005cff;
 	background-image: url('/img/background.svg');

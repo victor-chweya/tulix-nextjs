@@ -1,12 +1,12 @@
 import Head from "next/head";
 import Image from "next/image";
 import Layout from "../components/layout";
-import HeroImage from "../public/img/jars-cta.png";
+import HeroImage from "../public/img/jars-cta2.png";
 import CtaImage from "../public/img/jars-hero.png";
-import IntroImage from "../public/img/jars-intro.png";
-import CreateImage from "../public/img/jars-create.png";
+import IntroImage from "../public/img/jars-create.png";
+import CreateImage from "../public/img/jars-intro.png";
 import ShareImage from "../public/img/jars-share.png";
-import DailyImage from "../public/img/jars-daily.png";
+import DailyImage from "../public/img/usecase.png";
 
 export default function Jars() {
   const pageTitle = "About Us - Support your loved ones from wherever you are.";
@@ -30,10 +30,12 @@ export default function Jars() {
         <title>{pageTitle}</title>
       </Head>
       <section className="hero mb-5 ">
-        <div className="container hero-bg bg-success">
+        <div className="container hero-bg bg-primary">
           <div className="row justify-content-between">
             <div className="col-lg-5  d-flex flex-column justify-content-center mb-5 mb-md-0">
-              <h1 className="hero-title mt-4 mb-3">Introducing Jars</h1>
+              <h1 className="hero-title mt-4 mb-3 text-light">
+                Introducing Jars
+              </h1>
               <p className="lead mb-5 text-white">
                 Don’t you just hate having money for vastly different things in
                 one place? Think of a Jar as a separate place to set aside money
@@ -49,7 +51,7 @@ export default function Jars() {
                   <div className="col-lg-5 mb-2">
                     <a
                       href="https://play.google.com/store/apps/details?id=com.solutions.tulix"
-                      className="btn btn-outline-light btn-lg btn-block"
+                      className="btn btn-success text-light  btn-lg btn-block"
                       role="button"
                       target="_blank"
                       rel="noreferrer"
@@ -61,7 +63,7 @@ export default function Jars() {
                   <div className="col-lg-5 mb-2">
                     <a
                       href="https://apps.apple.com/ke/app/tulix/id1587163986"
-                      className="btn btn-outline-light btn-lg btn-block"
+                      className="btn btn-success text-light btn-lg btn-block"
                       role="button"
                       target="_blank"
                       rel="noreferrer"
@@ -158,14 +160,17 @@ export default function Jars() {
               <p>A better way to manage your money</p>
             </div>
           </div>
-          <div className="row justify-content-center align-items-center">
-            <div className="col-lg-5 ">
+          <div className="row">
+            <div className="col-lg-6 offset-lg-1 mb-4">
               <h3 className="h3">Jars are all you need</h3>
-
-              <p className="small mb-4">
+              <p className="small ">
                 Tulix offers different types of Jars to help you stay on top of
                 all your money.
               </p>
+            </div>
+          </div>
+          <div className="row justify-content-center align-items-center">
+            <div className="col-lg-5 ">
               <div className="card bg-light border-0 p-2 mb-4">
                 <div className="card-body">
                   <div className="mb-2">
@@ -229,7 +234,7 @@ export default function Jars() {
               <div>
                 <a
                   href="https://play.google.com/store/apps/details?id=com.solutions.tulix"
-                  className="btn btn-outline-primary btn-lg mr-2 "
+                  className="btn btn-success text-white btn-lg mr-2 "
                   target="_blank"
                   role="button"
                   rel="noreferrer"
@@ -239,7 +244,7 @@ export default function Jars() {
                 </a>
                 <a
                   href="https://apps.apple.com/ke/app/tulix/id1587163986"
-                  className="btn btn-outline-primary btn-lg ml-2"
+                  className="btn btn-success text-white btn-lg ml-2"
                   role="button"
                   target="_blank"
                   rel="noreferrer"
@@ -311,7 +316,7 @@ export default function Jars() {
                   &nbsp;
                 </p>
                 <p className="small">
-                  Click on “Members”, select up to 10 members from your contact
+                  Click on “Members”, select up to 5 members from your contact
                   list and press “Invite”.
                 </p>
                 <p className="small">
@@ -470,15 +475,13 @@ export default function Jars() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 text-center">
+            <div className="col-lg-3 px-5 text-center">
               <Image
                 src={DailyImage}
                 alt="tulix dashboard-mockup"
                 className="img-fluid"
                 placeholder="blur"
                 layout="responsive"
-                width={445}
-                height={900}
               />
             </div>
             <div className="col-lg-4 d-flex flex-column align-items-center justify-content-center ">
@@ -550,8 +553,7 @@ export default function Jars() {
                 alt="tulix dashboard-mockup"
                 className="img-fluid"
                 placeholder="blur"
-                width={600}
-                height={600}
+                layout="intrinsic"
               />
             </div>
             <div className="col-lg-5 offset-md-1 d-flex flex-column justify-content-center ">
@@ -569,7 +571,7 @@ export default function Jars() {
                 <div className="col-lg-5 mb-2">
                   <a
                     href="https://play.google.com/store/apps/details?id=com.solutions.tulix"
-                    className="btn btn-outline-primary btn-lg btn-block"
+                    className="btn btn-success text-light btn-lg btn-block"
                     target="_blank"
                     role="button"
                     rel="noreferrer"
@@ -578,10 +580,10 @@ export default function Jars() {
                     Google Play
                   </a>
                 </div>
-                <div className="col-lg-5 mb-22">
+                <div className="col-lg-5 mb-2">
                   <a
                     href="https://apps.apple.com/ke/app/tulix/id1587163986"
-                    className="btn btn-outline-primary btn-lg btn-block"
+                    className="btn btn-success text-light btn-lg btn-block"
                     role="button"
                     rel="noreferrer"
                     targe="_blank"
