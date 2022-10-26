@@ -286,7 +286,7 @@ export default function Jars() {
                 </p>
                 <p className="small">
                   Add a personal touch by selecting the colour and name of your
-                  maximum amount.
+                  Jar.
                   <br /> &nbsp;
                 </p>
                 <p className="small">
