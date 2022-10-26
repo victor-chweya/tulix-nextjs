@@ -29,13 +29,14 @@ export default function Faqs() {
       <section className="about-us">
         <div className="container">
           <div className="row justify-content-lg-center ">
-            <div className="col-lg-4">
+            <div className="col-lg-8">
               <h6 className="text-success">Help Centre</h6>
               <h2 className="section-title ">Frequently Asked Questions</h2>
             </div>
-            <div className="col-lg-8 mb-5">
+
+            <div className="col-lg-8 my-4">
               <ul
-                className="nav nav-pills nav-fill mb-3"
+                className="nav nav-pills nav-fill mb-4"
                 id="pills-tab"
                 role="tablist"
               >
