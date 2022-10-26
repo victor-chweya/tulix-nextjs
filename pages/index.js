@@ -44,7 +44,7 @@ export default function Home() {
                   The smart way to share money
                 </h1>
                 <p className="lead mb-5 text-white">
-                  Share, split, spend money with anyone in Kenya, from anywhere
+                  Split, Spend & Share money with anyone in Kenya, from anywhere
                   in the world.
                 </p>
                 <div className="hero-cta ">
