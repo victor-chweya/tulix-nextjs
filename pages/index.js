@@ -3,7 +3,7 @@ import Image from "next/image";
 import Layout from "../components/layout";
 import HeroImage from "../public/img/main-image.png";
 import CtaImage from "../public/img/cta.png";
-import Business from "../public/img/business-2.png";
+import Control from "../public/img/business-2.png";
 import Budgeting from "../public/img/budgeting-2.png";
 import SharePool from "../public/img/healthy-money2.png";
 import HeatlhtyMoney from "../public/img/share-pool-2.png";
@@ -126,9 +126,9 @@ export default function Home() {
                 />
               </div>
               <div className="col-lg-5 offset-lg-1">
-                <h3>Budgeting has never been easier</h3>
+                <h3 className="mb-4">Budgeting has never been easier</h3>
 
-                <p className="small mb-0">
+                <p className="lead mb-0">
                   Simplify everyday payments using Tulix Jars. Need to split
                   your money for groceries, medical bills, school fees or just
                   an outing or celebration? We’ve got you covered.
@@ -137,9 +137,9 @@ export default function Home() {
             </div>
             <div className="row justify-content-center align-items-center pb-5">
               <div className="col-lg-5 ">
-                <h3>Share and pool money with your people</h3>
+                <h3 className="mb-4">Share and pool money with your people</h3>
 
-                <p className="small mb-0">
+                <p className="lead  mb-0">
                   For the first time ever, add friends and family to your shared
                   jars where you can contribute and manage money together for
                   shared payments.
@@ -147,7 +147,7 @@ export default function Home() {
               </div>
               <div className="col-lg-4 offset-lg-1">
                 <Image
-                  src={Business}
+                  src={SharePool}
                   alt="tulix dashboard-mockup"
                   className="img-fluid rounded"
                   placeholder="blur"
@@ -158,7 +158,7 @@ export default function Home() {
             <div className="row justify-content-center align-items-center mb-5 pb-5">
               <div className="col-lg-4 ">
                 <Image
-                  src={HeatlhtyMoney}
+                  src={Control}
                   alt="tulix dashboard-mockup"
                   className="img-fluid rounded"
                   placeholder="blur"
@@ -166,9 +166,9 @@ export default function Home() {
                 />
               </div>
               <div className="col-lg-5 offset-lg-1">
-                <h3>Take control of your money</h3>
+                <h3 className="mb-4">Take control of your money</h3>
 
-                <p className="small mb-0">
+                <p className="lead mb-0">
                   Struggling to keep up with all your expenses? Easily sort your
                   payments by category and receive an insightful summary of your
                   transactions so you can spend better.
@@ -177,9 +177,9 @@ export default function Home() {
             </div>
             <div className="row justify-content-center align-items-center mb-5 pb-5">
               <div className="col-lg-5 ">
-                <h3>Build healthier money relationships</h3>
+                <h3 className="mb-4">Build healthier money relationships</h3>
 
-                <p className="small mb-0">
+                <p className="lead mb-0">
                   Whether it's a one-off or recurring expense, Tulix makes
                   managing financial relationships a breeze…because money
                   doesn’t always have to be awkward.
@@ -187,7 +187,7 @@ export default function Home() {
               </div>
               <div className="col-lg-4 offset-lg-1">
                 <Image
-                  src={SharePool}
+                  src={HeatlhtyMoney}
                   alt="tulix dashboard-mockup"
                   className="img-fluid rounded"
                   placeholder="blur"
@@ -204,11 +204,15 @@ export default function Home() {
                 <h2 className="h1 mb-4">
                   All of this in one app… and we’re just getting started{" "}
                 </h2>
-                <p className="text-light">Download Tulix on</p>
-                <div>
+              </div>
+              <div className="row justify-content-center">
+                <div className="col-lg-12 text-center">
+                  <p className="small text-light">Download Tulix On</p>
+                </div>
+                <div className="col-lg-5 mb-2">
                   <a
                     href="https://play.google.com/store/apps/details?id=com.solutions.tulix"
-                    className="btn btn-success text-white btn-lg mr-2 "
+                    className="btn btn-success text-light btn-lg btn-block"
                     target="_blank"
                     role="button"
                     rel="noreferrer"
@@ -216,14 +220,16 @@ export default function Home() {
                     <i className="bi-google-play mr-2"></i>
                     Google Play
                   </a>
+                </div>
+                <div className="col-lg-5 mb-2">
                   <a
                     href="https://apps.apple.com/ke/app/tulix/id1587163986"
-                    className="btn btn-success text-white btn-lg ml-2"
+                    className="btn btn-success text-light btn-lg btn-block"
                     role="button"
-                    target="_blank"
                     rel="noreferrer"
+                    targe="_blank"
                   >
-                    <i className="mr-2 bi-apple"></i>
+                    <i className="bi-apple mr-2"></i>
                     App Store
                   </a>
                 </div>
@@ -233,10 +239,10 @@ export default function Home() {
         </section>
         <section className="home-faqss my-5">
           <div className="container">
-            <div className="row">
-              <div className="col-lg-12">
+            <div className="row justify-content-center">
+              <div className="col-lg-10">
                 <div className="row mb-5">
-                  <div className="col-lg-6">
+                  <div className="col-lg-12 text-center">
                     <h2 className=" h1 mb-4">Frequently asked questions</h2>
                     <p>
                       If you have anything else you want to ask,{" "}
@@ -338,10 +344,10 @@ export default function Home() {
                   <div className="col-lg-12 mb-5">
                     <div className="accordion" id="accordionFAQs">
                       <div className="card">
-                        <div className="card-header bg-primary" id="headingOne">
+                        <div className="card-header " id="headingOne">
                           <h2 className="mb-0">
                             <button
-                              className="btn btn-primary btn-block border-0 btn-lg text-left font-weight-bold py-md-3 collapsed"
+                              className="btn btn-link btn-block border-0 btn-lg text-left font-weight-bold py-md-3 collapsed"
                               type="button"
                               data-toggle="collapse"
                               data-target="#collapseOne"
@@ -379,10 +385,10 @@ export default function Home() {
                         </div>
                       </div>
                       <div className="card ">
-                        <div className="card-header bg-primary" id="headingTwo">
+                        <div className="card-header " id="headingTwo">
                           <h2 className="mb-0">
                             <button
-                              className="btn btn-primary btn-block border-0 text-left font-weight-bold py-md-3 collapsed"
+                              className="btn btn-link btn-block border-0 text-left font-weight-bold py-md-3 collapsed"
                               type="button"
                               data-toggle="collapse"
                               data-target="#collapseTwo"
@@ -421,13 +427,10 @@ export default function Home() {
                         </div>
                       </div>
                       <div className="card">
-                        <div
-                          className="card-header bg-primary"
-                          id="headingThree"
-                        >
+                        <div className="card-header" id="headingThree">
                           <h2 className="mb-0">
                             <button
-                              className="btn btn-primary btn-block border-0 text-left font-weight-bold py-md-3 collapsed"
+                              className="btn btn-link btn-block border-0 text-left font-weight-bold py-md-3 collapsed"
                               type="button"
                               data-toggle="collapse"
                               data-target="#collapseThree"
@@ -459,13 +462,10 @@ export default function Home() {
                         </div>
                       </div>
                       <div className="card">
-                        <div
-                          className="card-header bg-primary"
-                          id="headingFour"
-                        >
+                        <div className="card-header " id="headingFour">
                           <h2 className="mb-0">
                             <button
-                              className="btn btn-primary btn-block border-0 text-left font-weight-bold py-md-3 collapsed"
+                              className="btn btn-link btn-block border-0 text-left font-weight-bold py-md-3 collapsed"
                               type="button"
                               data-toggle="collapse"
                               data-target="#collapseFour"
@@ -491,13 +491,10 @@ export default function Home() {
                         </div>
                       </div>
                       <div className="card">
-                        <div
-                          className="card-header bg-primary"
-                          id="headingFive"
-                        >
+                        <div className="card-header" id="headingFive">
                           <h2 className="mb-0">
                             <button
-                              className="btn btn-primary btn-block border-0 text-left font-weight-bold py-md-3 collapsed"
+                              className="btn btn-link btn-block border-0 text-left font-weight-bold py-md-3 collapsed"
                               type="button"
                               data-toggle="collapse"
                               data-target="#collapseFive"
@@ -554,13 +551,10 @@ export default function Home() {
                         </div>
                       </div> */}
                       <div className="card">
-                        <div
-                          className="card-header bg-primary"
-                          id="headingSeven"
-                        >
+                        <div className="card-header" id="headingSeven">
                           <h2 className="mb-0">
                             <button
-                              className="btn btn-primary btn-block border-0 text-left font-weight-bold py-md-3 collapsed"
+                              className="btn btn-link btn-block border-0 text-left font-weight-bold py-md-3 collapsed"
                               type="button"
                               data-toggle="collapse"
                               data-target="#collapseSeven"

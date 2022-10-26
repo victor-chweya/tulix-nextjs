@@ -230,11 +230,15 @@ export default function Jars() {
           <div className="row justify-content-center mb-5 pb-5">
             <div className="col-lg-8 text-center">
               <h2 className=" h1 mb-4 ">It’s time to “jars” it up</h2>
-              <p>First, Download Tulix on</p>
-              <div>
+            </div>
+            <div className="row justify-content-center">
+              <div className="col-lg-12 text-center">
+                <p className="small">Download Tulix On</p>
+              </div>
+              <div className="col-lg-5 mb-2">
                 <a
                   href="https://play.google.com/store/apps/details?id=com.solutions.tulix"
-                  className="btn btn-success text-white btn-lg mr-2 "
+                  className="btn btn-success text-light btn-lg btn-block"
                   target="_blank"
                   role="button"
                   rel="noreferrer"
@@ -242,14 +246,16 @@ export default function Jars() {
                   <i className="bi-google-play mr-2"></i>
                   Google Play
                 </a>
+              </div>
+              <div className="col-lg-5 mb-2">
                 <a
                   href="https://apps.apple.com/ke/app/tulix/id1587163986"
-                  className="btn btn-success text-white btn-lg ml-2"
+                  className="btn btn-success text-light btn-lg btn-block"
                   role="button"
-                  target="_blank"
                   rel="noreferrer"
+                  targe="_blank"
                 >
-                  <i className="mr-2 bi-apple"></i>
+                  <i className="bi-apple mr-2"></i>
                   App Store
                 </a>
               </div>
@@ -280,7 +286,8 @@ export default function Jars() {
                 </p>
                 <p className="small">
                   Add a personal touch by selecting the colour and name of your
-                  maximum amount. Jar. <br /> &nbsp;
+                  maximum amount.
+                  <br /> &nbsp;
                 </p>
                 <p className="small">
                   Load your Jar using money from your main wallet and you’re
@@ -289,11 +296,8 @@ export default function Jars() {
               </div>
               <p className="small">
                 If you want to pay for medication using your health Jar, just
-                select it on the relevant prompt when making a payment.
-              </p>
-              <p className="small">
-                The money comes from that Jar and you’ll see all your
-                health-related transactions in the same Jar.
+                select it on the relevant prompt when making a payment or just
+                pay directly from within the Jar by selecting the "Pay" option.
               </p>
             </div>
           </div>
