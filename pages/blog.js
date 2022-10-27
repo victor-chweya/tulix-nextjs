@@ -1,26 +1,26 @@
-import Head from 'next/head'
-import Link from 'next/link'
-import Layout from '../components/layout'
-import Date from '../components/date'
-import { getSortedPostsData } from '../lib/posts'
-import Image from 'next/image'
-import { buildImageUrl } from 'cloudinary-build-url'
+import Head from "next/head";
+import Link from "next/link";
+import Layout from "../components/layout";
+import Date from "../components/date";
+import { getSortedPostsData } from "../lib/posts";
+import Image from "next/image";
+import { buildImageUrl } from "cloudinary-build-url";
 
 export async function getStaticProps() {
-  const allPostsData = getSortedPostsData()
+  const allPostsData = getSortedPostsData();
   return {
     props: {
       allPostsData,
     },
-  }
+  };
 }
 
 export default function Blog({ allPostsData }) {
-  const pageTitle = 'Blog - Support your loved ones from wherever you are.'
+  const pageTitle = "Blog - Support your loved ones from wherever you are.";
   const pageDescription =
-    'Sharing stories about how simple and convenient it is for Africans abroad to pay businesses back home and to support their families from abroad using the Tulix App.'
+    "Sharing stories of Africans everywhere who are shaping the future of the continent through the Tulix lens.";
   const pageImage =
-    'https://res.cloudinary.com/tulix/image/upload/v1660840952/blog/Media-Link-Preview-Image_ihuwfk.png'
+    "https://res.cloudinary.com/tulix/image/upload/v1660840952/blog/Media-Link-Preview-Image_ihuwfk.png";
   return (
     <Layout>
       <Head>
@@ -43,9 +43,8 @@ export default function Blog({ allPostsData }) {
             <div className="col-lg-8 pb-5">
               <h2 className="section-title ">Blog</h2>
               <h6 className="text-success">
-                Sharing stories about how simple and convenient it is for
-                Africans abroad to pay businesses back home and to support their
-                families from abroad using the Tulix App.
+                Sharing stories of Africans everywhere who are shaping the
+                future of the continent through the Tulix lens.
               </h6>
             </div>
             <div className="col-lg-8 mb-5">
@@ -55,7 +54,7 @@ export default function Blog({ allPostsData }) {
                     <div className="col-lg-6 mb-3" key={id}>
                       <div
                         className="card card-post h-100 border-0"
-                        style={{ background: '#fcfdff' }}
+                        style={{ background: "#fcfdff" }}
                       >
                         <Image
                           src={buildImageUrl(`${thumbnail}`, {
@@ -64,10 +63,10 @@ export default function Blog({ allPostsData }) {
                             },
                             transformations: {
                               resize: {
-                                type: 'thumb',
+                                type: "thumb",
                                 width: 397,
-                                aspectRatio: '1.5',
-                                gravity: 'auto:subject',
+                                aspectRatio: "1.5",
+                                gravity: "auto:subject",
                               },
                             },
                           })}
@@ -79,7 +78,7 @@ export default function Blog({ allPostsData }) {
                         <div className="card-body px-0">
                           <h4 className="card-title">{title}</h4>
                           <p className="card-text">
-                            {excerpt && excerpt.substring(0, 140) + '...'}
+                            {excerpt && excerpt.substring(0, 140) + "..."}
                           </p>
                           <p className="text-muted mb-0">{author}</p>
                           <small>
@@ -91,7 +90,7 @@ export default function Blog({ allPostsData }) {
                         </div>
                       </div>
                     </div>
-                  ),
+                  )
                 )}
               </div>
             </div>
@@ -99,5 +98,5 @@ export default function Blog({ allPostsData }) {
         </div>
       </section>
     </Layout>
-  )
+  );
 }
