@@ -6,7 +6,7 @@ import FaqsFeatures from "./faqs-features";
 import FaqsSupport from "./faqs-support";
 
 export default function Faqs() {
-  const pageTitle = "FAQs - Support your loved ones from wherever you are.";
+  const pageTitle = "FAQs - Frequently Asked Questions";
   const pageDescription =
     "Share, split, spend money with anyone in Kenya, from anywhere in the world.";
   const pageImage =
