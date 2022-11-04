@@ -9,7 +9,7 @@ import ShareImage from "../public/img/jars-share.png";
 import DailyImage from "../public/img/usecase.png";
 
 export default function Jars() {
-  const pageTitle = "About Us - Support your loved ones from wherever you are.";
+  const pageTitle = "Jars - The Smart Way to Share Money";
   const pageDescription =
     "Share, split, spend money with anyone in Kenya, from anywhere in the world.";
   const pageImage =
@@ -229,7 +229,9 @@ export default function Jars() {
         <div className="container">
           <div className="row justify-content-center mb-5 pb-5">
             <div className="col-lg-8 text-center">
-              <h2 className=" h1 mb-4 ">It’s time to “jars” it up</h2>
+              <h2 className=" h1 mb-4 ">
+                It’s time to <span className="text-success"> “Jars” </span>it up
+              </h2>
             </div>
             <div className="row justify-content-center">
               <div className="col-lg-12 text-center">
@@ -563,7 +565,7 @@ export default function Jars() {
             <div className="col-lg-5 offset-md-1 d-flex flex-column justify-content-center ">
               <h2 className="mb-5">
                 Join lots of other
-                <span className="text-success">“Tulixers” </span> today and{" "}
+                <span className="text-success"> “Tulixers” </span> today and{" "}
                 <span className="text-success">“Jars” </span>your way to
                 financial freedom.
               </h2>

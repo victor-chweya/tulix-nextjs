@@ -4,7 +4,7 @@ import Layout from "../components/layout";
 import HeroImage from "../public/img/main-image.png";
 
 export default function About() {
-  const pageTitle = "About Us - Support your loved ones from wherever you are.";
+  const pageTitle = "About Us - Built in Kenya for the world";
   const pageDescription =
     "Share, split, spend money with anyone in Kenya, from anywhere in the world.";
   const pageImage =

@@ -16,7 +16,7 @@ export async function getStaticProps() {
 }
 
 export default function Blog({ allPostsData }) {
-  const pageTitle = "Blog - Support your loved ones from wherever you are.";
+  const pageTitle = "Blog - The Smart Way to Share Money";
   const pageDescription =
     "Sharing stories of Africans everywhere who are shaping the future of the continent through the Tulix lens.";
   const pageImage =
