@@ -17,7 +17,7 @@ import HeatlhtyMoney from "../public/img/share-pool-2.png";
 export default function Home() {
   const pageTitle = "Tulix - The Smart Way To Share Money";
   const pageDescription =
-    "Share, split, spend money with anyone in Kenya, from anywhere in the world.";
+    "Split, spend & share money with anyone in Kenya, from anywhere in the world.";
   const pageImage =
     "https://res.cloudinary.com/tulix/image/upload/v1660840952/blog/Media-Link-Preview-Image_ihuwfk.png";
   return (
