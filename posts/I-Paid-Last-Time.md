@@ -18,8 +18,7 @@ Here are three different bill-splitting scenarios and how [Tulix Jars](https://w
 
 ### Percentages for the Win
 
-!(https://res.cloudinary.com/tulix/image/upload/w_717,c_fill/v1668400464/blog/The_Real_Chizz-Tweet-Splitting_ynqkq2.jpg)
-[Link to Tweet](https://twitter.com/The_Real_Chizz/status/1565557136716926976 "Tweet by @The_Real_Chizz")
+[![Tweet by @The_Real_Chizz](https://res.cloudinary.com/tulix/image/upload/w_717,c_fill/v1668400464/blog/The_Real_Chizz-Tweet-Splitting_ynqkq2.jpg "Tweet by @The_Real_Chizz")](https://twitter.com/The_Real_Chizz/status/1565557136716926976)
 
 There are three expense categories where shared Jars would be useful for Chizz and his partner: utilities (fuel, electricity & water), rent and food.
 
@@ -35,8 +34,7 @@ We all know how easy it is to use money meant for other things to pay for food o
 
 ### Out with Joint Accounts, In with Shared Jars
 
-!(https://res.cloudinary.com/tulix/image/upload/w_717,c_fill/v1668400464/blog/Chisylvie-Tweet-Splitting_ocaolw.jpg)
-[Link to Tweet](https://twitter.com/chisylvie/status/1566494650159996930 "Tweet by @chisylvie")
+[![Tweet by @chisylvie](https://res.cloudinary.com/tulix/image/upload/w_717,c_fill/v1668400464/blog/Chisylvie-Tweet-Splitting_ocaolw.jpg "Tweet by @chisylvie")](https://twitter.com/chisylvie/status/1566494650159996930)
 
 Someone described marriage as “a life pooling exercise for the purpose of splitting responsibility” and in @chisylvie’s household, this sounds accurate.
 
@@ -52,17 +50,16 @@ In a nutshell, think of an Open Jar like a temporary joint account that you can 
 
 ### There’s Ours and There’s Mine
 
-!(https://res.cloudinary.com/tulix/image/upload/w_717,c_fill/v1668400464/blog/Ibukun_itimi-Tweet-Splitting_kcfn9a.jpg)
-[Link to Tweet](https://twitter.com/ibukun_itimi/status/1566751429108371459 "Tweet by @ibukun_itimi")
+[![Tweet by @ibukun_itimi](https://res.cloudinary.com/tulix/image/upload/w_717,c_fill/v1668400464/blog/Ibukun_itimi-Tweet-Splitting_kcfn9a.jpg "Tweet by @ibukun_itimi")](https://twitter.com/ibukun_itimi/status/1566751429108371459)
 
 Keeping up with the “life pooling exercise” theory, six shared Jars are an option here:
 
 - A Merchant Jar for rent and utilities because these bills are usually fixed amounts with recurring dates (luckily you can automate such payments on Tulix).
 - Two separate Goal Jars for savings and emergencies where their money can earn interest while remaining available if a need should arise.
 - Three separate Open Jars for:
-  Food: so each person can shop anywhere anytime while staying within the budget.
-  Kids: plan for big and small purchases like school fees and clothes.
-  Fun: take-out, road trips, hikes, birthdays, a vacation you name it. If it makes the family happy, money for it goes into this Jar.
+  - Food: so each person can shop anywhere anytime while staying within the budget.
+  - Kids: plan for big and small purchases like school fees and clothes.
+  - Fun: take-out, road trips, hikes, birthdays, a vacation you name it. If it makes the family happy, money for it goes into this Jar.
 
 And yes, you still get to buy whatever you want even when you’re in a relationship. Just apply the same bill-splitting principles to your finances and make the Jars work for you.
 
