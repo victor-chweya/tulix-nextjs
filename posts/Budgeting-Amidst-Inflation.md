@@ -26,7 +26,7 @@ For instance, if travelling is your priority, you can forgo or limit frequent ea
 
 Aside from a Dream Jar, four other types of finances we need to plan for on average are bills, personal expenses, savings/investment and an emergency fund.
 
-Here are three types of Tulix Jars that can help you budget:
+Here are 3 types of Tulix Jars that can help you budget:
 
 - A Merchant Jar is perfect for utilities like water and rent since they are recurring expenses that you can tie to specific service providers;
 - An Open Jar is great for personal expenses like food and clothes that have no deadlines;
