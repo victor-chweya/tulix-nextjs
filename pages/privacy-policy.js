@@ -1,13 +1,12 @@
-import Head from 'next/head'
-import Layout from '../components/layout'
+import Head from "next/head";
+import Layout from "../components/layout";
 
 export default function PrivacyPolicy() {
-  const pageTitle =
-    'Privacy Policy - Support your loved ones from wherever you are.'
+  const pageTitle = "Tulix - Privacy Policy";
   const pageDescription =
-    'Share, split, spend money with anyone in Kenya, from anywhere in the world.'
+    "Split, spend & share money with anyone in Kenya, from anywhere in the world.";
   const pageImage =
-    'https://res.cloudinary.com/avicdesign/image/upload/v1636459905/social-img_qpf63s.png'
+    "https://res.cloudinary.com/tulix/image/upload/v1660840952/blog/Media-Link-Preview-Image_ihuwfk.png";
   return (
     <Layout>
       <Head>
@@ -27,7 +26,9 @@ export default function PrivacyPolicy() {
         <div className="container">
           <div className="row justify-content-lg-center ">
             <div className="col-lg-8 pb-5">
-              <h6 className="text-success">Effective date: April 1, 2021</h6>
+              <h6 className="text-success">
+                Effective Date: November 21, 2022
+              </h6>
               <h2 className="section-title mb-5">Privacy Policy</h2>
               <h5>1.Introduction</h5>
               <p>
@@ -36,16 +37,16 @@ export default function PrivacyPolicy() {
                 “Tulix” or “The Company”.
               </p>
               <p>
-                Tulix (“us”, “we”, or “our”) operates{' '}
+                Tulix (“us”, “we”, or “our”) operates{" "}
                 <a href="https://tulix.app">www.tulix.app </a> and Tulix App
                 mobile application (hereinafter referred to as “
                 <strong>Service</strong>”).
               </p>
               <p>
-                Our Privacy Policy governs your visit to{' '}
+                Our Privacy Policy governs your visit to{" "}
                 <a href="https://tulix.app">www.tulix.app </a> and Tulix App
                 mobile application, and explains how we collect, safeguard and
-                disclose information that results from your use of our Service.{' '}
+                disclose information that results from your use of our Service.{" "}
               </p>
               <p>
                 We use your data to provide and improve Service. By using
@@ -62,7 +63,7 @@ export default function PrivacyPolicy() {
               </p>
               <h5>2.Definitions</h5>
               <p>
-                <strong>SERVICE</strong> means the{' '}
+                <strong>SERVICE</strong> means the{" "}
                 <a href="https://tulix.app">tulix.app</a> website and Tulix App
                 mobile application operated by Tulix.
               </p>
@@ -120,7 +121,7 @@ export default function PrivacyPolicy() {
                 Personally identifiable information may include, but is not
                 limited to:
               </p>
-              <ol style={{ listStyleType: 'lower-alpha' }}>
+              <ol style={{ listStyleType: "lower-alpha" }}>
                 <li>Email address</li>
                 <li>First name and last name</li>
                 <li>Phone number</li>
@@ -171,6 +172,17 @@ export default function PrivacyPolicy() {
                 Service at any time by way of your device settings.
               </p>
               <p>
+                <strong>Phone Contacts</strong>
+              </p>
+              <p>
+                We may use and store information from your device's phone book
+                if you give us permission to do so (“
+                <strong>Contacts List</strong>”). We use this data to provide
+                features of our Service, to improve and customize our Service.
+                You can enable or disable access to this information at any
+                time, through your device settings.
+              </p>
+              <p>
                 <strong>Tracking Cookies Data</strong>
               </p>
               <p>
@@ -192,7 +204,7 @@ export default function PrivacyPolicy() {
                 Service.
               </p>
               <p>Examples of Cookies we use:</p>
-              <ol style={{ listStyleType: 'lower-alpha' }}>
+              <ol style={{ listStyleType: "lower-alpha" }}>
                 <li>
                   <strong>Session Cookies:</strong>We use Session Cookies to
                   operate our Service.
@@ -223,21 +235,21 @@ export default function PrivacyPolicy() {
                 employment agreements, non-disclosure agreements, information on
                 bonuses and compensation, information on marital status, family
                 members, social security (or other taxpayer identification)
-                number, office location and other data.{' '}
+                number, office location and other data.{" "}
               </p>
               <h5>5.Use of Data</h5>
-              <ol style={{ listStyleType: 'lower-alpha' }}>
+              <ol style={{ listStyleType: "lower-alpha" }}>
                 <li>Tulix uses the collected data for various purposes:</li>
                 <li>to provide and maintain our Service;</li>
                 <li>to notify you about changes to our Service; </li>
                 <li>
                   to allow you to participate in interactive features of our
-                  Service when you choose to do so;{' '}
+                  Service when you choose to do so;{" "}
                 </li>
                 <li>to provide customer support; </li>
                 <li>
                   to gather analysis or valuable information so that we can
-                  improve our Service;{' '}
+                  improve our Service;{" "}
                 </li>
                 <li>to monitor the usage of our Service;</li>
                 <li>to detect, prevent and address technical issues;</li>
@@ -311,7 +323,7 @@ export default function PrivacyPolicy() {
                 We may disclose personal information that we collect, or you
                 provide:
               </p>
-              <ol style={{ listStyleType: 'lower-alpha' }}>
+              <ol style={{ listStyleType: "lower-alpha" }}>
                 <li>
                   <p>
                     <strong>Disclosure for Law Enforcement.</strong>
@@ -338,7 +350,7 @@ export default function PrivacyPolicy() {
                       Other cases. We may disclose your information also:
                     </strong>
                   </p>
-                  <ol style={{ listStyleType: 'lower-roman' }}>
+                  <ol style={{ listStyleType: "lower-roman" }}>
                     <li>to our subsidiaries and affiliates;</li>
                     <li>
                       to contractors, service providers, and other third parties
@@ -377,7 +389,7 @@ export default function PrivacyPolicy() {
               <p>
                 If you are a resident of the European Union (EU) and European
                 Economic Area (EEA), you have certain data protection rights,
-                covered by GDPR. – See more at{' '}
+                covered by GDPR. – See more at{" "}
                 <a
                   href="https://eur-lex.europa.eu/eli/reg/2016/679/oj"
                   rel="noopener noreferrer"
@@ -393,13 +405,13 @@ export default function PrivacyPolicy() {
               <p>
                 If you wish to be informed what Personal Data we hold about you
                 and if you want it to be removed from our systems, please email
-                us at hello@tulix.app.{' '}
+                us at hello@tulix.app.{" "}
               </p>
               <p>
                 In certain circumstances, you have the following data protection
                 rights:
               </p>
-              <ol style={{ listStyleType: 'lower-alpha' }}>
+              <ol style={{ listStyleType: "lower-alpha" }}>
                 <li>
                   the right to access, update or to delete the information we
                   have on you;
@@ -453,7 +465,7 @@ export default function PrivacyPolicy() {
                 post a conspicuous privacy policy on its website stating exactly
                 the information being collected and those individuals with whom
                 it is being shared, and to comply with this policy. – See more
-                at:{' '}
+                at:{" "}
                 <a
                   href="https://consumercal.org/about-cfc/cfc-education-foundation/california-online-privacy-protection-act-caloppa-3/"
                   rel="noopener noreferrer"
@@ -463,7 +475,7 @@ export default function PrivacyPolicy() {
                 </a>
               </p>
               <p>According to CalOPPA we agree to the following:</p>
-              <ol style={{ listStyleType: 'lower-alpha' }}>
+              <ol style={{ listStyleType: "lower-alpha" }}>
                 <li>users can visit our site anonymously;</li>
                 <li>
                   our Privacy Policy link includes the word “Privacy”, and can
@@ -476,7 +488,7 @@ export default function PrivacyPolicy() {
                 </li>
                 <li>
                   users are able to change their personal information by
-                  emailing us at hello@tulix.app.{' '}
+                  emailing us at hello@tulix.app.{" "}
                 </li>
               </ol>
               <p>Our Policy on “Do Not Track” Signals:</p>
@@ -484,7 +496,7 @@ export default function PrivacyPolicy() {
                 We honor Do Not Track signals and do not track, plant cookies,
                 or use advertising when a Do Not Track browser mechanism is in
                 place. Do Not Track is a preference you can set in your web
-                browser to inform websites that you do not want to be tracked.{' '}
+                browser to inform websites that you do not want to be tracked.{" "}
               </p>
               <p>
                 You can enable or disable Do Not Track by visiting the
@@ -520,7 +532,7 @@ export default function PrivacyPolicy() {
               </p>
               <p>
                 For more information on the privacy practices of Google, please
-                visit the Google Privacy Terms web page:{' '}
+                visit the Google Privacy Terms web page:{" "}
                 <a
                   href="https://policies.google.com/privacy?hl=en"
                   rel="noopener noreferrer"
@@ -544,7 +556,7 @@ export default function PrivacyPolicy() {
               <p>Cloudflare analytics</p>
               <p>
                 Cloudflare analytics is a web analytics service operated by
-                Cloudflare Inc. Read the Privacy Policy here:{' '}
+                Cloudflare Inc. Read the Privacy Policy here:{" "}
                 <a
                   href="https://www.cloudflare.com/privacypolicy/"
                   rel="noopener noreferrer"
@@ -556,7 +568,7 @@ export default function PrivacyPolicy() {
               <h5>14.CI/CD tools</h5>
               <p>
                 We may use third-party Service Providers to automate the
-                development process of our Service.{' '}
+                development process of our Service.{" "}
               </p>
               <p>
                 <strong>GitHub</strong>
@@ -579,12 +591,12 @@ export default function PrivacyPolicy() {
               <p>
                 GitLab CI (Continuous Integration) service is a part of GitLab
                 that build and test the software whenever developer pushes code
-                to application.{' '}
+                to application.{" "}
               </p>
               <p>
                 GitLab CD (Continuous Deployment) is a software service that
                 places the changes of every code in the production which results
-                in every day deployment of production.{' '}
+                in every day deployment of production.{" "}
               </p>
               <p>
                 For more information on what data GitLab CI/CD collects for what
@@ -609,7 +621,7 @@ export default function PrivacyPolicy() {
               <p>
                 You can opt-out of Google Analytics for Display Advertising and
                 customize the Google Display Network ads by visiting the Google
-                Ads Settings page:{' '}
+                Ads Settings page:{" "}
                 <a
                   href="http://www.google.com/settings/ads"
                   rel="noopener noreferrer"
@@ -627,7 +639,7 @@ export default function PrivacyPolicy() {
               </p>
               <p>
                 For more information on the privacy practices of Google, please
-                visit the Google Privacy Terms web page:{' '}
+                visit the Google Privacy Terms web page:{" "}
                 <a
                   href="https://policies.google.com/privacy?hl=en"
                   rel="noopener noreferrer"
@@ -642,7 +654,7 @@ export default function PrivacyPolicy() {
               <p>Bing Ads remarketing service is provided by Microsoft Inc.</p>
               <p>
                 You can opt-out of Bing Ads interest-based ads by following
-                their instructions:{' '}
+                their instructions:{" "}
                 <a
                   href="https://advertise.bingads.microsoft.com/en-us/resources/policies/personalized-ads"
                   rel="noopener noreferrer"
@@ -662,7 +674,7 @@ export default function PrivacyPolicy() {
               <p>Twitter remarketing service is provided by Twitter Inc.</p>
               <p>
                 You can opt-out from Twitter's interest-based ads by following
-                their instructions:{' '}
+                their instructions:{" "}
                 <a
                   href="https://support.twitter.com/articles/20170405"
                   rel="noopener noreferrer"
@@ -673,7 +685,7 @@ export default function PrivacyPolicy() {
               </p>
               <p>
                 You can learn more about the privacy practices and policies of
-                Twitter by visiting their Privacy Policy page:{' '}
+                Twitter by visiting their Privacy Policy page:{" "}
                 <a
                   href="https://twitter.com/privacy"
                   rel="noopener noreferrer"
@@ -689,7 +701,7 @@ export default function PrivacyPolicy() {
               <p>Facebook remarketing service is provided by Facebook Inc.</p>
               <p>
                 You can learn more about interest-based advertising from
-                Facebook by visiting this page:{' '}
+                Facebook by visiting this page:{" "}
                 <a
                   href="https://www.facebook.com/help/164968693837950"
                   rel="noopener noreferrer"
@@ -700,7 +712,7 @@ export default function PrivacyPolicy() {
               </p>
               <p>
                 To opt-out from Facebook's interest-based ads, follow these
-                instructions from Facebook:{' '}
+                instructions from Facebook:{" "}
                 <a
                   href="https://www.facebook.com/help/568137493302217"
                   rel="noopener noreferrer"
@@ -714,7 +726,7 @@ export default function PrivacyPolicy() {
                 Behavioural Advertising established by the Digital Advertising
                 Alliance. You can also opt-out from Facebook and other
                 participating companies through the Digital Advertising Alliance
-                in the USA{' '}
+                in the USA{" "}
                 <a
                   href="http://www.aboutads.info/choices/"
                   rel="noopener noreferrer"
@@ -736,13 +748,13 @@ export default function PrivacyPolicy() {
               </p>
               <p>
                 For more information on the privacy practices of Facebook,
-                please visit Facebook's Data Policy:{' '}
+                please visit Facebook's Data Policy:{" "}
                 <a
                   href="https://www.facebook.com/privacy/explanation"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  https://www.facebook.com/privacy/explanation{' '}
+                  https://www.facebook.com/privacy/explanation{" "}
                 </a>
               </p>
               <p>
@@ -758,13 +770,13 @@ export default function PrivacyPolicy() {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  {' '}
+                  {" "}
                   http://help.pinterest.com/en/articles/personalization-and-data
                 </a>
               </p>
               <p>
                 You can learn more about the privacy practices and policies of
-                Pinterest by visiting their Privacy Policy page:{' '}
+                Pinterest by visiting their Privacy Policy page:{" "}
                 <a
                   href="https://about.pinterest.com/en/privacy-policy"
                   rel="noopener noreferrer"
@@ -794,7 +806,7 @@ export default function PrivacyPolicy() {
                 <strong>PayPal or Braintree:</strong>
               </p>
               <p>
-                Their Privacy Policy can be viewed at{' '}
+                Their Privacy Policy can be viewed at{" "}
                 <a
                   href="https://www.paypal.com/webapps/mpp/ua/privacy-full"
                   rel="noopener noreferrer"
@@ -807,7 +819,7 @@ export default function PrivacyPolicy() {
                 <strong>Apple Store In-App Payments:</strong>
               </p>
               <p>
-                Their Privacy Policy can be viewed at:{' '}
+                Their Privacy Policy can be viewed at:{" "}
                 <a
                   href="https://www.apple.com/legal/privacy/en-ww/"
                   rel="noopener noreferrer"
@@ -822,27 +834,27 @@ export default function PrivacyPolicy() {
                   target="_blank"
                 >
                   https://support.apple.com/en-us/HT203027
-                </a>{' '}
+                </a>{" "}
               </p>
               <p>
                 <strong>Google Play In-App Payments:</strong>
               </p>
               <p>
-                Their Privacy Policy can be viewed at:{' '}
+                Their Privacy Policy can be viewed at:{" "}
                 <a
                   href="https://policies.google.com/privacy?hl=en&gl=us /"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
                   https://policies.google.com/privacy?hl=en&amp;gl=us /
-                </a>{' '}
-                https://payments.google.com/payments/apis-secure/u/0/get_legal_document?ldo=0&amp;ldt=privacynotice&amp;ldl=en{' '}
+                </a>{" "}
+                https://payments.google.com/payments/apis-secure/u/0/get_legal_document?ldo=0&amp;ldt=privacynotice&amp;ldl=en{" "}
               </p>
               <p>
                 <strong>Stripe:</strong>
               </p>
               <p>
-                Their Privacy Policy can be viewed at:{' '}
+                Their Privacy Policy can be viewed at:{" "}
                 <a
                   href="https://stripe.com/us/privacy"
                   rel="noopener noreferrer"
@@ -856,7 +868,7 @@ export default function PrivacyPolicy() {
               </p>
               <p>
                 Their End User Privacy Policy, Cookie Policy and Privacy
-                Statement can be viewed at{' '}
+                Statement can be viewed at{" "}
                 <a
                   href="https://plaid.com/legal/"
                   rel="noopener noreferrer"
@@ -870,27 +882,27 @@ export default function PrivacyPolicy() {
                 <strong>Square:</strong>
               </p>
               <p>
-                Their Privacy Policy can be viewed at:{' '}
+                Their Privacy Policy can be viewed at:{" "}
                 <a
                   href="https://squareup.com/us/en/legal/general/privacy"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
                   https://squareup.com/us/en/legal/general/privacy
-                </a>{' '}
+                </a>{" "}
               </p>
               <p>
                 <strong>WorldPay:</strong>
               </p>
               <p>
-                Their Privacy Policy can be viewed at:{' '}
+                Their Privacy Policy can be viewed at:{" "}
                 <a
                   href="https://online.worldpay.com/terms/privacy"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
                   https://online.worldpay.com/terms/privacy
-                </a>{' '}
+                </a>{" "}
               </p>
               <h5>17.Links to Other Sites</h5>
               <p>
@@ -907,7 +919,7 @@ export default function PrivacyPolicy() {
               <h5>18.Children's Privacy</h5>
               <p>
                 Our Services are not intended for use by children under the age
-                of 18 (“<strong>Child</strong>” or “<strong>Children</strong>”).{' '}
+                of 18 (“<strong>Child</strong>” or “<strong>Children</strong>”).{" "}
               </p>
               <p>
                 We do not knowingly collect personally identifiable information
@@ -940,14 +952,16 @@ export default function PrivacyPolicy() {
               </p>
               <p>By email: hello@tulix.app</p>
               <p>
-                By visiting this page on our website:{' '}
+                By visiting this page on our website:{" "}
                 <a href="https://tulix.app">www.tulix.app</a>
               </p>
-              <p>By mail: 7th Floor, ABC Place, Waiyaki Way, Nairobi, Kenya.</p>
+              <p>
+                By mail: 10th Floor, ABC Place, Waiyaki Way, Nairobi, Kenya.
+              </p>
             </div>
           </div>
         </div>
       </section>
     </Layout>
-  )
+  );
 }
