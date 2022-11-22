@@ -116,10 +116,10 @@ export default function Jars() {
                   height={600}
                 />
               </div>
-              <h2 className="mb-4 h3">02. Add funds to your Tulix wallet</h2>
+              <h2 className="mb-4 h3">02. Let us know who you are</h2>
               <p>
-                On the home screen select “Add funds” then select a top-up
-                option and follow the prompts.
+                Click on your profile avatar on the home screen and enter your
+                KYC details to get verified.
               </p>
             </div>
             <div className="col-lg-4 ">
@@ -344,7 +344,7 @@ export default function Jars() {
             </div>
             <div className="col-lg-5 offset-md-1 d-flex flex-column justify-content-center ">
               <h2 className="mb-5">
-                <span className="text-primary">Share, split, spend </span> money
+                <span className="text-primary">Split, spend, share </span> money
                 with anyone in Kenya, from anywhere in the world
               </h2>
 
