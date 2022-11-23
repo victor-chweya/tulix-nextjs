@@ -54,6 +54,11 @@ export default function Navigation() {
                 </ActiveLink>
               </li>
               <li className="nav-item">
+                <ActiveLink activeClassName="active" href="/how-it-works">
+                  <a className="nav-link">How It Works</a>
+                </ActiveLink>
+              </li>
+              <li className="nav-item">
                 <ActiveLink activeClassName="active" href="/jars">
                   <a className="nav-link">Jars</a>
                 </ActiveLink>

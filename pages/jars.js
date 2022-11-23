@@ -154,7 +154,7 @@ export default function Jars() {
 
       <section className="hero-2 pb-0">
         <div className="container">
-          <div className="row justify-content-center mb-5 pb-5">
+          <div className="row justify-content-center mb-5 pb-0 pb-lg-5">
             <div className="col-lg-8 text-center">
               <h2 className=" h1 mb-4 ">Twende Kazi</h2>
               <p>A better way to manage your money</p>
@@ -233,7 +233,7 @@ export default function Jars() {
                 It’s time to <span className="text-success"> “Jars” </span>it up
               </h2>
             </div>
-            <div className="row justify-content-center">
+            <div className="row justify-content-center px-3">
               <div className="col-lg-12 text-center">
                 <p className="small">Download Tulix On</p>
               </div>
@@ -263,7 +263,7 @@ export default function Jars() {
               </div>
             </div>
           </div>
-          <div className="row justify-content-center align-items-center mb-5 pb-5">
+          <div className="row justify-content-center align-items-center mb-5 pb-0 pb-lg-5">
             <div className="col-lg-4 text-right">
               <Image
                 src={CreateImage}
@@ -303,8 +303,8 @@ export default function Jars() {
               </p>
             </div>
           </div>
-          <div className="row justify-content-center align-items-center mb-5">
-            <div className="col-lg-5 ">
+          <div className="row justify-content-center align-items-center mb-0 mb-lg-5 pb-0 pb-lg-5">
+            <div className="col-lg-5 order-2 order-md-1 ">
               <h3 className="mb-4">Spread the Jars</h3>
               <p className="small">
                 Spending with other people is a huge part of managing money;
@@ -335,7 +335,7 @@ export default function Jars() {
                 </p>
               </div>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6 order-1 order-md-2 mb-5 mb-lg-0">
               <Image
                 src={ShareImage}
                 alt="tulix dashboard-mockup"
@@ -349,9 +349,9 @@ export default function Jars() {
           </div>
         </div>
       </section>
-      <section className="hero-2 pb-0">
+      <section className="py-5">
         <div className="container">
-          <div className="row justify-content-center mb-5 pb-5">
+          <div className="row justify-content-center mb-5 pb-0 pb-lg-5">
             <div className="col-lg-8 text-center">
               <h2 className=" h1 mb-4 ">That’s not all…</h2>
             </div>
@@ -429,9 +429,9 @@ export default function Jars() {
         </div>
       </section>
 
-      <section className="hero-2">
+      <section className="py-5">
         <div className="container">
-          <div className="row justify-content-center mb-5 pb-5">
+          <div className="row justify-content-center mb-5 pb-0 pb-lg-5">
             <div className="col-lg-8 text-center">
               <h2 className=" h1 mb-4 ">Tulix Jars are for everyday life</h2>
               <p>Take a look at how Jars work in daily scenarios. </p>
@@ -481,7 +481,7 @@ export default function Jars() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 px-3 text-center">
+            <div className="col-lg-3 px-3 text-center mb-5 mb-lg-0">
               <Image
                 src={DailyImage}
                 alt="tulix dashboard-mockup"
