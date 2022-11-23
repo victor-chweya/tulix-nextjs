@@ -35,37 +35,61 @@ export default function Jars() {
         <meta name="twitter:image" content={pageImage} />
         <title>{pageTitle}</title>
       </Head>
-      <section className="hero mb-5">
+      <section className="hero mb-0 mb-lg-5">
         <div className="container hero-bg hero-about">
-          <div className="row justify-content-center">
-            <div className="col-lg-10  d-flex flex-column text-center my-5 mb-md-0">
+          <div className="row justify-content-center my-3">
+            <div className="col-lg-10  d-flex flex-column text-center">
               <h1 className="hero-title mt-4 mb-3 ">
                 Getting Started With Tulix
               </h1>
-              <p className="lead mb-5 text-white">
+              <p className="lead text-white">
                 This is the page where most companies tell you why their app is
                 the best ever. Here’s our take on ours. First, follow these
                 steps to set up your Tulix account
               </p>
             </div>
+            <div className="row justify-content-center px-3">
+              <div className="col-lg-12 text-center">
+                <p className="small text-light">Download Tulix On</p>
+              </div>
+              <div className="col-lg-5 mb-2">
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.solutions.tulix"
+                  className="btn btn-primary text-light btn-lg btn-block"
+                  target="_blank"
+                  role="button"
+                  rel="noreferrer"
+                >
+                  <i className="bi-google-play mr-2"></i>
+                  Google Play
+                </a>
+              </div>
+              <div className="col-lg-5 mb-2">
+                <a
+                  href="https://apps.apple.com/ke/app/tulix/id1587163986"
+                  className="btn btn-primary text-light btn-lg btn-block"
+                  role="button"
+                  rel="noreferrer"
+                  targe="_blank"
+                >
+                  <i className="bi-apple mr-2"></i>
+                  App Store
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      <section className="hero-2 pb-0">
+      <section className="pb-0 pt-5">
         <div className="container">
-          <div className="row"></div>
-        </div>
-      </section>
-      <section className="pb-0">
-        <div className="container">
-          <div className="row mb-5">
-            <div className="col-lg-4 ">
+          <div className="row mb-5 justify-content-around">
+            <div className="col-lg-3 ">
               <div className="d-flex justify-content-center">
                 <Image
                   src={createImage}
                   alt="tulix dashboard-mockup"
-                  className="img-fluid text-center"
+                  className="img-fluid"
                   placeholder="blur"
                   // layout="intrinsic"
                   width={321.28}
@@ -73,38 +97,11 @@ export default function Jars() {
                 />
               </div>
               <h2 className="mb-4 h3">01. Create Your Account!</h2>
-              <p>What are you waiting for?</p>
-              <div className="row">
-                <div className="col-lg-12">
-                  <p className="small">Download Tulix On</p>
-                </div>
-                <div className="col-lg-6 mb-2">
-                  <a
-                    href="https://play.google.com/store/apps/details?id=com.solutions.tulix"
-                    className="btn btn-success text-light btn-lg btn-block"
-                    target="_blank"
-                    role="button"
-                    rel="noreferrer"
-                  >
-                    <i className="bi-google-play mr-2"></i>
-                    Google Play
-                  </a>
-                </div>
-                <div className="col-lg-6 mb-2">
-                  <a
-                    href="https://apps.apple.com/ke/app/tulix/id1587163986"
-                    className="btn btn-success text-light btn-lg btn-block"
-                    role="button"
-                    rel="noreferrer"
-                    targe="_blank"
-                  >
-                    <i className="bi-apple mr-2"></i>
-                    App Store
-                  </a>
-                </div>
-              </div>
+              <p>
+                Enter your phone number, personal details to follow the prompts
+              </p>
             </div>
-            <div className="col-lg-4 ">
+            <div className="col-lg-3">
               <div className="d-flex justify-content-center">
                 <Image
                   src={knowImage}
@@ -122,7 +119,7 @@ export default function Jars() {
                 KYC details to get verified.
               </p>
             </div>
-            <div className="col-lg-4 ">
+            <div className="col-lg-3 ">
               <div className="d-flex justify-content-center">
                 <Image
                   src={topUpImage}
@@ -143,16 +140,16 @@ export default function Jars() {
           </div>
         </div>
       </section>
-      <section className="hero-2">
+      <section className="py-lg-5">
         <div className="container">
-          <div className="row justify-content-center mb-5 pb-5">
+          <div className="row justify-content-center mb-5 pb-0 pb-lg-5">
             <div className="col-lg-8 text-center">
               <h2 className=" h1 mb-4 ">So what can you do on Tulix?</h2>
-              <p>Here’s why we think our app is so cool</p>
+              <p className="lead">Here’s why we think our app is so cool</p>
             </div>
           </div>
-          <div className="row justify-content-center align-items-center mb-5 pb-5">
-            <div className="col-lg-4 ">
+          <div className="row justify-content-center align-items-center mb-5 pb-0 pb-lg-5">
+            <div className="col-lg-4 mb-5 mb-lg-0">
               <Image
                 src={hasstleFree}
                 alt="tulix dashboard-mockup"
@@ -176,7 +173,7 @@ export default function Jars() {
             </div>
           </div>
           <div className="row justify-content-center align-items-center pb-5">
-            <div className="col-lg-5 ">
+            <div className="col-lg-5 order-2 order-md-1">
               <h3 className="mb-4">Notifications to keep you in the loop</h3>
 
               <p className="lead">
@@ -187,7 +184,7 @@ export default function Jars() {
                 No more slow transactions and delayed payment notifications.
               </p>
             </div>
-            <div className="col-lg-4 offset-lg-1">
+            <div className="col-lg-4 offset-lg-1 order-1 order-md-2 mb-5 mb-lg-0">
               <Image
                 src={notifications}
                 alt="tulix dashboard-mockup"
@@ -197,8 +194,8 @@ export default function Jars() {
               />
             </div>
           </div>
-          <div className="row justify-content-center align-items-center mb-5 pb-5">
-            <div className="col-lg-4 ">
+          <div className="row justify-content-center align-items-center mb-5  pb-0 pb-lg-5">
+            <div className="col-lg-4  mb-5 mb-lg-0">
               <Image
                 src={recurringPayments}
                 alt="tulix dashboard-mockup"
@@ -217,8 +214,8 @@ export default function Jars() {
               </p>
             </div>
           </div>
-          <div className="row justify-content-center align-items-center pb-5">
-            <div className="col-lg-5 ">
+          <div className="row justify-content-center align-items-center mb-5 pb-0 pb-lg-5">
+            <div className="col-lg-5 order-2 order-md-1 ">
               <h3 className="mb-4">Save your favourite merchants</h3>
 
               <p className="lead  mb-0">
@@ -227,7 +224,7 @@ export default function Jars() {
                 them as a favourite for easy retrieval in the future.
               </p>
             </div>
-            <div className="col-lg-4 offset-lg-1">
+            <div className="col-lg-4 offset-lg-1 order-1 order-md-2 mb-5 mb-lg-0">
               <Image
                 src={merchants}
                 alt="tulix dashboard-mockup"
@@ -237,8 +234,8 @@ export default function Jars() {
               />
             </div>
           </div>
-          <div className="row justify-content-center align-items-center mb-5 pb-5">
-            <div className="col-lg-4 ">
+          <div className="row justify-content-center align-items-center mb-5  pb-0 pb-lg-5">
+            <div className="col-lg-4 mb-5 mb-lg-0">
               <Image
                 src={categorise}
                 alt="tulix dashboard-mockup"
@@ -261,8 +258,8 @@ export default function Jars() {
               </p>
             </div>
           </div>
-          <div className="row justify-content-center align-items-center pb-5">
-            <div className="col-lg-5 ">
+          <div className="row justify-content-center align-items-center mb-5  pb-0 pb-lg-5">
+            <div className="col-lg-5 order-2 order-md-1">
               <h3 className="mb-4">Get detailed insights on your spending</h3>
 
               <p className="lead">
@@ -277,7 +274,7 @@ export default function Jars() {
                 So work hard, chop life and document the journey.
               </p>
             </div>
-            <div className="col-lg-4 offset-lg-1">
+            <div className="col-lg-4 offset-lg-1 order-1 order-md-2 mb-5 mb-lg-0">
               <Image
                 src={spendingInsights}
                 alt="tulix dashboard-mockup"
@@ -287,8 +284,8 @@ export default function Jars() {
               />
             </div>
           </div>
-          <div className="row justify-content-center align-items-center mb-5 pb-5">
-            <div className="col-lg-4 ">
+          <div className="row justify-content-center align-items-center mb-5  pb-0 pb-lg-5">
+            <div className="col-lg-4 mb-5 mb-lg-0">
               <Image
                 src={spendJars}
                 alt="tulix dashboard-mockup"
@@ -322,7 +319,7 @@ export default function Jars() {
           <div className="row justify-content-center py-4">
             <div className="col-lg-8 text-center">
               <h3 className="h1">Mobile money was made for the world</h3>
-              <p>
+              <p className="lead">
                 No local number? No problem! Pay any business in Kenya with
                 Tulix, no matter where you are.
               </p>

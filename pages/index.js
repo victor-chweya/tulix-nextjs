@@ -36,7 +36,7 @@ export default function Home() {
         <title>{pageTitle}</title>
       </Head>
       <div>
-        <section className="hero ">
+        <section className="hero mb-5">
           <div className="container hero-bg bg-primary">
             <div className="row justify-content-between">
               <div className="col-lg-5  d-flex flex-column justify-content-center mb-5 mb-md-0">
@@ -104,9 +104,9 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="hero-2">
+        <section className="py-5">
           <div className="container">
-            <div className="row justify-content-center mb-5 pb-5">
+            <div className="row justify-content-center mb-5">
               <div className="col-lg-8 text-center">
                 <h2 className=" h1 mb-4 ">Why you'll love using Tulix </h2>
                 <p>
@@ -115,8 +115,8 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className="row justify-content-center align-items-center mb-5 pb-5">
-              <div className="col-lg-4 ">
+            <div className="row justify-content-center align-items-center mb-5 pb-0 pb-lg-5">
+              <div className="col-lg-4 mb-5 mb-lg-0">
                 <Image
                   src={Budgeting}
                   alt="tulix dashboard-mockup"
@@ -135,8 +135,8 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className="row justify-content-center align-items-center pb-5">
-              <div className="col-lg-5 ">
+            <div className="row justify-content-center align-items-center mb-5  pb-0 pb-lg-5">
+              <div className="col-lg-5 order-2 order-md-1">
                 <h3 className="mb-4">Share and pool money with your people</h3>
 
                 <p className="lead  mb-0">
@@ -145,7 +145,7 @@ export default function Home() {
                   shared payments.
                 </p>
               </div>
-              <div className="col-lg-4 offset-lg-1">
+              <div className="col-lg-4 offset-lg-1  order-1 order-md-2  mb-5 mb-lg-0">
                 <Image
                   src={SharePool}
                   alt="tulix dashboard-mockup"
@@ -155,8 +155,8 @@ export default function Home() {
                 />
               </div>
             </div>
-            <div className="row justify-content-center align-items-center mb-5 pb-5">
-              <div className="col-lg-4 ">
+            <div className="row justify-content-center align-items-center mb-5  pb-0 pb-lg-5">
+              <div className="col-lg-4 mb-5 mb-lg-0">
                 <Image
                   src={Control}
                   alt="tulix dashboard-mockup"
@@ -175,8 +175,8 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className="row justify-content-center align-items-center mb-5 pb-5">
-              <div className="col-lg-5 ">
+            <div className="row justify-content-center align-items-center mb-5 pb-0 pb-lg-5">
+              <div className="col-lg-5 order-2 order-md-1">
                 <h3 className="mb-4">Build healthier money relationships</h3>
 
                 <p className="lead mb-0">
@@ -185,7 +185,7 @@ export default function Home() {
                   doesn’t always have to be awkward.
                 </p>
               </div>
-              <div className="col-lg-4 offset-lg-1">
+              <div className="col-lg-4 offset-lg-1  order-1 order-md-2 mb-5 mb-lg-0">
                 <Image
                   src={HeatlhtyMoney}
                   alt="tulix dashboard-mockup"
@@ -197,15 +197,15 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="hero-3">
+        <section className="hero-3 mb-5">
           <div className="container">
-            <div className="row justify-content-center py-5">
+            <div className="row justify-content-center py-0 py-lg-5">
               <div className="col-lg-8 text-center">
                 <h2 className="h1 mb-4">
                   All of this in one app… and we’re just getting started{" "}
                 </h2>
               </div>
-              <div className="row justify-content-center">
+              <div className="row justify-content-center px-3">
                 <div className="col-lg-12 text-center">
                   <p className="small text-light">Download Tulix On</p>
                 </div>
@@ -237,7 +237,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="home-faqss my-5">
+        <section className="py-5 ">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-10">
