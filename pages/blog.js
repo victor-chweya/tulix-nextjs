@@ -18,7 +18,7 @@ export async function getStaticProps() {
 export default function Blog({ allPostsData }) {
   const pageTitle = "Blog - The Smart Way to Share Money";
   const pageDescription =
-    "Sharing stories of Africans everywhere who are shaping the future of the continent through the Tulix lens.";
+    "Money relationships can be tough, we get it. So on our blog we teach you how to make the most of your money as an individual and with others on Tulix.";
   const pageImage =
     "https://res.cloudinary.com/tulix/image/upload/v1660840952/blog/Media-Link-Preview-Image_ihuwfk.png";
   return (
@@ -43,8 +43,9 @@ export default function Blog({ allPostsData }) {
             <div className="col-lg-8 pb-5">
               <h2 className="section-title ">Blog</h2>
               <h6 className="text-success">
-                Sharing stories of Africans everywhere who are shaping the
-                future of the continent through the Tulix lens.
+                Money relationships can be tough, we get it. So on our blog we
+                teach you how to make the most of your money as an individual
+                and with others on Tulix.
               </h6>
             </div>
             <div className="col-lg-8 mb-5">
