@@ -1,6 +1,5 @@
 ---
 title: "Can A Better Remittance Experience Unlock More Funds To Africa"
-subtitle: "There Seems to be Some Low-Hanging Fruit"
 date: "2021-02-03"
 author: "Tulix Team"
 thumbnail: "blog/pexels-ketut-subiyanto-4559516_bkkoe9.jpg"
