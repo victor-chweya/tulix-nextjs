@@ -1,9 +1,9 @@
 ---
 title: "Why We Must Keep Innovating"
 date: "2021-02-10"
-author: "Tulix Team"
+author: "Alistair Gould"
 thumbnail: "blog/eirik-solheim-mWTOR3Rx8l8-unsplash_vesjkz.jpg"
-excerpt: "The entry of startups in fin-tech will make for interesting viewing over the next few decades."
+excerpt: "The entry of startups in fintech will make for interesting viewing over the next few decades."
 ---
 
 ![Photo by Eirik Solheim from Unsplash](https://res.cloudinary.com/tulix/image/upload/w_717,c_fill/v1669184037/blog/eirik-solheim-mWTOR3Rx8l8-unsplash_vesjkz.jpg "Image of old generation mobile phones.")
@@ -24,7 +24,7 @@ Back around 2000, we still, for the most part, sent letters around via post, tho
 
 We no longer send letters by post (for the most part) and we now walk around with mobile devices in our hands whose processing power could put spacecraft on the moon in 1969! In 2000, sub-Saharan Africa as a whole had fewer fixed telephone lines than Manhattan alone. But the continent quickly adopted mobile telephony and skipped this phase. Today, close to 500mn people in sub-Saharan Africa are subscribed to mobile services (and this is projected to reach 614mn unique subscribers by 2025 while SIM connections will cross 1bn in the same year according to the GSMA). With advances in mobile money, there are parts of the continent where physical payment cards (debit or credit) just won’t take hold.
 
-The financial services industry has had to innovate in light of the foregoing. The disruption caused by fintech has resulted in older institutions adapting (but some just aren’t doing it fast enough). We are seeing more developments around mobile money as well as the emergence of neo-banking services. The fact remains that there is still a large portion of Africa’s population that is underbanked or underserved by financial service providers. The entry of startups in fin-tech will make for interesting viewing over the next few decades. The rise of tech entrepreneurship on the continent has meant that Africans are taking control of creating solutions to specific problems faced here and these can then be adopted in other geographies as the world becomes more and more similar.
+The financial services industry has had to innovate in light of the foregoing. The disruption caused by fintech has resulted in older institutions adapting (but some just aren’t doing it fast enough). We are seeing more developments around mobile money as well as the emergence of neo-banking services. The fact remains that there is still a large portion of Africa’s population that is underbanked or underserved by financial service providers. The entry of startups in fintech will make for interesting viewing over the next few decades. The rise of tech entrepreneurship on the continent has meant that Africans are taking control of creating solutions to specific problems faced here and these can then be adopted in other geographies as the world becomes more and more similar.
 
 ### Will Today's Tech Matter in the Next 20 Years?
 
