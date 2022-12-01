@@ -2,8 +2,8 @@
 title: "Five Jars You Need To Have On Tulix"
 date: "2022-12-05"
 author: "Tulix Team"
-thumbnail: "blog/pexels-alexander-suhorucov-6457556_iwfd0s.jpg"
-excerpt: "I am a super saver so I must be terrific at budgeting, right? Not exactly."
+thumbnail: "blog/pexels-magda-ehlers-1329292_bdpgud.jpg"
+excerpt: "Managing money can seem complicated and even restrictive but it doesn’t have to be either — at least not on Tulix."
 ---
 
 ![Photo by Magda Ehlers from Pexels](https://res.cloudinary.com/tulix/image/upload/w_717,c_fill/v1669875333/blog/pexels-magda-ehlers-1329292_bdpgud.jpg "Image of numbers 1 through 5 on red background.")
