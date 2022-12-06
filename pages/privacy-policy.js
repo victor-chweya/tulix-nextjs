@@ -26,9 +26,7 @@ export default function PrivacyPolicy() {
         <div className="container">
           <div className="row justify-content-lg-center ">
             <div className="col-lg-8 pb-5">
-              <h6 className="text-success">
-                Effective Date: November 21, 2022
-              </h6>
+              <h6 className="text-success">Effective Date: December 6, 2022</h6>
               <h2 className="section-title mb-5">Privacy Policy</h2>
               <h5>1.Introduction</h5>
               <p>
@@ -125,6 +123,7 @@ export default function PrivacyPolicy() {
                 <li>Email address</li>
                 <li>First name and last name</li>
                 <li>Phone number</li>
+                <li>Profile photo/ image</li>
                 <li>Address, State, Province, ZIP/Postal code, City</li>
                 <li>Cookies and Usage Data</li>
               </ol>
@@ -183,6 +182,16 @@ export default function PrivacyPolicy() {
                 time, through your device settings.
               </p>
               <p>
+                <strong>Identity Verification Photos</strong>
+              </p>
+              <p>
+                This includes photos of users (such as selfies) and/or their
+                government-issued identifications (such as driving licenses or
+                passports). Such photos may be used to verify a user's identity,
+                such as through facial verification technologies. Such photos
+                may also be used to personalize users' accounts.
+              </p>
+              <p>
                 <strong>Tracking Cookies Data</strong>
               </p>
               <p>
@@ -239,7 +248,7 @@ export default function PrivacyPolicy() {
               </p>
               <h5>5.Use of Data</h5>
               <ol style={{ listStyleType: "lower-alpha" }}>
-                <li>Tulix uses the collected data for various purposes:</li>
+                <p>Tulix uses the collected data for various purposes:</p>
                 <li>to provide and maintain our Service;</li>
                 <li>to notify you about changes to our Service; </li>
                 <li>
