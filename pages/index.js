@@ -15,9 +15,9 @@ import HeatlhtyMoney from "../public/img/share-pool-2.png";
 // import Subscribe from '../components/Subscribe'
 
 export default function Home() {
-  const pageTitle = "Tulix - The Smart Way To Share Money";
+  const pageTitle = "Tulix - The Smart Way To Manage Money";
   const pageDescription =
-    "Split, spend & share money with anyone in Kenya, from anywhere in the world.";
+    "Split, spend, save & share money on Tulix from anywhere in the world.";
   const pageImage =
     "https://res.cloudinary.com/tulix/image/upload/v1660840952/blog/Media-Link-Preview-Image_ihuwfk.png";
   return (
@@ -41,11 +41,11 @@ export default function Home() {
             <div className="row justify-content-between">
               <div className="col-lg-5  d-flex flex-column justify-content-center mb-5 mb-md-0">
                 <h1 className="hero-title mt-4 mb-3 text-light">
-                  The smart way to share money
+                  The smart way to manage money
                 </h1>
                 <p className="lead mb-5 text-white">
-                  Split, Spend & Share money with anyone in Kenya, from anywhere
-                  in the world.
+                  Split, spend, save & share money on Tulix from anywhere in the
+                  world.
                 </p>
                 <div className="hero-cta ">
                   {/* <Subscribe id="email-input-1"/> */}
