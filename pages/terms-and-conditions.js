@@ -1,13 +1,12 @@
-import Head from 'next/head'
-import Layout from '../components/layout'
+import Head from "next/head";
+import Layout from "../components/layout";
 
 export default function PrivacyPolicy() {
-  const pageTitle =
-    'Terms and Conditions - Support your loved ones from wherever you are.'
+  const pageTitle = "Terms and Conditions - Tulix";
   const pageDescription =
-    'Share, split, spend money with anyone in Kenya, from anywhere in the world.'
+    "Split, spend, save & share money from anywhere in the world.";
   const pageImage =
-    'https://res.cloudinary.com/avicdesign/image/upload/v1636459905/social-img_qpf63s.png'
+    "https://res.cloudinary.com/avicdesign/image/upload/v1636459905/social-img_qpf63s.png";
   return (
     <Layout>
       <Head>
@@ -48,7 +47,7 @@ export default function PrivacyPolicy() {
               <p>
                 Our Privacy Policy also governs your use of our Service and
                 explains how we collect, safeguard and disclose information that
-                results from your use of our web pages. Please read it here{' '}
+                results from your use of our web pages. Please read it here{" "}
                 <a href="./privacy-policy.html">Privacy Policy</a>.
               </p>
               <p>
@@ -60,7 +59,7 @@ export default function PrivacyPolicy() {
               <p>
                 If you do not agree with (or cannot comply with) Agreements,
                 then you may not use the Service, but please let us know by
-                emailing at <a href="mailto:hello@tulix.app">hello@tulix.app</a>{' '}
+                emailing at <a href="mailto:hello@tulix.app">hello@tulix.app</a>{" "}
                 so we can try to find a solution. These Terms apply to all
                 visitors, users and others who wish to access or use Service.
               </p>
@@ -71,7 +70,7 @@ export default function PrivacyPolicy() {
                 newsletters, marketing or promotional materials and other
                 information we may send. However, you may opt out of receiving
                 any, or all, of these communications from us by following the
-                unsubscribe link or by emailing at{' '}
+                unsubscribe link or by emailing at{" "}
                 <a href="mailto:hello@tulix.app">hello@tulix.app</a>.
               </p>
               <h5>3.Description of Service</h5>
@@ -179,8 +178,8 @@ export default function PrivacyPolicy() {
               <h5>10.Error Resolution and Refunds</h5>
               <p>
                 For error resolution, transaction cancellation, questions or
-                complaints, contact us at{' '}
-                <a href="mailto:hello@tulix.app">hello@tulix.app</a>{' '}
+                complaints, contact us at{" "}
+                <a href="mailto:hello@tulix.app">hello@tulix.app</a>{" "}
               </p>
               <p>
                 Any errors made when crediting funds to your personal wallet or
@@ -191,7 +190,7 @@ export default function PrivacyPolicy() {
                 immediately to user specified merchants, your payment is
                 typically not cancellable or refundable. If you believe that you
                 have made a payment in error, you must contact us within thirty
-                (30) minutes after you initiated it at{' '}
+                (30) minutes after you initiated it at{" "}
                 <a href="mailto:hello@tulix.app">hello@tulix.app</a>, and we
                 will attempt to contact the merchant and recover the funds.
               </p>
@@ -206,7 +205,7 @@ export default function PrivacyPolicy() {
               <p>
                 You have a right to dispute errors in your transaction that you
                 believe to be the fault of Tulix. There is no charge for this
-                service. If you believe there is an error, contact us at{' '}
+                service. If you believe there is an error, contact us at{" "}
                 <a href="mailto:hello@tulix.app">hello@tulix.app</a> within 30
                 days after the error has occurred, and provide your name,
                 contact information, the Beneficiary's name, the Merchant
@@ -644,7 +643,7 @@ export default function PrivacyPolicy() {
                   .
                 </li>
                 <li>
-                  By visiting this page on our website:{' '}
+                  By visiting this page on our website:{" "}
                   <a href="./">tulix.app</a>.
                 </li>
               </ul>
@@ -653,5 +652,5 @@ export default function PrivacyPolicy() {
         </div>
       </section>
     </Layout>
-  )
+  );
 }
