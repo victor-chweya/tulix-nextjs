@@ -106,7 +106,7 @@ export default function FaqsGeneral() {
             <div className="card-body">
               <p>
                 Our app makes it possible for Kenyans abroad to access mobile
-                money (M-Pesa) from anywhere.
+                money (M-PESA) from anywhere.
               </p>
               <p>
                 Our most exciting feature is the Tulix Jars that enables users

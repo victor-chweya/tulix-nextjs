@@ -27,8 +27,8 @@ export default function FaqsSupport() {
           >
             <div className="card-body">
               <p>
-                On the homepage under the section "Latest activities" you'll
-                always see each wallet top up
+                On the Home screen under the section "Activity" you'll always
+                see each wallet top up. The same applies to Jar top ups.
               </p>
             </div>
           </div>
@@ -44,8 +44,8 @@ export default function FaqsSupport() {
                 aria-expanded="false"
                 aria-controls="collapseTwo"
               >
-                What if I can’t find a merchant on the App? or What do I do if a
-                merchant I want to pay is not listed on the app?
+                What do I do if a merchant I want to pay is not listed on the
+                app?
               </button>
             </h2>
           </div>
@@ -56,7 +56,7 @@ export default function FaqsSupport() {
             data-parent="#featureFAQs"
           >
             <div className="card-body">
-              If the merchant you're trying to pay is not currently available,
+              If the merchant you're trying to pay is not currently listed,
               please use the 'Enter Merchant Details' button and manually enter
               the details. We'll verify & save the details after you
               successfully complete your transaction.
@@ -108,7 +108,7 @@ export default function FaqsSupport() {
                 aria-expanded="false"
                 aria-controls="collapseFour"
               >
-                What Should I do if I paid the wrong business? (Can I cancel or
+                What should I do if I paid the wrong business? (Can I cancel or
                 reverse a payment once processed?)
               </button>
             </h2>
@@ -161,7 +161,8 @@ export default function FaqsSupport() {
           >
             <div className="card-body">
               <p>
-                We charge 1.5% of the total amount paid as transaction fees.
+                Our fees for making payments range from KES 15 to KES 225
+                depending on the payment amount as listed below:
               </p>
             </div>
           </div>

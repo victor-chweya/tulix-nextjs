@@ -162,8 +162,9 @@ export default function FaqsFeatures() {
           >
             <div className="card-body">
               <p>
-                Only you are able to see all the jars you create and the people
-                you add to your jars.
+                Only you are able to see all the jars you create for yourself.
+                When you add other people to your jars, they're able to see only
+                the jars that you've added them to.
               </p>
             </div>
           </div>
@@ -190,7 +191,10 @@ export default function FaqsFeatures() {
             data-parent="#featureFAQs"
           >
             <div className="card-body">
-              <p>You can create up to five jars on your Tulix account.</p>
+              <p>
+                You can create up to five jars on your Tulix account. Learn more
+                about Jars <Link href="/jars">here</Link>.
+              </p>
             </div>
           </div>
         </div>
@@ -219,8 +223,9 @@ export default function FaqsFeatures() {
               <p>
                 Jar members are able to make payments using money from the jar
                 and can also contribute funds to the jar using funds from their
-                own Tulix walletsest new markets that you're interested in
-                making payments
+                own Tulix wallets. All jar members are able to see the activity
+                of other members within the Jar helping you collaborate easily.
+                Learn more about Jars <Link href="/jars">here</Link>.
               </p>
             </div>
           </div>
@@ -277,9 +282,11 @@ export default function FaqsFeatures() {
           >
             <div className="card-body">
               <p>
-                We only charge transaction fees to make payments when using the
-                Tulix App. All fees are clearly broken down and indicated on the
-                app as you navigate each step.
+                We charge transaction fees to make payments when using Tulix.
+                Standard fees also apply when you top up your wallet depending
+                on the mode you choose to use to top up. All fees are clearly
+                broken down and indicated on the app as you navigate each step
+                where fees are applicable.
               </p>
             </div>
           </div>
@@ -326,7 +333,7 @@ export default function FaqsFeatures() {
                 aria-expanded="false"
                 aria-controls="collapse11"
               >
-                Can I make a payment using Lipa Na M-Pesa from abroad?
+                Can I make a payment using Lipa Na M-PESA from abroad?
               </button>
             </h2>
           </div>
@@ -338,7 +345,7 @@ export default function FaqsFeatures() {
           >
             <div className="card-body">
               <p>
-                Yes. You can use Lipa na M-Pesa to pay a business Paybill or
+                Yes. You can use Lipa na M-PESA to pay a business Paybill or
                 Till Number using the Tulix App from abroad.
               </p>
             </div>
@@ -462,8 +469,8 @@ export default function FaqsFeatures() {
             <div className="card-body">
               <p>
                 You can currently purchase airtime for yourself or another
-                person on Safaricom, Airtel & Telkom networks in Kenya. On the
-                app, go to Pay {"->"} Airtime & Utilities and follow the
+                person on Safaricom, Airtel, Telkom & JTL networks in Kenya. On
+                the app, go to Pay {"->"} Airtime & Utilities and follow the
                 prompts.
               </p>
             </div>
@@ -495,7 +502,7 @@ export default function FaqsFeatures() {
               <p>
                 Once you've made a successful payment, the transaction will
                 appear on the 'Transaction List'. You can select indivudal
-                transactions to get additional information such as the M-pesa
+                transactions to get additional information such as the M-PESA
                 reference which confirms that the transaction was successful and
                 the business has received your payment.
               </p>
@@ -513,7 +520,7 @@ export default function FaqsFeatures() {
                 aria-expanded="false"
                 aria-controls="collapse17"
               >
-                No. Merchants are not charged to receive payments using Tulix.
+                Are merchants charged to receive payments through Tulix?
               </button>
             </h2>
           </div>
@@ -524,7 +531,9 @@ export default function FaqsFeatures() {
             data-parent="#featureFAQs"
           >
             <div className="card-body">
-              <p>Are merchants charged to receive payments through Tulix?</p>
+              <p>
+                No. Merchants are not charged to receive payments using Tulix.
+              </p>
             </div>
           </div>
         </div>
