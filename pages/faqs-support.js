@@ -164,6 +164,82 @@ export default function FaqsSupport() {
                 Our fees for making payments range from KES 15 to KES 225
                 depending on the payment amount as listed below:
               </p>
+              <table className="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Min</th>
+                    <th>Max</th>
+                    <th>Fees</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>100</td>
+                    <td>15</td>
+                  </tr>
+                  <tr>
+                    <td>101</td>
+                    <td>500</td>
+                    <td>27</td>
+                  </tr>
+                  <tr>
+                    <td>501</td>
+                    <td>1000</td>
+                    <td>30</td>
+                  </tr>
+                  <tr>
+                    <td>1001</td>
+                    <td>1500</td>
+                    <td>35</td>
+                  </tr>
+                  <tr>
+                    <td>1501</td>
+                    <td>2500</td>
+                    <td>45</td>
+                  </tr>
+                  <tr>
+                    <td>2501</td>
+                    <td>3500</td>
+                    <td>60</td>
+                  </tr>
+                  <tr>
+                    <td>3501</td>
+                    <td>5000</td>
+                    <td>70</td>
+                  </tr>
+                  <tr>
+                    <td>5001</td>
+                    <td>7500</td>
+                    <td>90</td>
+                  </tr>
+                  <tr>
+                    <td>7501</td>
+                    <td>10000</td>
+                    <td>105</td>
+                  </tr>
+                  <tr>
+                    <td>10001</td>
+                    <td>15000</td>
+                    <td>125</td>
+                  </tr>
+                  <tr>
+                    <td>15001</td>
+                    <td>30000</td>
+                    <td>150</td>
+                  </tr>
+                  <tr>
+                    <td>30001</td>
+                    <td>50000</td>
+                    <td>185</td>
+                  </tr>
+                  <tr>
+                    <td>50001</td>
+                    <td>150000</td>
+                    <td>225</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
           </div>
         </div>
