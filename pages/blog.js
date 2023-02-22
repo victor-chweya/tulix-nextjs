@@ -16,7 +16,7 @@ export async function getStaticProps() {
 }
 
 export default function Blog({ allPostsData }) {
-  const pageTitle = "Blog - The Smart Way to Share Money";
+  const pageTitle = "Blog - The Smart Way to Manage Money";
   const pageDescription =
     "Money relationships can be tough, we get it. So on our blog we teach you how to make the most of your money as an individual and with others on Tulix.";
   const pageImage =

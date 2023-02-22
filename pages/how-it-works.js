@@ -15,9 +15,9 @@ import recurringPayments from "../public/img/recurring-payments.png";
 import Link from "next/link";
 
 export default function Jars() {
-  const pageTitle = "How It Works - The Smart Way to Share Money";
+  const pageTitle = "How It Works - The Smart Way to Manage Money";
   const pageDescription =
-    "Split, spend & share money with anyone in Kenya, from anywhere in the world.";
+    "Split, spend, save & share money on Tulix from anywhere in the world.";
   const pageImage =
     "https://res.cloudinary.com/tulix/image/upload/v1660840952/blog/Media-Link-Preview-Image_ihuwfk.png";
   return (
@@ -341,8 +341,10 @@ export default function Jars() {
             </div>
             <div className="col-lg-5 offset-md-1 d-flex flex-column justify-content-center ">
               <h2 className="mb-5">
-                <span className="text-primary">Split, spend, share </span> money
-                with anyone in Kenya, from anywhere in the world
+                <span className="text-primary">
+                  Split, spend, save & share{" "}
+                </span>{" "}
+                money on Tulix from anywhere in the world
               </h2>
 
               <div className="row">

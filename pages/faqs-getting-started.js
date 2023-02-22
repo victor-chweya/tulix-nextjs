@@ -60,8 +60,8 @@ export default function FaqsGettingStarted() {
                 options. Just hit Top-Up on the app to use any of them.
               </p>
               <p>
-                For M-Pesa, Simply enter your M-PESA number to get an automated
-                push to key in your M-Pesa pin. This will be automatically
+                For M-PESA, Simply enter your M-PESA number to get an automated
+                push to key in your M-PESA pin. This will be automatically
                 processed and your wallet will be loaded with the amount you
                 entered.
               </p>
