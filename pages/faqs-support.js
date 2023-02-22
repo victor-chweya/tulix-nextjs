@@ -164,7 +164,7 @@ export default function FaqsSupport() {
                 Our fees for making payments range from KES 15 to KES 225
                 depending on the payment amount as listed below:
               </p>
-              <table class="table table-striped">
+              <table className="table table-striped">
                 <thead>
                   <tr>
                     <th>Min</th>
