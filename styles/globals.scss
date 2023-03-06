@@ -1,6 +1,6 @@
 @import "custom";
-// Import all of Bootstrap's CSS   
-// @import "~bootstrap/scss/bootstrap"; 
+// Import all of Bootstrap's CSS
+// @import "~bootstrap/scss/bootstrap";
 @import "bootstrap-icons/font/bootstrap-icons"; // bootstrap icons
 @import "bootstrap/scss/functions"; // Required
 @import "bootstrap/scss/variables"; // Required
@@ -72,96 +72,96 @@ label {
 }
 //Hero
 .hero {
-  padding-top: 0rem; 
-	overflow: hidden;
+  padding-top: 0rem;
+  overflow: hidden;
 }
-.hero-bg{
-	background: #005cff;
-	background-image: url('/img/background.svg');
-	background-size: cover;
-  background-attachment: fixed;
-  background-position: center; 
-	padding:5rem 1rem ;
-}
-.hero-img {
-  padding-right: 0;
-	margin-bottom: -214px;
-}
-.hero-title {
-  font-size: 2.4rem;
-  line-height: 1.25; 
-}
-.hero-2 {
-  padding-top: 6rem; 
-  padding-bottom: 6rem;
-  // background: linear-gradient(180deg, #fcfdff 60%, #385eff05);
-  position: relative;  
-  overflow: hidden;   
-} 
-.hero-3{
+.hero-bg {
   background: #005cff;
-	background-image: url('/img/background.svg');
+  background-image: url("/img/background.svg");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  padding-top: 7rem; 
+  padding: 5rem 1rem;
+}
+.hero-img {
+  padding-right: 0;
+  margin-bottom: -214px;
+}
+.hero-title {
+  font-size: 2.4rem;
+  line-height: 1.25;
+}
+.hero-2 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  // background: linear-gradient(180deg, #fcfdff 60%, #385eff05);
+  position: relative;
+  overflow: hidden;
+}
+.hero-3 {
+  background: #005cff;
+  background-image: url("/img/background.svg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  padding-top: 7rem;
   padding-bottom: 6rem;
   margin-bottom: 10rem;
-  h2{
+  h2 {
     color: white;
   }
 }
 
-.hero-about{
-  background-color: #8cc63f ;
+.hero-about {
+  background-color: #8cc63f;
 }
-.hero-about-section{
+.hero-about-section {
   background: #005cff;
-	background-image: url('/img/about-bg.png'); 
+  background-image: url("/img/about-bg.png");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  padding-top: 7rem; 
+  padding-top: 7rem;
   padding-bottom: 6rem;
   margin-bottom: 10rem;
-
 }
 .values {
-  background:rgb(41 91 255 / 10%);
+  background: rgb(41 91 255 / 10%);
   border: 0;
 }
 .values-dark {
-	background: #00305d;
-	color: #f9f9f9;
-	border:0;
-	h3 {
-		color: #f9f9f9;
-	}
+  background: #00305d;
+  color: #f9f9f9;
+  border: 0;
+  h3 {
+    color: #f9f9f9;
+  }
 }
-.circle-icon{
+.circle-icon {
   background: #005cff;
   display: inline-flex;
   align-items: center;
-  justify-content: center;  
+  justify-content: center;
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  margin-top: -45px;  
+  margin-top: -45px;
 }
-.feature-img{
+.feature-img {
   display: inline-flex;
   align-items: center;
-  justify-content: center;  
-  margin-top: -60px;  
+  justify-content: center;
+  margin-top: -60px;
 }
 .home-faqs {
-	padding-top: 6rem; 
+  padding-top: 6rem;
   padding-bottom: 4rem;
   background: #00305d;
-  h2,h6{
+  h2,
+  h6 {
     color: $primary;
   }
-  a{
+  a {
     text-decoration: underline;
   }
 }
@@ -180,7 +180,6 @@ label {
   background: #f9f9f9;
   padding-bottom: 6rem;
   margin-top: 6rem;
- 
 }
 .team {
   filter: grayscale(100%);
@@ -199,7 +198,7 @@ label {
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
-	background: #385eff05;
+  background: #385eff05;
 }
 //forms
 .form-control {
@@ -207,12 +206,11 @@ label {
   border: 0;
   font-size: 1.2rem;
 }
-.card-header-dark{
-	background: #00305d;
+.card-header-dark {
+  background: #00305d;
 }
 //FAQS ACCORDION
 .accordion {
-	
   .card {
     overflow: hidden;
     margin-bottom: 13px;
@@ -225,21 +223,21 @@ label {
     .card-header {
       border-bottom: 0;
       .btn:focus,
-      .btn.focus { 
+      .btn.focus {
         box-shadow: none;
-      } 
+      }
     }
     .card-body {
       padding: 2.25rem;
-			padding-bottom: 0.5rem;
+      padding-bottom: 0.5rem;
     }
-  } 
+  }
 }
 .accordion {
   .card:not(:first-of-type) {
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
-  }  
+  }
 }
 //FOOTER
 .footer {
@@ -260,64 +258,65 @@ label {
   .hero-img {
     padding-right: 15px;
   }
-	.hero-bg{
-		// background: #005cff;
-		padding:4rem 5rem ;
-		border-radius: $border-radius-lg;
-	}
+  .hero-bg {
+    // background: #005cff;
+    padding: 4rem 5rem;
+    border-radius: $border-radius-lg;
+  }
   //features
   .features {
     padding-top: 4rem;
   }
 }
 .bi {
-	display: inline-block;
-	vertical-align: -0.125em;
-	fill: currentcolor;
-	width: 1em;
-	height: 1em;  
+  display: inline-block;
+  vertical-align: -0.125em;
+  fill: currentcolor;
+  width: 1em;
+  height: 1em;
 }
 
 .steps {
-	div::before{
-		content: " ";
-    background: url('/img/arrow.svg');
+  div::before {
+    content: " ";
+    background: url("/img/arrow.svg");
     position: absolute;
-    top: 0; 
+    top: 0;
     left: 0;
     height: 1.5rem;
     width: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-	}
-	div{
-		padding-left: 3rem;
+  }
+  div {
+    padding-left: 3rem;
     position: relative;
-		margin-bottom: 2rem;
-	}
-}   
+    margin-bottom: 2rem;
+  }
+}
 
 .counter {
-  p{
-  margin-left:20px; 
-  padding:0 30px;
-  counter-increment: section;
-  position: relative;
-  counter-increment: section;}
-  p::before{ 
-  content: counter(section);
-  right: 100%; 
-  margin-right: -20px;
-  position: absolute;
-  
-  border-radius: 50%;
-  padding: 10px;
-  height: 40px;
-  width: 40px;
-  background-color: $primary;
-  text-align:center;
-  line-height: 1.5;
-  color: white;               
+  p {
+    margin-left: 20px;
+    padding: 0 30px;
+    counter-increment: section;
+    position: relative;
+    counter-increment: section;
+  }
+  p::before {
+    content: counter(section);
+    right: 100%;
+    margin-right: -20px;
+    position: absolute;
+
+    border-radius: 50%;
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+    background-color: $primary;
+    text-align: center;
+    line-height: 1.5;
+    color: white;
   }
 }
