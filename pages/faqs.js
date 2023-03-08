@@ -8,9 +8,9 @@ import FaqsSupport from "./faqs-support";
 export default function Faqs() {
   const pageTitle = "FAQs - Frequently Asked Questions";
   const pageDescription =
-    "Share, split, spend money with anyone in Kenya, from anywhere in the world.";
+    "Split, spend, save & share money with anyone in Kenya, from anywhere in the world.";
   const pageImage =
-    "https://res.cloudinary.com/tulix/image/upload/v1660840952/blog/Media-Link-Preview-Image_ihuwfk.png";
+    "https://res.cloudinary.com/tulix/image/upload/v1678217415/blog/Media-Link-Preview-Image_March2023_b3soic.png";
   return (
     <Layout>
       <Head>

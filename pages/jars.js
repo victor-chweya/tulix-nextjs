@@ -11,9 +11,9 @@ import DailyImage from "../public/img/usecase.png";
 export default function Jars() {
   const pageTitle = "Jars - The Smart Way to Manage Money";
   const pageDescription =
-    "Split, spend, save & share money from anywhere in the world.";
+    "Split, spend, save & share money with anyone in Kenya, from anywhere in the world.";
   const pageImage =
-    "https://res.cloudinary.com/tulix/image/upload/v1660840952/blog/Media-Link-Preview-Image_ihuwfk.png";
+    "https://res.cloudinary.com/tulix/image/upload/v1678217415/blog/Media-Link-Preview-Image_March2023_b3soic.png";
   return (
     <Layout>
       <Head>

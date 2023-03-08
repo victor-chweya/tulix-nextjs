@@ -1,13 +1,12 @@
-import Head from 'next/head'
-import Layout from '../components/layout'
+import Head from "next/head";
+import Layout from "../components/layout";
 
 export default function PrivacyPolicy() {
-  const pageTitle =
-    'Non Disclosure Agreement - Support your loved ones from wherever you are.'
+  const pageTitle = "Tulix - Alpha Tester NDA";
   const pageDescription =
-    'Share, split, spend money with anyone in Kenya, from anywhere in the world.'
+    "Split, spend, save & share money with anyone in Kenya, from anywhere in the world.";
   const pageImage =
-    'https://res.cloudinary.com/avicdesign/image/upload/v1636459905/social-img_qpf63s.png'
+    "https://res.cloudinary.com/tulix/image/upload/v1678217415/blog/Media-Link-Preview-Image_March2023_b3soic.png";
   return (
     <Layout>
       <Head>
@@ -218,5 +217,5 @@ export default function PrivacyPolicy() {
         </div>
       </section>
     </Layout>
-  )
+  );
 }
