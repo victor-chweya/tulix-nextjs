@@ -4,11 +4,11 @@ import Layout from "../components/layout";
 import HeroImage from "../public/img/main-image.png";
 
 export default function About() {
-  const pageTitle = "About Us - Built in Kenya for the world";
+  const pageTitle = "About Us - Built in Kenya for the World";
   const pageDescription =
-    "Share, split, spend money with anyone in Kenya, from anywhere in the world.";
+    "Split, spend, save & share money with anyone in Kenya, from anywhere in the world.";
   const pageImage =
-    "https://res.cloudinary.com/tulix/image/upload/v1660840952/blog/Media-Link-Preview-Image_ihuwfk.png";
+    "https://res.cloudinary.com/tulix/image/upload/v1678217415/blog/Media-Link-Preview-Image_March2023_b3soic.png";
   return (
     <Layout>
       <Head>
