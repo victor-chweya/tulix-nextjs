@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Layout from "../components/layout";
 import HeroImage from "../public/img/main-image.png";
-import CtaImage from "../public/img/cta-wise-temp.png";
+import CtaImage from "../public/img/cta-wise-temporary.png";
 import Diaspora3 from "../public/img/diaspora-3.jpg";
 import Diaspora1 from "../public/img/diaspora-1.jpg";
 import Diaspora2 from "../public/img/diaspora-2.jpg";
