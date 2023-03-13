@@ -2,7 +2,7 @@
 title: "Five Ways To Improve Your Relationship With Money"
 date: "2023-03-13"
 author: "Tulix Team"
-thumbnail: "blog/pexels-thirdman-06032023_oydpjc.jpg"
+thumbnail: "pexels-andrea-piacquadio-13062023_i1fu2r.jpg"
 excerpt: "Money is personal and whether you know it or not, you do have a relationship with your money."
 ---
 
