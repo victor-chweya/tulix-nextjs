@@ -205,7 +205,7 @@ export default function Jars() {
               />
             </div>
             <div className="col-lg-5 offset-lg-1">
-              <h3 className="mb-4">Autotmate your payments</h3>
+              <h3 className="mb-4">Automate your payments</h3>
 
               <p className="lead mb-0">
                 Automate regular payments on a weekly, bi-weekly or monthly
