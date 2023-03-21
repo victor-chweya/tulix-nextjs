@@ -38,11 +38,20 @@ export default function Diaspora() {
         <section className="hero mb-5">
           <div className="container hero-bg bg-primary">
             <div className="row justify-content-between">
-              <div className="col-lg-5  d-flex flex-column justify-content-center mb-5 mb-md-0">
-                <h1 className="hero-title mt-4 mb-3 text-light">
-                  Send money for <span className="text-success">Groceries</span>{" "}
-                  to Kenya
-                </h1>
+              <div className="col-lg-5 d-flex flex-column justify-content-center mb-5 mb-md-0">
+                <div className="headline-wrapper">
+                  <h1 className="hero-title mt-4 mb-3 text-light">
+                    Send money to Kenya for &nbsp;
+                    <div className="word-list">
+                      <span className="rotating-words">Groceries</span>
+                      <span className="rotating-words">Airtime</span>
+                      <span className="rotating-words">Shopping</span>
+                      <span className="rotating-words">Healthcare</span>
+                      <span className="rotating-words">Vacations</span>
+                      <span className="rotating-words">Groceries</span>
+                    </div>
+                  </h1>
+                </div>
                 <p className="lead mb-5 text-white">
                   Whether you need to pay for urgent expenses or simply want to
                   send a gift, Tulix makes it easy, secure and affordable to
@@ -92,11 +101,11 @@ export default function Diaspora() {
                       <div>
                         <form action="waitlist.html" method="get">
                           <div className="text-center">
-                            <h4>Exchange Rate</h4>
-                            <h4>
+                            <p>Exchange Rate</p>
+                            <p>
                               1 USD = <span id="current-rate">Loading...</span>{" "}
                               KES
-                            </h4>
+                            </p>
                           </div>
                           <div className="row g-3 align-items-center">
                             <div className="col-auto">
@@ -157,14 +166,8 @@ export default function Diaspora() {
                             <label htmlFor="mobile-money">Mobile Money </label>
                           </div>
                           <div>
-                            <p>
-                              Max Airtime amount you can send is equivalent of
-                              KES 10,000
-                            </p>
-                            <p>
-                              Max Mobile Money you can send is equivalent to KES
-                              100,000
-                            </p>
+                            <p>Max Airtime you can send is KES 10,000</p>
+                            <p>Max Mobile Money you can send is KES 100,000</p>
                           </div>
                           <div>
                             <button type="submit" className="btn btn-primary">
@@ -317,7 +320,7 @@ export default function Diaspora() {
                     role="button"
                     rel="noreferrer"
                   >
-                    <i className="bi bi-rocket-takeoff-fill mr-2"></i>
+                    <i className="bi-rocket-takeoff-fill mr-2"></i>
                     Get Started
                   </a>
                 </div>
