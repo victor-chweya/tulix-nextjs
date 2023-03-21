@@ -2,7 +2,6 @@ import Head from "next/head";
 import Image from "next/image";
 import Layout from "../components/layout";
 import HeroImage from "../public/img/main-image.png";
-import CtaImage from "../public/img/cta-wise-temporary.png";
 import Diaspora3 from "../public/img/diaspora-3.jpg";
 import Diaspora1 from "../public/img/diaspora-1.jpg";
 import Diaspora2 from "../public/img/diaspora-2.jpg";
@@ -39,10 +38,20 @@ export default function Diaspora() {
         <section className="hero mb-5">
           <div className="container hero-bg bg-primary">
             <div className="row justify-content-between">
-              <div className="col-lg-5  d-flex flex-column justify-content-center mb-5 mb-md-0">
-                <h1 className="hero-title mt-4 mb-3 text-light">
-                  Send money for <span>Airtime</span> to Kenya
-                </h1>
+              <div className="col-lg-5 d-flex flex-column justify-content-center mb-5 mb-md-0">
+                <div className="headline-wrapper">
+                  <h1 className="hero-title mt-4 mb-3 text-light">
+                    Send money to Kenya for &nbsp;
+                    <div className="word-list">
+                      <span className="rotating-words">Groceries</span>
+                      <span className="rotating-words">Airtime</span>
+                      <span className="rotating-words">Shopping</span>
+                      <span className="rotating-words">Healthcare</span>
+                      <span className="rotating-words">Vacations</span>
+                      <span className="rotating-words">Groceries</span>
+                    </div>
+                  </h1>
+                </div>
                 <p className="lead mb-5 text-white">
                   Whether you need to pay for urgent expenses or simply want to
                   send a gift, Tulix makes it easy, secure and affordable to
@@ -78,25 +87,98 @@ export default function Diaspora() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-5 d-flex justify-content-center hero-img">
-                {/* <Image 
-								src={HeroImage} 
-								alt="tulix" 
-								className="img-fluid pl-lg-5" 
-								priority 
-								placeholder="blur"
-								height={455} 
-								width={463}
-								/> */}
-                <Image
-                  src={CtaImage}
-                  alt="tulix dashboard-mockup"
-                  className="img-fluid"
-                  placeholder="blur"
-                  // layout="responsive"
-                  width={321.28}
-                  height={600}
-                />
+              <div className="col-lg-5 d-flex justify-content-center ">
+                <div className="card">
+                  <div className="card-header  bg-success">
+                    <div className="card-title text-center mb-0 ">
+                      <h3 className="mb-0">
+                        Friendly rates for friendly faces
+                      </h3>
+                    </div>
+                  </div>
+                  <div className="card-body ">
+                    <div className="form-container position-relative container-sm ">
+                      <div>
+                        <form action="waitlist.html" method="get">
+                          <div className="text-center">
+                            <p>Exchange Rate</p>
+                            <p>
+                              1 USD = <span id="current-rate">Loading...</span>{" "}
+                              KES
+                            </p>
+                          </div>
+                          <div className="row g-3 align-items-center">
+                            <div className="col-auto">
+                              <label
+                                htmlFor="send-amount"
+                                className="form-label"
+                              >
+                                You send:
+                              </label>
+                              <input
+                                type="number"
+                                className="form-control"
+                                placeholder={50}
+                              />
+                            </div>
+                            <div className="col-auto">
+                              <span className="form-text">USD</span>
+                            </div>
+                          </div>
+                          <div className="row g-3 align-items-center">
+                            <div className="col-auto">
+                              <label
+                                htmlFor="receive-amount"
+                                className="form-label"
+                              >
+                                They receive approximately:
+                              </label>
+                              <input
+                                type="number"
+                                className="form-control"
+                                placeholder="50*Exchange Rate"
+                              />
+                            </div>
+                            <div className="col-auto">
+                              <span className="form-text">KES</span>
+                            </div>
+                          </div>
+                          <div className="text-center">
+                            <h4>Delivery method</h4>
+                            <p form-text>Within minutes</p>
+                            <p>Select a delivery method:</p>
+                            <input
+                              className="form-check-input"
+                              type="radio"
+                              name="delivery"
+                              id="airtime"
+                              defaultValue="airtime"
+                              defaultChecked
+                            />
+                            <label htmlFor="airtime">Airtime</label>
+                            <input
+                              className="form-check-input"
+                              type="radio"
+                              name="delivery"
+                              id="mobile-money"
+                              defaultValue="mobile-money"
+                            />
+                            <label htmlFor="mobile-money">Mobile Money </label>
+                          </div>
+                          <div>
+                            <p>Max Airtime you can send is KES 10,000</p>
+                            <p>Max Mobile Money you can send is KES 100,000</p>
+                          </div>
+                          <div>
+                            <button type="submit" className="btn btn-primary">
+                              Get Started
+                            </button>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -238,7 +320,7 @@ export default function Diaspora() {
                     role="button"
                     rel="noreferrer"
                   >
-                    <i className="bi bi-rocket-takeoff-fill mr-2"></i>
+                    <i className="bi-rocket-takeoff-fill mr-2"></i>
                     Get Started
                   </a>
                 </div>
@@ -470,7 +552,7 @@ export default function Diaspora() {
                               aria-expanded="false"
                               aria-controls="collapseSeven"
                             >
-                              Random question?
+                              Any other questions?
                             </button>
                           </h2>
                         </div>
