@@ -47,7 +47,7 @@ export default function Navigation() {
             </svg>
           </button>
           <div className="collapse navbar-collapse" id="navbarMain">
-            <ul className="navbar-nav ml-auto  main-nav">
+            <ul className="navbar-nav ml-auto main-nav">
               <li className="nav-item">
                 <ActiveLink activeClassName="active" href="/">
                   <a className="nav-link">Home</a>
@@ -65,7 +65,7 @@ export default function Navigation() {
               </li>
               <li className="nav-item">
                 <ActiveLink activeClassName="active" href="/about-us">
-                  <a className="nav-link">About Us</a>
+                  <a className="nav-link">Company</a>
                 </ActiveLink>
               </li>
               <li className="nav-item">
@@ -73,15 +73,31 @@ export default function Navigation() {
                   <a className="nav-link">Blog</a>
                 </ActiveLink>
               </li>
-              <li className="nav-item ">
-                <ActiveLink activeClassName="active" href="/faqs">
-                  <a className="nav-link">FAQs</a>
-                </ActiveLink>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link " href="mailto:hello@tulix.app">
-                  Contact Us
+              <li className="nav-item dropdown">
+                <a
+                  className="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Help
                 </a>
+                <ul className="dropdown-menu">
+                  <li className="">
+                    <ActiveLink activeClassName="active" href="/faqs">
+                      <a className="dropdown-item nav-link">FAQs</a>
+                    </ActiveLink>
+                  </li>
+                  <li className="">
+                    <a
+                      className="dropdown-item nav-link"
+                      href="mailto:hello@tulix.app"
+                    >
+                      Contact Us
+                    </a>
+                  </li>
+                </ul>
               </li>
             </ul>
             {/* <button type="button" className="btn btn-outline-primary" data-toggle="modal" data-target="#subscribeModal">Get Early Access</button> */}
