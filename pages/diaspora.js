@@ -145,7 +145,7 @@ export default function Diaspora() {
                           </div>
                           <div className="text-center">
                             <h4>Delivery method</h4>
-                            <p form-text>Within minutes</p>
+                            <p>Within minutes</p>
                             <p>Select a delivery method:</p>
                             <input
                               className="form-check-input"
@@ -320,7 +320,7 @@ export default function Diaspora() {
                     role="button"
                     rel="noreferrer"
                   >
-                    <i className="bi-rocket-takeoff-fill mr-2"></i>
+                    <i className="bi bi-rocket-takeoff-fill mr-2"></i>
                     Get Started
                   </a>
                 </div>

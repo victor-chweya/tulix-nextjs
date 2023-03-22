@@ -1,12 +1,12 @@
-const withCss = require("@zeit/next-css");
-const withPurgeCss = require("next-purgecss");
+// const withCss = require("@zeit/next-css");
+// const withPurgeCss = require("next-purgecss");
 
-module.exports = withCss(
-  withPurgeCss({
-    purgeCssEnabled: ({ dev, isServer }) => !dev && !isServer, // Only enable PurgeCSS for client-side production builds
-    purgeCssPaths: ["pages/**/*", "components/**/*"],
-  })
-);
+// module.exports = withCss(
+//   withPurgeCss({
+//     purgeCssEnabled: ({ dev, isServer }) => !dev && !isServer, // Only enable PurgeCSS for client-side production builds
+//     purgeCssPaths: ["pages/**/*", "components/**/*"],
+//   })
+// );
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
