@@ -46,7 +46,7 @@ export default function Diaspora() {
                       <span className="rotating-words">Groceries</span>
                       <span className="rotating-words">Airtime</span>
                       <span className="rotating-words">Shopping</span>
-                      <span className="rotating-words">Healthcare</span>
+                      <span className="rotating-words">Medical</span>
                       <span className="rotating-words">Vacations</span>
                       <span className="rotating-words">Groceries</span>
                     </div>
@@ -81,7 +81,7 @@ export default function Diaspora() {
                         rel="noreferrer"
                       >
                         <i className="mr-2 bi-apple"></i>
-                        Get Started
+                        Launching Soon
                       </a>
                     </div>
                   </div>
@@ -169,9 +169,9 @@ export default function Diaspora() {
                             <p>Max Airtime you can send is KES 10,000</p>
                             <p>Max Mobile Money you can send is KES 100,000</p>
                           </div>
-                          <div>
+                          <div className="text-center">
                             <button type="submit" className="btn btn-primary">
-                              Get Started
+                              Launching Soon
                             </button>
                           </div>
                         </form>
@@ -321,7 +321,7 @@ export default function Diaspora() {
                     rel="noreferrer"
                   >
                     <i className="bi-rocket-takeoff-fill mr-2"></i>
-                    Get Started
+                    Launching Soon
                   </a>
                 </div>
               </div>
@@ -541,38 +541,6 @@ export default function Diaspora() {
                           </div>
                         </div>
                       </div> */}
-                      <div className="card">
-                        <div className="card-header" id="headingSeven">
-                          <h2 className="mb-0">
-                            <button
-                              className="btn btn-link btn-block border-0 text-left font-weight-bold py-md-3 collapsed"
-                              type="button"
-                              data-toggle="collapse"
-                              data-target="#collapseSeven"
-                              aria-expanded="false"
-                              aria-controls="collapseSeven"
-                            >
-                              Any other questions?
-                            </button>
-                          </h2>
-                        </div>
-                        <div
-                          id="collapseSeven"
-                          className="collapse bg-light"
-                          aria-labelledby="headingSeven"
-                          data-parent="#accordionFAQs"
-                        >
-                          <div className="card-body bg-light">
-                            <p>
-                              We work with licensed institutions to credit and
-                              debit funds on your Tulix account. Together with
-                              these regulated 3rd parties, we've built in the
-                              necessary safeguards in place to guarantee the
-                              safety of your funds at all times
-                            </p>
-                          </div>
-                        </div>
-                      </div>
                     </div>
                   </div>
                 </div>

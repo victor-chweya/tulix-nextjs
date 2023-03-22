@@ -119,42 +119,42 @@ label {
 }
 .word-list {
   overflow: hidden;
-  border: 1px solid red;
+  height: 60px;
+  display: inline-block;
 }
 .rotating-words {
   display: block;
-  line-height: 1;
-  // height: 100%;
+  // line-height: 1;
+  height: 100%;
   color: #8cc63f;
-  /* border: 1px solid red; */
   animation: spin_words 6s infinite;
 }
-// @keyframes spin_words {
-//   10% {
-//     transform: translateY(-112%);
-//   }
-//   25% {
-//     transform: translateY(-100%);
-//   }
-//   35% {
-//     transform: translateY(-212%);
-//   }
-//   50% {
-//     transform: translateY(-200%);
-//   }
-//   60% {
-//     transform: translateY(-312%);
-//   }
-//   75% {
-//     transform: translateY(-300%);
-//   }
-//   85% {
-//     transform: translateY(-412%);
-//   }
-//   100% {
-//     transform: translateY(-400%);
-//   }
-// }
+@keyframes spin_words {
+  10% {
+    transform: translateY(-112%);
+  }
+  25% {
+    transform: translateY(-100%);
+  }
+  35% {
+    transform: translateY(-212%);
+  }
+  50% {
+    transform: translateY(-200%);
+  }
+  60% {
+    transform: translateY(-312%);
+  }
+  75% {
+    transform: translateY(-300%);
+  }
+  85% {
+    transform: translateY(-412%);
+  }
+  100% {
+    transform: translateY(-400%);
+  }
+}
 // Rolling words styling ends here
 .hero-about {
   background-color: #8cc63f;
