@@ -21,7 +21,6 @@
     "react-dom": "17.0.2",
     "remark": "^13.0.0",
     "remark-html": "^13.0.2",
-    "sass": "^1.43.4",
     "sharp": "^0.30.7"
   },
   "devDependencies": {
@@ -33,6 +32,7 @@
     "next-purgecss": "^3.1.2",
     "next-sitemap": "^1.6.203",
     "postcss-flexbugs-fixes": "^5.0.2",
-    "postcss-preset-env": "^7.8.2"
+    "postcss-preset-env": "^7.8.3",
+    "sass": "^1.59.3"
   }
 }
