@@ -47,13 +47,32 @@ export default function Navigation() {
             </svg>
           </button>
           <div className="collapse navbar-collapse" id="navbarMain">
-            <ul className="navbar-nav ml-auto  main-nav">
+            <ul className="navbar-nav ml-auto main-nav">
               <li className="nav-item">
                 <ActiveLink activeClassName="active" href="/">
                   <a className="nav-link">Home</a>
                 </ActiveLink>
               </li>
-              <li className="nav-item">
+              <li className="nav-item dropdown">
+                <Link href="" passHref>
+                  <a
+                    className="nav-link dropdown-toggle"
+                    data-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Features
+                  </a>
+                </Link>
+                <div className="dropdown-menu dropdown-menu-lg-right">
+                  <ActiveLink activeClassName="active" href="/how-it-works">
+                    <a className="dropdown-item ">How It Works</a>
+                  </ActiveLink>
+                  <ActiveLink activeClassName="active" href="/jars">
+                    <a className="dropdown-item ">Jars</a>
+                  </ActiveLink>
+                </div>
+              </li>
+              {/* <li className="nav-item">
                 <ActiveLink activeClassName="active" href="/how-it-works">
                   <a className="nav-link">How It Works</a>
                 </ActiveLink>
@@ -62,10 +81,10 @@ export default function Navigation() {
                 <ActiveLink activeClassName="active" href="/jars">
                   <a className="nav-link">Jars</a>
                 </ActiveLink>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <ActiveLink activeClassName="active" href="/about-us">
-                  <a className="nav-link">About Us</a>
+                  <a className="nav-link">Company</a>
                 </ActiveLink>
               </li>
               <li className="nav-item">
@@ -73,15 +92,25 @@ export default function Navigation() {
                   <a className="nav-link">Blog</a>
                 </ActiveLink>
               </li>
-              <li className="nav-item ">
-                <ActiveLink activeClassName="active" href="/faqs">
-                  <a className="nav-link">FAQs</a>
-                </ActiveLink>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link " href="mailto:hello@tulix.app">
-                  Contact Us
-                </a>
+
+              <li className="nav-item dropdown">
+                <Link href="" passHref>
+                  <a
+                    className="nav-link dropdown-toggle"
+                    data-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Help
+                  </a>
+                </Link>
+                <div className="dropdown-menu dropdown-menu-lg-right">
+                  <ActiveLink activeClassName="active" href="/faqs">
+                    <a className="dropdown-item ">FAQs</a>
+                  </ActiveLink>
+                  <a className="dropdown-item" href="mailto:hello@tulix.app">
+                    Contact Us
+                  </a>
+                </div>
               </li>
             </ul>
             {/* <button type="button" className="btn btn-outline-primary" data-toggle="modal" data-target="#subscribeModal">Get Early Access</button> */}
