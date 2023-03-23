@@ -1,6 +1,7 @@
 module.exports = {
-  siteUrl: 'https://tulix.app',
+  siteUrl: "https://tulix.app",
   generateRobotsTxt: true,
+  exclude: ["/diaspora"],
   // optional
   // robotsTxtOptions: {
   //   additionalSitemaps: [
