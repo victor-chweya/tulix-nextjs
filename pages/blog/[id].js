@@ -65,7 +65,7 @@ export default function Post({ postData }) {
                 className={Styles.blog}
                 dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
               />
-              <style jsx>{`
+              <style>{`
                 img {
                   max-width: 100%;
                   height: auto;
