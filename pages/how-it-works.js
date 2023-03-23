@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Layout from "../components/layout";
+import DownloadCTA from "../components/downloadCTA";
 import HeroImage from "../public/img/jars-cta2.png";
 import createImage from "../public/img/create-account.png";
 import knowImage from "../public/img/know-you.png";
@@ -51,30 +52,8 @@ export default function Jars() {
             <div className="row justify-content-center px-3">
               <div className="col-lg-12 text-center">
                 <p className="small text-light">Download Tulix On</p>
-              </div>
-              <div className="col-lg-5 mb-2">
-                <a
-                  href="https://play.google.com/store/apps/details?id=com.solutions.tulix"
-                  className="btn btn-primary text-light btn-lg btn-block"
-                  target="_blank"
-                  role="button"
-                  rel="noreferrer"
-                >
-                  <i className="bi-google-play mr-2"></i>
-                  Google Play
-                </a>
-              </div>
-              <div className="col-lg-5 mb-2">
-                <a
-                  href="https://apps.apple.com/ke/app/tulix/id1587163986"
-                  className="btn btn-primary text-light btn-lg btn-block"
-                  role="button"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  <i className="bi-apple mr-2"></i>
-                  App Store
-                </a>
+
+                <DownloadCTA />
               </div>
             </div>
           </div>
@@ -350,30 +329,8 @@ export default function Jars() {
               <div className="row">
                 <div className="col-lg-12">
                   <p className="small">Download Tulix On</p>
-                </div>
-                <div className="col-lg-5 mb-2">
-                  <a
-                    href="https://play.google.com/store/apps/details?id=com.solutions.tulix"
-                    className="btn btn-primary text-light btn-lg btn-block"
-                    target="_blank"
-                    role="button"
-                    rel="noreferrer"
-                  >
-                    <i className="bi-google-play mr-2"></i>
-                    Google Play
-                  </a>
-                </div>
-                <div className="col-lg-5 mb-2">
-                  <a
-                    href="https://apps.apple.com/ke/app/tulix/id1587163986"
-                    className="btn btn-primary text-light btn-lg btn-block"
-                    role="button"
-                    rel="noreferrer"
-                    target="_blank"
-                  >
-                    <i className="bi-apple mr-2"></i>
-                    App Store
-                  </a>
+
+                  <DownloadCTA />
                 </div>
               </div>
             </div>

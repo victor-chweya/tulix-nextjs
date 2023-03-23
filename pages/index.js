@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Layout from "../components/layout";
+import DownloadCTA from "../components/downloadCTA";
 import HeroImage from "../public/img/main-image.png";
 import CtaImage from "../public/img/cta.png";
 import Control from "../public/img/business-2.png";
@@ -52,8 +53,10 @@ export default function Home() {
                   <div className="row">
                     <div className="col-lg-12">
                       <p className="small text-light">Download Tulix</p>
+                      <DownloadCTA />
                     </div>
-                    <div className="col-lg-5 mb-2">
+
+                    {/* <div className="col-lg-5 mb-2">
                       <a
                         href="https://play.google.com/store/apps/details?id=com.solutions.tulix"
                         className="btn btn-success btn-lg btn-block text-light"
@@ -76,7 +79,7 @@ export default function Home() {
                         <i className="mr-2 bi-apple"></i>
                         App Store
                       </a>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -209,30 +212,7 @@ export default function Home() {
                 <div className="col-lg-12 text-center">
                   <p className="small text-light">Download Tulix On</p>
                 </div>
-                <div className="col-lg-5 mb-2">
-                  <a
-                    href="https://play.google.com/store/apps/details?id=com.solutions.tulix"
-                    className="btn btn-success text-light btn-lg btn-block"
-                    target="_blank"
-                    role="button"
-                    rel="noreferrer"
-                  >
-                    <i className="bi-google-play mr-2"></i>
-                    Google Play
-                  </a>
-                </div>
-                <div className="col-lg-5 mb-2">
-                  <a
-                    href="https://apps.apple.com/ke/app/tulix/id1587163986"
-                    className="btn btn-success text-light btn-lg btn-block"
-                    role="button"
-                    rel="noreferrer"
-                    target="_blank"
-                  >
-                    <i className="bi-apple mr-2"></i>
-                    App Store
-                  </a>
-                </div>
+                <DownloadCTA />
               </div>
             </div>
           </div>
@@ -629,30 +609,8 @@ export default function Home() {
                 <div className="row">
                   <div className="col-lg-12">
                     <p className="small text-light">Download Tulix On</p>
-                  </div>
-                  <div className="col-lg-5 mb-2">
-                    <a
-                      href="https://play.google.com/store/apps/details?id=com.solutions.tulix"
-                      className="btn btn-success text-white btn-lg btn-block"
-                      role="button"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <i className="bi-google-play mr-2"></i>
-                      Google Play
-                    </a>
-                  </div>
-                  <div className="col-lg-5 mb-22">
-                    <a
-                      href="https://apps.apple.com/ke/app/tulix/id1587163986"
-                      className="btn btn-success text-white btn-lg btn-block"
-                      role="button"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <i className="bi-apple mr-2"></i>
-                      App Store
-                    </a>
+
+                    <DownloadCTA />
                   </div>
                 </div>
               </div>
