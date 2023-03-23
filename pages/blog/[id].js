@@ -1,25 +1,25 @@
-import Head from 'next/head'
-import Layout from '../../components/layout'
-import { getAllPostIds, getPostData } from '../../lib/posts'
-import Date from '../../components/date'
-import Styles from './blog.module.scss'
-import { buildImageUrl } from 'cloudinary-build-url'
+import Head from "next/head";
+import Layout from "../../components/layout";
+import { getAllPostIds, getPostData } from "../../lib/posts";
+import Date from "../../components/date";
+import Styles from "./blog.module.scss";
+import { buildImageUrl } from "cloudinary-build-url";
 
 export async function getStaticProps({ params }) {
-  const postData = await getPostData(params.id)
+  const postData = await getPostData(params.id);
   return {
     props: {
       postData,
     },
-  }
+  };
 }
 
 export async function getStaticPaths() {
-  const paths = getAllPostIds()
+  const paths = getAllPostIds();
   return {
     paths,
     fallback: false,
-  }
+  };
 }
 
 export default function Post({ postData }) {
@@ -27,13 +27,13 @@ export default function Post({ postData }) {
     cloud: { cloudName: process.env.NEXT_PUBLIC_CY_NAME },
     transformations: {
       resize: {
-        type: 'scale',
+        type: "scale",
         width: 1200,
         height: 630,
-        gravity: 'auto:subject',
+        gravity: "auto:subject",
       },
     },
-  })
+  });
   return (
     <Layout>
       <Head>
@@ -65,7 +65,7 @@ export default function Post({ postData }) {
                 className={Styles.blog}
                 dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
               />
-              <style jsx global>{`
+              <style jsx>{`
                 img {
                   max-width: 100%;
                   height: auto;
@@ -105,7 +105,7 @@ export default function Post({ postData }) {
                     required
                   />
                   <div
-                    style={{ position: 'absolute', left: '-5000px' }}
+                    style={{ position: "absolute", left: "-5000px" }}
                     aria-hidden="true"
                   >
                     <input
@@ -129,5 +129,5 @@ export default function Post({ postData }) {
         </div>
       </div>
     </Layout>
-  )
+  );
 }

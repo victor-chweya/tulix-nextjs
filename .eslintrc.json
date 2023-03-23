@@ -2,8 +2,8 @@
   "extends": "next/core-web-vitals",
   "extends": "next",
   "rules": {
-    "react/no-unescaped-entities": "off",
-    "react/no-unknown-property": ["error", { "ignore": ["jsx"] }]
+    "react/no-unescaped-entities": "off"
+    // "react/no-unknown-property": ["error", { "ignore": ["jsx"] }]
     // "@next/next/no-page-custom-font": "off"
   }
 }

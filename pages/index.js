@@ -227,7 +227,7 @@ export default function Home() {
                     className="btn btn-success text-light btn-lg btn-block"
                     role="button"
                     rel="noreferrer"
-                    targe="_blank"
+                    target="_blank"
                   >
                     <i className="bi-apple mr-2"></i>
                     App Store
