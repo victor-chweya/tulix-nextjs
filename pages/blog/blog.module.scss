@@ -11,17 +11,16 @@
     line-height: 1.7;
     margin-bottom: 1.75rem;
   }
- p.img {
+  p.img {
     max-width: 100%;
     height: auto;
   }
-	ul, ol{
-		margin-bottom: 1.75rem;
-	}
-	blockquote {							
-		padding: 0.5rem 0.5rem;
-		font-style: italic;
-		color: red;
-	}	
-
+  ul,
+  ol {
+    margin-bottom: 1.75rem;
+  }
+  blockquote {
+    padding: 0 1.5rem;
+    font-style: italic;
+  }
 }
