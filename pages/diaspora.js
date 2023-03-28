@@ -18,7 +18,7 @@ export default function Diaspora() {
   const pageDescription =
     "Split, spend, save & share money with anyone in Kenya, from anywhere in the world.";
   const pageImage =
-    "https://res.cloudinary.com/tulix/image/upload/v1678217415/blog/Media-Link-Preview-Image_March2023_b3soic.png";
+    "https://res.cloudinary.com/tulix/image/upload/v1679990433/blog/Diaspora-Media-Link-Preview_eiywkx.png";
   return (
     <Layout>
       <Head>
