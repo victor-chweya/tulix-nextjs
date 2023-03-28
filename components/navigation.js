@@ -100,7 +100,7 @@ export default function Navigation() {
                     data-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    Help
+                    Support
                   </a>
                 </Link>
                 <div className="dropdown-menu dropdown-menu-lg-right">
