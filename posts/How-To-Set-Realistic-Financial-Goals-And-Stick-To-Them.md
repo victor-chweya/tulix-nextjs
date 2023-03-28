@@ -14,8 +14,7 @@ At a time when we can’t help but gasp at how much prices keep rising every sin
 
 It’s not enough to save, you need to go beyond [setting money aside for the future](https://www.tulix.app/blog/Budgeting-Amidst-Inflation "Link to Tulix Blog post on Budgeting") and tap into “_conscious spending_”.
 
-> > “Conscious spending is all about spending extravagantly on the things you love, as long as you cut costs mercilessly on the things you don’t. It’s not about restriction. It’s about being intentional with your money and then spending on the things you love guilt-free”
-> > -Ramit Sethi, Author of ‘I Will Teach You to Be Rich’
+> > _“Conscious spending is all about spending extravagantly on the things you love, as long as you cut costs mercilessly on the things you don’t. It’s not about restriction. It’s about being intentional with your money and then spending on the things you love guilt-free” **-Ramit Sethi, Author of ‘I Will Teach You to Be Rich’**_
 
 Think about your life right now—what do you enjoy doing? Where do you spend most of your time and what are you often doing? Who do you spend the most time with? When you think of joy, freedom and stability what comes to mind?
 
